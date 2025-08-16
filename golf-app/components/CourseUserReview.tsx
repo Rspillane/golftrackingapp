@@ -48,7 +48,7 @@ const CourseUserReview: React.FC<CourseUserReviewProps> = ({
       <View style={{ flexDirection: "row", alignItems: "flex-end" }}>
         <Text style={{ fontSize: 16, color: "#666", fontWeight: "bold" }}>
           {label === "Green Fee" && "$ "}
-          {value}
+          {value ? value : "insufficient data"}
         </Text>
         {label !== "Green Fee" &&
           label !== "Pace of Play" &&

@@ -16,6 +16,7 @@ const CourseHeader: React.FC<CourseHeaderProps> = ({
   onReviewPress,
   onBucketListPress,
 }) => {
+  const hasReviewed = score !== undefined && score > 0;
   return (
     <>
       {/* Course Image */}
@@ -47,7 +48,7 @@ const CourseHeader: React.FC<CourseHeaderProps> = ({
           </View>}
 
       {/* Course Title */}
-      <View style={{ marginBottom: 20 }}>
+      <View style={{ marginBottom: 4 }}>
         <Text style={{ fontSize: 28, fontWeight: "bold", textAlign: "center" }}>
           {title}
         </Text>
@@ -58,6 +59,10 @@ const CourseHeader: React.FC<CourseHeaderProps> = ({
         style={{
           flexDirection: "row",
           justifyContent: "space-around",
+          paddingTop: 5,
+          paddingBottom: 15,
+          gap: 16,
+          alignItems: "center",
         }}
       >
         {/* Review Score */}
@@ -66,27 +71,44 @@ const CourseHeader: React.FC<CourseHeaderProps> = ({
           style={{ alignItems: "center", padding: 15, minWidth: 100 }}
         >
           <Text style={{ fontSize: 24, marginBottom: 8 }}>⭐</Text>
-          <View style={{ flexDirection: "row", alignItems: "flex-end" }}>
+
+            <View style={{ flexDirection: "row", alignItems: "flex-end" }}>
           <Text style={{ fontSize: 16, fontWeight: "500" }}>
             {score}
           </Text>
           <Text style={{ fontSize: 12, color: "#666" }}> / 10</Text>
           </View>
+          <Text style={{ fontSize: 12, fontWeight: "400", paddingTop: 2  }}>1,000</Text>
+
         </TouchableOpacity>
 
         {/* Review Button */}
+        {hasReviewed &&
         <TouchableOpacity
           onPress={onReviewPress}
-          style={{ alignItems: "center", padding: 15, minWidth: 100 }}
+          style={{ alignItems: "center", minWidth: 100 }}
+        >
+          <Text style={{ fontSize: 24, marginBottom: 8 }}>⭐</Text>
+          <View style={{ flexDirection: "row", alignItems: "flex-end" }}>
+            <Text style={{ fontSize: 16, fontWeight: "500" }}>{score}</Text>
+            <Text style={{ fontSize: 12, color: "#666" }}> / 10</Text>
+          </View>
+          <Text style={{ fontSize: 12, fontWeight: "400", paddingTop: 2 }}>Your review</Text>
+        </TouchableOpacity>
+}
+        {!hasReviewed &&
+        <TouchableOpacity
+          onPress={onReviewPress}
+          style={{ alignItems: "center", minWidth: 100 }}
         >
           <Text style={{ fontSize: 24, marginBottom: 8 }}>★</Text>
-          <Text style={{ fontSize: 16, fontWeight: "500" }}>Review</Text>
+          <Text style={{ fontSize: 16, fontWeight: "500" }}>Review course</Text>
         </TouchableOpacity>
-
+}
         {/* Bucket List Button */}
         <TouchableOpacity
           onPress={onBucketListPress}
-          style={{ alignItems: "center", padding: 15, minWidth: 100 }}
+          style={{ alignItems: "center", minWidth: 100 }}
         >
           <Text style={{ fontSize: 24, marginBottom: 8 }}>➕</Text>
           <Text style={{ fontSize: 16, fontWeight: "500" }}>Bucket List</Text>
