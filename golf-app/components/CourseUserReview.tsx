@@ -10,6 +10,7 @@ interface CourseUserReviewProps {
 interface ReviewsProps {
   reviewItems: {
     teeboxes: number;
+    holes: 9 | 18 | undefined;
     fairways: number;
     greens: number;
     clubhouse: number;
@@ -46,7 +47,7 @@ const CourseUserReview: React.FC<CourseUserReviewProps> = ({
       </Text>
       <View style={{ flexDirection: "row", alignItems: "flex-end" }}>
         <Text style={{ fontSize: 16, color: "#666", fontWeight: "bold" }}>
-          {label === "Green Fee" && "$  "}
+          {label === "Green Fee" && "$ "}
           {value}
         </Text>
         {label !== "Green Fee" &&

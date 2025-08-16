@@ -1,27 +1,55 @@
 import React from "react";
-import { View, Linking, Alert, ScrollView } from "react-native";
+import {
+  View,
+  Linking,
+  Alert,
+  ScrollView,
+  Text,
+  TouchableOpacity
+} from "react-native";
+import { IconSymbol } from "../components/ui/IconSymbol";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import CourseInfoItem from "../components/CourseInfoItem";
 import CoursePageHeader from "../components/CoursePageHeader";
 import CourseUserReview from "../components/CourseUserReview";
+import Tabs from "../components/Tabs";
+
+interface ReviewsProps {
+  teeboxes: number;
+  holes: 9 | 18 | undefined;
+  fairways: number;
+  greens: number;
+  clubhouse: number;
+  facilities: number;
+  value: number;
+  greenfee: number;
+  paceofplay:
+    | "1-2 hours"
+    | "2-3 hours"
+    | "3-4 hours"
+    | "4-5 hours"
+    | "5+ hours";
+}
 
 interface CoursePageProps {
   title: string;
   par: string;
   website?: string;
+  holes?: 9 | 18 | undefined;
   range?: boolean;
   image?: string;
   score?: number;
   address?: string;
   reviewItems: {
     label: string;
-    value: any;
+    value: ReviewsProps;
   }[];
 }
 
 const CoursePage: React.FC<CoursePageProps> = ({
   title,
   par,
+  holes,
   website,
   range,
   image,
@@ -29,6 +57,10 @@ const CoursePage: React.FC<CoursePageProps> = ({
   address,
   reviewItems
 }) => {
+  const [activeTab, setActiveTab] = React.useState<"info" | "ratings">(
+    "ratings"
+  );
+
   const insets = useSafeAreaInsets();
   const handleWebsitePress = async () => {
     if (website) {
@@ -60,7 +92,20 @@ const CoursePage: React.FC<CoursePageProps> = ({
 
   return (
     <ScrollView style={{ flex: 1, backgroundColor: "#fff" }}>
-      <View style={{ padding: 20, paddingTop: insets.top + 20 }}>
+      <View
+        style={{
+          paddingTop: insets.top,
+          backgroundColor: "#fff",
+          paddingLeft: 16
+        }}
+      >
+        <IconSymbol
+          name="chevron.backward"
+          color="#000"
+          style={{ padding: 16 }}
+        />
+      </View>
+      <View style={{ padding: 20 }}>
         <CoursePageHeader
           title={title}
           image={image}
@@ -68,61 +113,78 @@ const CoursePage: React.FC<CoursePageProps> = ({
           onReviewPress={handleReviewPress}
           onBucketListPress={handleBucketListPress}
         />
-
-        {/* Course Information List */}
-        <View style={{ backgroundColor: "#f5f5f5", borderRadius: 8 }}>
-          {[
-            { label: "Course Par", value: par },
-            website
-              ? {
-                  label: "Website",
-                  value: "Visit →",
-                  isLink: true,
-                  onPress: handleWebsitePress
-                }
-              : null,
-            range
-              ? {
-                  label: "Driving Range",
-                  value: "Available →",
-                  isLink: true,
-                  onPress: handleRangePress
-                }
-              : null,
-            address
-              ? {
-                  label: "Address",
-                  value: address,
-                  isLink: true,
-                  onPress: handleRangePress
-                }
-              : null
-          ]
-            .filter(Boolean) // remove nulls
-            .map((item, index, arr) =>
-              <CourseInfoItem
-                key={item!.label}
-                label={item!.label}
-                value={item!.value}
-                isLink={item!.isLink}
-                onPress={item!.onPress}
-                isLast={index === arr.length - 1}
+        <TouchableOpacity
+          onPress={() => Linking.openURL("https://www.golfnow.com")}
+          style={{
+            alignItems: "center",
+            padding: 15,
+            minWidth: 100,
+            borderRadius: 16,
+            backgroundColor: "#f0f0f0"
+          }}
+        >
+          <Text style={{ fontSize: 18, fontWeight: "bold" }}>
+            Book a round with Golf Now
+          </Text>
+        </TouchableOpacity>
+        <View style={{ marginVertical: 12 }} />
+        <Tabs activeTab={activeTab} onChange={setActiveTab} />
+        {activeTab === "ratings" &&
+          <View style={{ backgroundColor: "#f5f5f5", borderRadius: 8 }}>
+            {reviewItems.map((item, index) =>
+              <CourseUserReview
+                key={item.label}
+                label={item.label}
+                value={item.value}
+                isLast={index === reviewItems.length - 1}
               />
             )}
-        </View>
-        <View style={{ marginVertical: 20 }} />
-        {/* Course User Reviews */}
-        <View style={{ backgroundColor: "#f5f5f5", borderRadius: 8 }}>
-          {reviewItems.map((item, index) =>
-            <CourseUserReview
-              key={item.label}
-              label={item.label}
-              value={item.value}
-              isLast={index === reviewItems.length - 1}
-            />
-          )}
-        </View>
+          </View>}
+        {/* Tab content */}
+        {activeTab === "info" &&
+          <View style={{ backgroundColor: "#f5f5f5", borderRadius: 8 }}>
+            {[
+              { label: "Course Par", value: par ? `${par}` : "Unknown" },
+              { label: "Holes", value: holes ? `${holes} Holes` : "Unknown" },
+              website
+                ? {
+                    label: "Website",
+                    value: "Visit →",
+                    isLink: true,
+                    onPress: handleWebsitePress
+                  }
+                : null,
+              range
+                ? {
+                    label: "Driving Range",
+                    value: "Available →",
+                    isLink: true,
+                    onPress: handleRangePress
+                  }
+                : null,
+              address
+                ? {
+                    label: "Address",
+                    value: address,
+                    isLink: true,
+                    onPress: handleRangePress
+                  }
+                : null
+            ]
+              .filter(Boolean)
+              .map((item, index, arr) =>
+                <CourseInfoItem
+                  key={item!.label}
+                  label={item!.label}
+                  value={item!.value}
+                  isLink={item!.isLink}
+                  onPress={item!.onPress}
+                  isLast={index === arr.length - 1}
+                />
+              )}
+          </View>}
       </View>
+      <View style={{ paddingBottom: insets.bottom + 50 }} />
     </ScrollView>
   );
 };

@@ -27,7 +27,8 @@ const CourseInfoItem: React.FC<CourseInfoItemProps> = ({
         alignItems: "center",
         padding: 15,
         borderBottomWidth: isLast ? 0 : 1,
-        borderBottomColor: "#e0e0e0"
+        borderBottomColor: "#e0e0e0",
+        gap: 16
       }}
     >
       <Text style={{ fontSize: 16, fontWeight: "500" }}>
@@ -39,7 +40,9 @@ const CourseInfoItem: React.FC<CourseInfoItemProps> = ({
             fontSize: 16,
             color: isLink ? "#007AFF" : "#666",
             flexShrink: 1,
-            textAlign: "right"
+            textAlign: "right",
+            flexWrap: "wrap",
+            wordWrap: "break-word"
           }}
         >
           {value}

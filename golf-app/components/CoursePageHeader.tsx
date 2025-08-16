@@ -58,7 +58,6 @@ const CourseHeader: React.FC<CourseHeaderProps> = ({
         style={{
           flexDirection: "row",
           justifyContent: "space-around",
-          marginBottom: 30
         }}
       >
         {/* Review Score */}
@@ -67,9 +66,12 @@ const CourseHeader: React.FC<CourseHeaderProps> = ({
           style={{ alignItems: "center", padding: 15, minWidth: 100 }}
         >
           <Text style={{ fontSize: 24, marginBottom: 8 }}>⭐</Text>
+          <View style={{ flexDirection: "row", alignItems: "flex-end" }}>
           <Text style={{ fontSize: 16, fontWeight: "500" }}>
-            {score}/10
+            {score}
           </Text>
+          <Text style={{ fontSize: 12, color: "#666" }}> / 10</Text>
+          </View>
         </TouchableOpacity>
 
         {/* Review Button */}
@@ -77,7 +79,7 @@ const CourseHeader: React.FC<CourseHeaderProps> = ({
           onPress={onReviewPress}
           style={{ alignItems: "center", padding: 15, minWidth: 100 }}
         >
-          <Text style={{ fontSize: 24, marginBottom: 8 }}>⭐</Text>
+          <Text style={{ fontSize: 24, marginBottom: 8 }}>★</Text>
           <Text style={{ fontSize: 16, fontWeight: "500" }}>Review</Text>
         </TouchableOpacity>
 
