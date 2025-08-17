@@ -7,6 +7,8 @@ interface CommentProps {
   userTitle?: string; // optional (e.g. "Scratch Golfer")
   comment: string;
   commentDate: string; // formatted date string
+  userReviewScore?: number; // optional review score
+  strokes?: number; // optional strokes count
 }
 
 const Comment: React.FC<CommentProps> = ({
@@ -14,7 +16,9 @@ const Comment: React.FC<CommentProps> = ({
   userName,
   userTitle,
   comment,
-  commentDate
+  commentDate,
+  userReviewScore,
+  strokes
 }) => {
   // fallback initials if no avatar
   const initials = userName.split(" ").map(n => n[0]).join("").toUpperCase();
@@ -77,7 +81,21 @@ const Comment: React.FC<CommentProps> = ({
       >
         {comment}
       </Text>
-
+      <View
+        style={{
+          flexDirection: "row",
+          alignItems: "center",
+          minWidth: 100,
+          gap: 24,
+          paddingBottom: 4,
+          width: "100%"
+        }}
+      >
+        {userReviewScore &&
+          <Text style={{ fontSize: 16, fontWeight: "500" }}>🌟 9</Text>}
+        {strokes &&
+          <Text style={{ fontSize: 16, fontWeight: "500" }}>75 strokes</Text>}
+      </View>
       {/* Date */}
       <Text style={{ fontSize: 12, color: "#999" }}>
         {commentDate}

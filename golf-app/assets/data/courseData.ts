@@ -1,11 +1,10 @@
-import { green } from "react-native-reanimated/lib/typescript/Colors";
-
 const golfCourseData = {
   id: 1,
   score: 10,
   numOfReviews: 1000,
   address: "2604 Washington Rd, Augusta, GA 30904, United States",
   holes: 18,
+  yardage: 7500,
   title: "Augusta National Golf Club",
   par: "72",
   website: "https://www.masters.com",

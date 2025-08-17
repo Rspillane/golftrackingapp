@@ -35,6 +35,7 @@ interface CoursePageProps {
   score?: number;
   address?: string;
   greenFee?: number;
+  yardage?: number;
   paceOfPlay:
     | "1-2 hours"
     | "2-3 hours"
@@ -60,7 +61,8 @@ const CoursePage: React.FC<CoursePageProps> = ({
   reviewItems,
   numOfReviews,
   paceOfPlay,
-  greenFee
+  greenFee,
+  yardage
 }) => {
   const [activeTab, setActiveTab] = React.useState<"info" | "ratings">(
     "ratings"
@@ -159,6 +161,10 @@ const CoursePage: React.FC<CoursePageProps> = ({
             {[
               { label: "Course Par", value: par ? `${par}` : "Unknown" },
               { label: "Holes", value: holes ? `${holes} Holes` : "Unknown" },
+              {
+                label: "Yardage",
+                value: yardage ? `${yardage} yards` : "Unknown"
+              },
               paceOfPlay
                 ? {
                     label: "Pace of Play",
@@ -217,12 +223,16 @@ const CoursePage: React.FC<CoursePageProps> = ({
           userTitle="Scratch Golfer"
           comment="Loved the course! The greens were rolling fast and true."
           commentDate="August 17, 2025"
+          userReviewScore={9}
+          strokes={75}
         />
 
         <Comment
           userName="James Miller"
           comment="Decent value for money, but the pace of play was slow."
           commentDate="August 12, 2025"
+          userReviewScore={8}
+          strokes={80}
         />
       </View>
       <View style={{ paddingBottom: insets.bottom + 50 }} />

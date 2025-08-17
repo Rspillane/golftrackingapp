@@ -21,9 +21,7 @@ const ProfileHeader: React.FC<ProfileHeaderProps> = ({
       style={{
         alignItems: "center",
         padding: 20,
-        backgroundColor: "#fff",
-        borderBottomWidth: 1,
-        borderBottomColor: "#eee"
+        backgroundColor: "#fff"
       }}
     >
       {/* Avatar */}
