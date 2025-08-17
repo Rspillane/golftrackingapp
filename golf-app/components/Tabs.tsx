@@ -29,23 +29,31 @@ const TabButton: React.FC<TabButtonProps> = ({ label, isActive, onPress }) =>
     </Text>
   </TouchableOpacity>;
 
-interface TabsProps {
-  activeTab: "info" | "ratings";
-  onChange: (tab: "info" | "ratings") => void;
+// TabItem is generic over T, which is the union of keys
+export interface TabItem<T extends string> {
+  key: T;
+  label: string;
 }
 
-const Tabs: React.FC<TabsProps> = ({ activeTab, onChange }) =>
-  <View style={{ flexDirection: "row", marginBottom: 20 }}>
-    <TabButton
-      label="Player Ratings"
-      isActive={activeTab === "ratings"}
-      onPress={() => onChange("ratings")}
-    />
-    <TabButton
-      label="Course Info"
-      isActive={activeTab === "info"}
-      onPress={() => onChange("info")}
-    />
-  </View>;
+interface TabsProps<T extends string> {
+  tabs: TabItem<T>[];
+  activeTab: T;
+  onChange: (tabKey: T) => void;
+}
+
+function Tabs<T extends string>({ tabs, activeTab, onChange }: TabsProps<T>) {
+  return (
+    <View style={{ flexDirection: "row", marginBottom: 20 }}>
+      {tabs.map(tab =>
+        <TabButton
+          key={tab.key}
+          label={tab.label}
+          isActive={activeTab === tab.key}
+          onPress={() => onChange(tab.key)}
+        />
+      )}
+    </View>
+  );
+}
 
 export default Tabs;

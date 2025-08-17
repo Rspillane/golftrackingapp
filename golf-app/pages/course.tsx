@@ -134,7 +134,14 @@ const CoursePage: React.FC<CoursePageProps> = ({
           </Text>
         </TouchableOpacity>
         <View style={{ marginVertical: 12 }} />
-        <Tabs activeTab={activeTab} onChange={setActiveTab} />
+        <Tabs
+          activeTab={activeTab}
+          onChange={setActiveTab}
+          tabs={[
+            { key: "info", label: "Course Info" },
+            { key: "ratings", label: "Player Ratings" }
+          ]}
+        />
         {activeTab === "ratings" &&
           <View style={{ backgroundColor: "#f5f5f5", borderRadius: 8 }}>
             {reviewItems.map((item, index) =>
