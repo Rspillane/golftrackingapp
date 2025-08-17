@@ -25,6 +25,7 @@ const MiniReviewCard: React.FC<MiniReviewCardProps> = ({
   strokes
 }) => {
   return (
+    // Should be clickable to navigate to more detailed review page
     <View
       style={{
         borderWidth: 1,
