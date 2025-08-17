@@ -5,6 +5,7 @@ interface CourseHeaderProps {
   title: string;
   image?: string;
   score?: number;
+  numOfReviews?: number;
   onReviewPress: () => void;
   onBucketListPress: () => void;
 }
@@ -13,6 +14,7 @@ const CourseHeader: React.FC<CourseHeaderProps> = ({
   title,
   image,
   score,
+  numOfReviews,
   onReviewPress,
   onBucketListPress,
 }) => {
@@ -59,16 +61,16 @@ const CourseHeader: React.FC<CourseHeaderProps> = ({
         style={{
           flexDirection: "row",
           justifyContent: "space-around",
-          paddingTop: 5,
-          paddingBottom: 15,
+          paddingTop: 15,
+          paddingBottom: 20,
           gap: 16,
-          alignItems: "center",
+          alignItems: "flex-start",
         }}
       >
         {/* Review Score */}
         <TouchableOpacity
           onPress={onReviewPress}
-          style={{ alignItems: "center", padding: 15, minWidth: 100 }}
+          style={{ alignItems: "center", minWidth: 100 }}
         >
           <Text style={{ fontSize: 24, marginBottom: 8 }}>⭐</Text>
 
@@ -78,7 +80,7 @@ const CourseHeader: React.FC<CourseHeaderProps> = ({
           </Text>
           <Text style={{ fontSize: 12, color: "#666" }}> / 10</Text>
           </View>
-          <Text style={{ fontSize: 12, fontWeight: "400", paddingTop: 2  }}>1,000</Text>
+          <Text style={{ fontSize: 12, fontWeight: "400", paddingTop: 2  }}>({numOfReviews})</Text>
 
         </TouchableOpacity>
 
@@ -88,7 +90,7 @@ const CourseHeader: React.FC<CourseHeaderProps> = ({
           onPress={onReviewPress}
           style={{ alignItems: "center", minWidth: 100 }}
         >
-          <Text style={{ fontSize: 24, marginBottom: 8 }}>⭐</Text>
+          <Text style={{ fontSize: 24, marginBottom: 8 }}>🌟</Text>
           <View style={{ flexDirection: "row", alignItems: "flex-end" }}>
             <Text style={{ fontSize: 16, fontWeight: "500" }}>{score}</Text>
             <Text style={{ fontSize: 12, color: "#666" }}> / 10</Text>
@@ -110,7 +112,7 @@ const CourseHeader: React.FC<CourseHeaderProps> = ({
           onPress={onBucketListPress}
           style={{ alignItems: "center", minWidth: 100 }}
         >
-          <Text style={{ fontSize: 24, marginBottom: 8 }}>➕</Text>
+          <Text style={{ fontSize: 24, marginBottom: 12 }}>➕</Text>
           <Text style={{ fontSize: 16, fontWeight: "500" }}>Bucket List</Text>
         </TouchableOpacity>
       </View>

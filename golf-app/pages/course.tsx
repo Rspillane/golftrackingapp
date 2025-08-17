@@ -13,6 +13,7 @@ import CourseInfoItem from "../components/CourseInfoItem";
 import CoursePageHeader from "../components/CoursePageHeader";
 import CourseUserReview from "../components/CourseUserReview";
 import Tabs from "../components/Tabs";
+import Comment from "../components/Comment";
 
 interface ReviewsProps {
   teeboxes: number;
@@ -22,13 +23,6 @@ interface ReviewsProps {
   clubhouse: number;
   facilities: number;
   value: number;
-  greenfee: number;
-  paceofplay:
-    | "1-2 hours"
-    | "2-3 hours"
-    | "3-4 hours"
-    | "4-5 hours"
-    | "5+ hours";
 }
 
 interface CoursePageProps {
@@ -40,10 +34,18 @@ interface CoursePageProps {
   image?: string;
   score?: number;
   address?: string;
+  greenFee?: number;
+  paceOfPlay:
+    | "1-2 hours"
+    | "2-3 hours"
+    | "3-4 hours"
+    | "4-5 hours"
+    | "5+ hours";
   reviewItems: {
     label: string;
     value: ReviewsProps;
   }[];
+  numOfReviews?: number;
 }
 
 const CoursePage: React.FC<CoursePageProps> = ({
@@ -55,7 +57,10 @@ const CoursePage: React.FC<CoursePageProps> = ({
   image,
   score,
   address,
-  reviewItems
+  reviewItems,
+  numOfReviews,
+  paceOfPlay,
+  greenFee
 }) => {
   const [activeTab, setActiveTab] = React.useState<"info" | "ratings">(
     "ratings"
@@ -110,6 +115,7 @@ const CoursePage: React.FC<CoursePageProps> = ({
           title={title}
           image={image}
           score={score}
+          numOfReviews={numOfReviews}
           onReviewPress={handleReviewPress}
           onBucketListPress={handleBucketListPress}
         />
@@ -120,10 +126,10 @@ const CoursePage: React.FC<CoursePageProps> = ({
             padding: 15,
             minWidth: 100,
             borderRadius: 16,
-            backgroundColor: "#f0f0f0"
+            backgroundColor: "#3e9114ff"
           }}
         >
-          <Text style={{ fontSize: 18, fontWeight: "bold" }}>
+          <Text style={{ fontSize: 18, fontWeight: "bold", color: "#fff" }}>
             Book a round with Golf Now
           </Text>
         </TouchableOpacity>
@@ -146,6 +152,20 @@ const CoursePage: React.FC<CoursePageProps> = ({
             {[
               { label: "Course Par", value: par ? `${par}` : "Unknown" },
               { label: "Holes", value: holes ? `${holes} Holes` : "Unknown" },
+              paceOfPlay
+                ? {
+                    label: "Pace of Play",
+                    value: `approx. ${paceOfPlay}`,
+                    onPress: handleRangePress
+                  }
+                : null,
+              greenFee
+                ? {
+                    label: "Green Fee",
+                    value: `£ ${greenFee.low}`,
+                    onPress: handleRangePress
+                  }
+                : null,
               website
                 ? {
                     label: "Website",
@@ -183,6 +203,20 @@ const CoursePage: React.FC<CoursePageProps> = ({
                 />
               )}
           </View>}
+      </View>
+      <View style={{ padding: 20 }}>
+        <Comment
+          userName="Sarah Johnson"
+          userTitle="Scratch Golfer"
+          comment="Loved the course! The greens were rolling fast and true."
+          commentDate="August 17, 2025"
+        />
+
+        <Comment
+          userName="James Miller"
+          comment="Decent value for money, but the pace of play was slow."
+          commentDate="August 12, 2025"
+        />
       </View>
       <View style={{ paddingBottom: insets.bottom + 50 }} />
     </ScrollView>
