@@ -215,7 +215,9 @@ const SettingsPage: React.FC<{ onBackPress?: () => void }> = ({
 
   return (
     <ScrollView style={{ flex: 1, backgroundColor: "#f5f5f5" }}>
-      <View style={{ paddingTop: insets.top + 20, paddingBottom: 30 }}>
+      <View
+        style={{ paddingTop: insets.top + 20, paddingBottom: insets.top + 20 }}
+      >
         {/* Header */}
         <View
           style={{
@@ -238,7 +240,7 @@ const SettingsPage: React.FC<{ onBackPress?: () => void }> = ({
                 marginRight: 16
               }}
             >
-              <Text style={{ fontSize: 18 }}>‹</Text>
+              <Text style={{ fontSize: 18 }}>←</Text>
             </TouchableOpacity>}
           <Text
             style={{

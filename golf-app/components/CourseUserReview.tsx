@@ -1,5 +1,6 @@
 import React from "react";
 import { View, Text } from "react-native";
+import ReviewScore from "./ReviewScore";
 
 interface CourseUserReviewProps {
   label: string;
@@ -29,35 +30,12 @@ const CourseUserReview: React.FC<CourseUserReviewProps> = ({
         {label}
       </Text>
       <View style={{ flexDirection: "row", alignItems: "flex-end", gap: 24 }}>
-        <Text style={{ fontSize: 16, color: "#666", fontWeight: "600" }}>
+        {/* <Text style={{ fontSize: 16, color: "#666", fontWeight: "600" }}>
           {score ? score : "insufficient data"} ⭐️
-        </Text>
-        {userScore
-          ? <View
-              style={{
-                flexDirection: "row",
-                alignItems: "center",
-                gap: 4,
-                minWidth: 50
-              }}
-            >
-              <Text style={{ fontSize: 16, color: "#666", fontWeight: "600" }}>
-                {userScore}
-              </Text>
-              <Text style={{ fontSize: 16, color: "blue", fontWeight: "600" }}>
-                {`★`}
-              </Text>
-            </View>
-          : <Text
-              style={{
-                fontSize: 16,
-                color: "#666",
-                fontWeight: "600",
-                minWidth: 50
-              }}
-            >
-              {`★`}
-            </Text>}
+        </Text> */}
+
+        <ReviewScore reviewScore={10} />
+        <ReviewScore userReviewScore={9} />
       </View>
     </View>
   );

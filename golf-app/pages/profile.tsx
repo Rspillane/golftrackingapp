@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  View,
-  Linking,
-  Alert,
-  ScrollView,
-  Text,
-  TouchableOpacity
-} from "react-native";
+import { View, Alert, ScrollView, Text, TouchableOpacity } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import ProfileHeader from "../components/ProfileHeader";
 import ProfileCourseTabs from "../components/ProfileCourseTabs";

@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, Image } from "react-native";
 import Tabs from "../components/Tabs";
-import MiniReviewCard from "./ MiniReviewCard";
+import MiniReviewCard from "./MiniReviewCard";
 
 import reviewData from "../assets/data/reviewData";
 

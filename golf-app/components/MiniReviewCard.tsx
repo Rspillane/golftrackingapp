@@ -1,5 +1,6 @@
 import React from "react";
 import { View, Text, FlatList } from "react-native";
+import ReviewScore from "./ReviewScore";
 
 interface MiniReviewCardProps {
   courseName: string;
@@ -16,12 +17,9 @@ interface MiniReviewCardProps {
 const MiniReviewCard: React.FC<MiniReviewCardProps> = ({
   courseName,
   courseSubtitle,
-  reviewScore,
-  userReviewScore,
   reviewDate,
   yardage,
   par,
-  holes,
   strokes
 }) => {
   return (
@@ -60,9 +58,6 @@ const MiniReviewCard: React.FC<MiniReviewCardProps> = ({
           <Text>
             Par {par}
           </Text>
-          <Text>
-            {holes} Holes
-          </Text>
         </View>
         <View>
           <View
@@ -75,14 +70,8 @@ const MiniReviewCard: React.FC<MiniReviewCardProps> = ({
               width: "100%"
             }}
           >
-            {reviewScore &&
-              <Text style={{ fontSize: 16, fontWeight: "500" }}>
-                ⭐ {reviewScore}
-              </Text>}
-            {userReviewScore &&
-              <Text style={{ fontSize: 16, fontWeight: "500" }}>
-                🌟 {userReviewScore}
-              </Text>}
+            <ReviewScore reviewScore={10} />
+            <ReviewScore userReviewScore={10} />
             {strokes &&
               <Text style={{ fontSize: 16, fontWeight: "500" }}>
                 {strokes} strokes
