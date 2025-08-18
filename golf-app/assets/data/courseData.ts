@@ -17,11 +17,11 @@ const golfCourseData = {
   image:
     "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=800&h=600&fit=crop",
   reviewItems: [
-    { label: "Teeboxes", value: 10 },
-    { label: "Fairways", value: 10 },
-    { label: "Greens", value: 10 },
-    { label: "Clubhouse", value: 10 },
-    { label: "Facilities", value: 10 }
+    { label: "Teeboxes", score: 10, userScore: 9 },
+    { label: "Fairways", score: 10 },
+    { label: "Greens", score: 10 },
+    { label: "Clubhouse", score: 10 },
+    { label: "Facilities", score: 10 }
   ]
 };
 

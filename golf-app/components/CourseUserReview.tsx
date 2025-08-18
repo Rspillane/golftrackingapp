@@ -3,33 +3,16 @@ import { View, Text } from "react-native";
 
 interface CourseUserReviewProps {
   label: string;
-  value: any;
+  score: number;
+  userScore?: number;
   isLast?: boolean;
-}
-
-interface ReviewsProps {
-  reviewItems: {
-    teeboxes: number;
-    holes: 9 | 18 | undefined;
-    fairways: number;
-    greens: number;
-    clubhouse: number;
-    facilities: number;
-    value: number;
-    greenfee: number;
-    paceofplay:
-      | "1-2 hours"
-      | "2-3 hours"
-      | "3-4 hours"
-      | "4-5 hours"
-      | "5+ hours";
-  };
 }
 
 const CourseUserReview: React.FC<CourseUserReviewProps> = ({
   label,
-  value,
-  isLast
+  score,
+  isLast,
+  userScore
 }) => {
   return (
     <View
@@ -45,14 +28,24 @@ const CourseUserReview: React.FC<CourseUserReviewProps> = ({
       <Text style={{ fontSize: 16, fontWeight: "500" }}>
         {label}
       </Text>
-      <View style={{ flexDirection: "row", alignItems: "flex-end" }}>
+      <View style={{ flexDirection: "row", alignItems: "flex-end", gap: 24 }}>
         <Text style={{ fontSize: 16, color: "#666", fontWeight: "600" }}>
-          {label === "Green Fee" && "$ "}
-          {value ? value : "insufficient data"}
+          {score ? score : "insufficient data"} ⭐️
         </Text>
-        {label !== "Green Fee" &&
-          label !== "Pace of Play" &&
-          <Text style={{ fontSize: 12, color: "#666" }}> / 10</Text>}
+        {userScore
+          ? <View
+              style={{ flexDirection: "row", alignItems: "center", gap: 4 }}
+            >
+              <Text style={{ fontSize: 16, color: "#666", fontWeight: "600" }}>
+                {userScore}
+              </Text>
+              <Text style={{ fontSize: 16, color: "blue", fontWeight: "600" }}>
+                {`★`}
+              </Text>
+            </View>
+          : <Text style={{ fontSize: 16, color: "#666", fontWeight: "600" }}>
+              {`★`}
+            </Text>}
       </View>
     </View>
   );

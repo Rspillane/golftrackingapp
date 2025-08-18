@@ -15,16 +15,6 @@ import CourseUserReview from "../components/CourseUserReview";
 import Tabs from "../components/Tabs";
 import Comment from "../components/Comment";
 
-interface ReviewsProps {
-  teeboxes: number;
-  holes: 9 | 18 | undefined;
-  fairways: number;
-  greens: number;
-  clubhouse: number;
-  facilities: number;
-  value: number;
-}
-
 interface CoursePageProps {
   title: string;
   par: string;
@@ -43,8 +33,9 @@ interface CoursePageProps {
     | "4-5 hours"
     | "5+ hours";
   reviewItems: {
-    label: string;
-    value: ReviewsProps;
+    label: "teeboxes" | "fairways" | "greens" | "clubhouse" | "facilities";
+    score: number;
+    userScore?: number; // optional user score
   }[];
   numOfReviews?: number;
 }
@@ -148,9 +139,10 @@ const CoursePage: React.FC<CoursePageProps> = ({
           <View style={{ backgroundColor: "#f5f5f5", borderRadius: 8 }}>
             {reviewItems.map((item, index) =>
               <CourseUserReview
-                key={item.label}
+                key={index}
                 label={item.label}
-                value={item.value}
+                score={item.score}
+                userScore={item.userScore}
                 isLast={index === reviewItems.length - 1}
               />
             )}
