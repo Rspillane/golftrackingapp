@@ -40,6 +40,7 @@ const ProfileCourseTabs: React.FC<ProfileCourseTabsProps> = ({
               par={review.par}
               yardage={review.yardage}
               holes={review.holes}
+              strokes={review.strokes}
               />
           ))}
         </View>}

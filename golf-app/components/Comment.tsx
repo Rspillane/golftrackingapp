@@ -1,5 +1,6 @@
 import React from "react";
 import { View, Text, Image } from "react-native";
+import ReviewScore from "./ReviewScore";
 
 interface CommentProps {
   userAvatar?: string; // optional image URL
@@ -91,14 +92,20 @@ const Comment: React.FC<CommentProps> = ({
           width: "100%"
         }}
       >
-        {userReviewScore &&
-          <Text style={{ fontSize: 16, fontWeight: "500" }}>🌟 9</Text>}
-        {strokes &&
-          <Text style={{ fontSize: 16, fontWeight: "500" }}>75 strokes</Text>}
+        {userReviewScore && <ReviewScore userReviewScore={9} />}
       </View>
       {/* Date */}
-      <Text style={{ fontSize: 12, color: "#999" }}>
-        {commentDate}
+      <Text
+        style={{
+          paddingTop: 12,
+          fontSize: 14,
+          color: "#666",
+          fontStyle: "italic"
+        }}
+      >
+        {strokes
+          ? `Shot ${strokes} on ${commentDate}`
+          : `Rated on the ${commentDate}`}
       </Text>
     </View>
   );

@@ -210,6 +210,9 @@ const CoursePage: React.FC<CoursePageProps> = ({
           </View>}
       </View>
       <View style={{ padding: 20 }}>
+        <Text style={{ fontSize: 18, fontWeight: "bold", marginBottom: 10 }}>
+          Golfer Reviews
+        </Text>
         <Comment
           userName="Sarah Johnson"
           userTitle="Scratch Golfer"

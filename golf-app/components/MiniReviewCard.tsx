@@ -39,10 +39,6 @@ const MiniReviewCard: React.FC<MiniReviewCardProps> = ({
         <Text style={{ fontWeight: "600", fontSize: 16, color: "#222" }}>
           {courseName}
         </Text>
-        {courseSubtitle &&
-          <Text style={{ fontSize: 14, color: "#666", fontStyle: "italic" }}>
-            "{courseSubtitle}""
-          </Text>}
         <View
           style={{
             flexDirection: "row",
@@ -66,21 +62,26 @@ const MiniReviewCard: React.FC<MiniReviewCardProps> = ({
               alignItems: "center",
               minWidth: 100,
               gap: 24,
-              paddingBottom: 4,
               width: "100%"
             }}
           >
             <ReviewScore reviewScore={10} />
             <ReviewScore userReviewScore={10} />
-            {strokes &&
-              <Text style={{ fontSize: 16, fontWeight: "500" }}>
-                {strokes} strokes
-              </Text>}
           </View>
-          <Text style={{ fontSize: 12, color: "#999" }}>
-            Rated on the {reviewDate}
-          </Text>
         </View>
+        {courseSubtitle &&
+          <Text
+            style={{
+              paddingTop: 12,
+              fontSize: 14,
+              color: "#666",
+              fontStyle: "italic"
+            }}
+          >
+            {strokes
+              ? `"${courseSubtitle}", Shot ${strokes} on ${reviewDate}`
+              : `Rated on the ${reviewDate}`}
+          </Text>}
       </View>
     </View>
   );
