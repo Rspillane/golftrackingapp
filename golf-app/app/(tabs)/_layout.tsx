@@ -48,10 +48,10 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
         }}
       />
-           <Tabs.Screen
-        name="profile"
+      <Tabs.Screen
+        name="profileTabContainer"
         options={{
-          title: 'Profile',
+          title: 'ProfileTabContainer',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="person" color={color} />,
         }}
       />
