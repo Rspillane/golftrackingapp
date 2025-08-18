@@ -10,7 +10,6 @@ import {
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import ProfileHeader from "../components/ProfileHeader";
 import ProfileCourseTabs from "../components/ProfileCourseTabs";
-import MedalSummary from "@/components/MedalSummary";
 
 interface ProfileProps {
   userName?: string;
@@ -77,7 +76,6 @@ const Profile: React.FC<ProfileProps> = ({
           userTitle={userTitle}
           numberOfUserReviews={numberOfUserReviews}
         />
-        <MedalSummary />
         <ScrollView>
           <ProfileCourseTabs />
         </ScrollView>

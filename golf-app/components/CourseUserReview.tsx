@@ -34,7 +34,12 @@ const CourseUserReview: React.FC<CourseUserReviewProps> = ({
         </Text>
         {userScore
           ? <View
-              style={{ flexDirection: "row", alignItems: "center", gap: 4 }}
+              style={{
+                flexDirection: "row",
+                alignItems: "center",
+                gap: 4,
+                minWidth: 50
+              }}
             >
               <Text style={{ fontSize: 16, color: "#666", fontWeight: "600" }}>
                 {userScore}
@@ -43,7 +48,14 @@ const CourseUserReview: React.FC<CourseUserReviewProps> = ({
                 {`★`}
               </Text>
             </View>
-          : <Text style={{ fontSize: 16, color: "#666", fontWeight: "600" }}>
+          : <Text
+              style={{
+                fontSize: 16,
+                color: "#666",
+                fontWeight: "600",
+                minWidth: 50
+              }}
+            >
               {`★`}
             </Text>}
       </View>

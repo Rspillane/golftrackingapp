@@ -51,7 +51,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="profileTabContainer"
         options={{
-          title: 'ProfileTabContainer',
+          title: 'Profile',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="person" color={color} />,
         }}
       />
