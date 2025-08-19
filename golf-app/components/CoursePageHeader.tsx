@@ -90,7 +90,7 @@ const CourseHeader: React.FC<CourseHeaderProps> = ({
           onPress={onReviewPress}
           style={{ alignItems: "center", minWidth: 100 }}
         >
-          <Text style={{ fontSize: 24, marginBottom: 8 }}>🌟</Text>
+          <Text style={{ fontSize: 24, marginBottom: 8, color: "blue" }}>★</Text>
           <View style={{ flexDirection: "row", alignItems: "flex-end" }}>
             <Text style={{ fontSize: 16, fontWeight: "500" }}>{score}</Text>
             <Text style={{ fontSize: 12, color: "#666" }}> / 10</Text>
