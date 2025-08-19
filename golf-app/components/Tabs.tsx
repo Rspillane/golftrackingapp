@@ -43,7 +43,18 @@ interface TabsProps<T extends string> {
 
 function Tabs<T extends string>({ tabs, activeTab, onChange }: TabsProps<T>) {
   return (
-    <View style={{ flexDirection: "row", marginBottom: 20 }}>
+    <View
+      style={{
+        flexDirection: "row",
+        marginBottom: 0,
+        backgroundColor: "#f5f5f5",
+        borderRadius: 8,
+        borderBottomColor: "#e0e0e0",
+        borderBottomWidth: 1,
+        borderBottomLeftRadius: 0,
+        borderBottomRightRadius: 0
+      }}
+    >
       {tabs.map(tab =>
         <TabButton
           key={tab.key}

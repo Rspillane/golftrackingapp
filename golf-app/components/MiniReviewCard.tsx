@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text, FlatList } from "react-native";
 import ReviewScore from "./ReviewScore";
 
-interface MiniReviewCardProps {
+export interface MiniReviewCardProps {
   courseName: string;
   courseSubtitle?: string;
   reviewScore?: number;

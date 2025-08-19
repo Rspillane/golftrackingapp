@@ -96,13 +96,7 @@ const CoursePage: React.FC<CoursePageProps> = ({
           backgroundColor: "#fff",
           paddingLeft: 16
         }}
-      >
-        <IconSymbol
-          name="chevron.backward"
-          color="#000"
-          style={{ padding: 16 }}
-        />
-      </View>
+      />
       <View style={{ padding: 20 }}>
         <CoursePageHeader
           title={title}
@@ -136,7 +130,14 @@ const CoursePage: React.FC<CoursePageProps> = ({
           ]}
         />
         {activeTab === "ratings" &&
-          <View style={{ backgroundColor: "#f5f5f5", borderRadius: 8 }}>
+          <View
+            style={{
+              backgroundColor: "#f5f5f5",
+              borderRadius: 8,
+              borderTopLeftRadius: 0,
+              borderTopRightRadius: 0
+            }}
+          >
             {reviewItems.map((item, index) =>
               <CourseUserReview
                 key={index}
@@ -149,7 +150,14 @@ const CoursePage: React.FC<CoursePageProps> = ({
           </View>}
         {/* Tab content */}
         {activeTab === "info" &&
-          <View style={{ backgroundColor: "#f5f5f5", borderRadius: 8 }}>
+          <View
+            style={{
+              backgroundColor: "#f5f5f5",
+              borderRadius: 8,
+              borderTopLeftRadius: 0,
+              borderTopRightRadius: 0
+            }}
+          >
             {[
               { label: "Course Par", value: par ? `${par}` : "Unknown" },
               { label: "Holes", value: holes ? `${holes} Holes` : "Unknown" },
@@ -179,14 +187,7 @@ const CoursePage: React.FC<CoursePageProps> = ({
                     onPress: handleWebsitePress
                   }
                 : null,
-              range
-                ? {
-                    label: "Driving Range",
-                    value: "Available →",
-                    isLink: true,
-                    onPress: handleRangePress
-                  }
-                : null,
+              range ? { label: "Driving Range", value: "Available" } : null,
               address
                 ? {
                     label: "Address",

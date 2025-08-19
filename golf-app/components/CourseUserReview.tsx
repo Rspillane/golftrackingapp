@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text } from "react-native";
+import { View, Text, TouchableOpacity } from "react-native";
 import ReviewScore from "./ReviewScore";
 
 interface CourseUserReviewProps {
@@ -7,16 +7,18 @@ interface CourseUserReviewProps {
   score: number;
   userScore?: number;
   isLast?: boolean;
+  onPress?: () => void;
 }
 
 const CourseUserReview: React.FC<CourseUserReviewProps> = ({
   label,
   score,
   isLast,
-  userScore
+  userScore,
+  onPress
 }) => {
   return (
-    <View
+    <TouchableOpacity
       style={{
         flexDirection: "row",
         justifyContent: "space-between",
@@ -25,19 +27,18 @@ const CourseUserReview: React.FC<CourseUserReviewProps> = ({
         borderBottomWidth: isLast ? 0 : 1,
         borderBottomColor: "#e0e0e0"
       }}
+      onPress={() => {
+        onPress;
+      }}
     >
       <Text style={{ fontSize: 16, fontWeight: "500" }}>
         {label}
       </Text>
       <View style={{ flexDirection: "row", alignItems: "flex-end", gap: 24 }}>
-        {/* <Text style={{ fontSize: 16, color: "#666", fontWeight: "600" }}>
-          {score ? score : "insufficient data"} ⭐️
-        </Text> */}
-
-        <ReviewScore reviewScore={10} />
-        <ReviewScore userReviewScore={9} />
+        <ReviewScore reviewScore={score} />
+        <ReviewScore userReviewScore={userScore} />
       </View>
-    </View>
+    </TouchableOpacity>
   );
 };
 
