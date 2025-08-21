@@ -68,8 +68,7 @@ const CourseHeader: React.FC<CourseHeaderProps> = ({
         }}
       >
         {/* Review Score */}
-        <TouchableOpacity
-          onPress={onReviewPress}
+        <View
           style={{ alignItems: "center", minWidth: 100 }}
         >
           <Text style={{ fontSize: 24, marginBottom: 8 }}>⭐</Text>
@@ -82,12 +81,11 @@ const CourseHeader: React.FC<CourseHeaderProps> = ({
           </View>
           <Text style={{ fontSize: 12, fontWeight: "400", paddingTop: 2  }}>({numOfReviews})</Text>
 
-        </TouchableOpacity>
+        </View>
 
         {/* Review Button */}
         {hasReviewed &&
-        <TouchableOpacity
-          onPress={onReviewPress}
+        <View
           style={{ alignItems: "center", minWidth: 100 }}
         >
           <Text style={{ fontSize: 24, marginBottom: 8, color: "blue" }}>★</Text>
@@ -96,7 +94,7 @@ const CourseHeader: React.FC<CourseHeaderProps> = ({
             <Text style={{ fontSize: 12, color: "#666" }}> / 10</Text>
           </View>
           <Text style={{ fontSize: 12, fontWeight: "400", paddingTop: 2 }}>Your review</Text>
-        </TouchableOpacity>
+        </View>
 }
         {!hasReviewed &&
         <TouchableOpacity

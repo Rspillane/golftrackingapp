@@ -8,14 +8,14 @@ import {
 } from "react-native";
 import MiniReviewCard, {
   MiniReviewCardProps
-} from "../../components/MiniReviewCard";
+} from "../../components/organisms/MiniReviewCard";
 
-import Disclosure from "../../components/Disclosure";
+import Disclosure from "../../components/organisms/Disclosure";
 import Icon from "react-native-vector-icons/Ionicons";
 
 import { useSafeAreaInsets } from "react-native-safe-area-context";
-import DistanceSlider from "../../components/DistanceSlider";
-import CustomDropDown from "../../components/CustomDropDown";
+import DistanceSlider from "../../components/molecules/DistanceSlider";
+import CustomDropDown from "../../components/molecules/CustomDropDown";
 
 const SearchPage: React.FC = () => {
   const [selectedSort, setSelectedSort] = useState("rating");

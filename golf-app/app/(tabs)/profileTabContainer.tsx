@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { View } from "react-native";
-import Profile from "../../pages/profile"; // Your existing profile component
-import SettingsPage from "../../pages/settings"; // Your new settings component
+import Profile from "../../components/pages/profile"; // Your existing profile component
+import SettingsPage from "../../components/pages/settings"; // Your new settings component
 
 type ProfileTabPage = "profile" | "settings";
 

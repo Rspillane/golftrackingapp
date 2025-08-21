@@ -1,9 +1,9 @@
 import React from "react";
 import { View, Text, Image } from "react-native";
-import Tabs from "../components/Tabs";
-import MiniReviewCard from "./MiniReviewCard";
+import Tabs from "./Tabs";
+import MiniReviewCard from "../organisms/MiniReviewCard";
 
-import reviewData from "../assets/data/reviewData";
+import reviewData from "../../assets/data/reviewData";
 
 interface ProfileCourseTabsProps {
 

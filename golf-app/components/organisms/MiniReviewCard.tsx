@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text, FlatList } from "react-native";
-import ReviewScore from "./ReviewScore";
+import ReviewScore from "../organisms/ReviewScore";
 
 export interface MiniReviewCardProps {
   courseName: string;

@@ -1,8 +1,8 @@
 import React from "react";
 import { View, Alert, ScrollView, Text, TouchableOpacity } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
-import ProfileHeader from "../components/ProfileHeader";
-import ProfileCourseTabs from "../components/ProfileCourseTabs";
+import ProfileHeader from "../templates/ProfileHeader";
+import ProfileCourseTabs from "../templates/ProfileCourseTabs";
 
 interface ProfileProps {
   userName?: string;

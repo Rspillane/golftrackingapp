@@ -7,13 +7,13 @@ import {
   Text,
   TouchableOpacity
 } from "react-native";
-import { IconSymbol } from "../components/ui/IconSymbol";
+import { IconSymbol } from "../ui/IconSymbol";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
-import CourseInfoItem from "../components/CourseInfoItem";
-import CoursePageHeader from "../components/CoursePageHeader";
-import CourseUserReview from "../components/CourseUserReview";
-import Tabs from "../components/Tabs";
-import Comment from "../components/Comment";
+import CourseInfoItem from "../organisms/CourseInfoItem";
+import CoursePageHeader from "../templates/CoursePageHeader";
+import CourseUserReview from "../templates/CourseUserReview";
+import Tabs from "../templates/Tabs";
+import Comment from "../organisms/Comment";
 
 interface CoursePageProps {
   title: string;
