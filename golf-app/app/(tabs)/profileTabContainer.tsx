@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { View } from "react-native";
-import Profile from "../../components/pages/profile"; // Your existing profile component
-import SettingsPage from "../../components/pages/settings"; // Your new settings component
+import ProfilePage from "../../components/pages/ProfilePage";
+import SettingsPage from "../../components/pages/SettingsPage";
 
 type ProfileTabPage = "profile" | "settings";
 
@@ -20,7 +20,7 @@ const ProfileTabContainer: React.FC = () => {
     switch (currentPage) {
       case "profile":
         return (
-          <Profile
+          <ProfilePage
             userName="Sarah Johnson"
             userTitle="Scratch Golfer"
             numberOfUserReviews={12}
@@ -31,7 +31,7 @@ const ProfileTabContainer: React.FC = () => {
         return <SettingsPage onBackPress={navigateBackToProfile} />;
       default:
         return (
-          <Profile
+          <ProfilePage
             userName="Sarah Johnson"
             userTitle="Scratch Golfer"
             numberOfUserReviews={12}

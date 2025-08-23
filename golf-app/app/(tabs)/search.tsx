@@ -1,27 +1,41 @@
-import React, { useState } from "react";
-import {
-  View,
-  Text,
-  TextInput,
-  TouchableOpacity,
-  FlatList
-} from "react-native";
-import MiniReviewCard, {
-  MiniReviewCardProps
-} from "../../components/organisms/MiniReviewCard";
-
+import React, { useState, useMemo } from "react";
+import { View, Text, TextInput, FlatList } from "react-native";
+import MiniReviewCard from "../../components/organisms/MiniReviewCard";
 import Disclosure from "../../components/organisms/Disclosure";
 import Icon from "react-native-vector-icons/Ionicons";
-
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import DistanceSlider from "../../components/molecules/DistanceSlider";
 import CustomDropDown from "../../components/molecules/CustomDropDown";
 
+// Import your data
+import courses from "../../assets/data/courses.json";
+
 const SearchPage: React.FC = () => {
   const [selectedSort, setSelectedSort] = useState("rating");
   const [maxDistance, setMaxDistance] = useState(20);
+  const [searchQuery, setSearchQuery] = useState("");
 
   const insets = useSafeAreaInsets();
+
+  // Filter + limit to 20 results
+  const filteredCourses = useMemo(
+    () => {
+      let result = courses;
+
+      if (searchQuery.trim()) {
+        const query = searchQuery.toLowerCase();
+        result = result.filter(
+          c =>
+            c.course_name.toLowerCase().includes(query) ||
+            c.county.toLowerCase().includes(query) ||
+            c.region.toLowerCase().includes(query)
+        );
+      }
+
+      return result.slice(0, 20);
+    },
+    [searchQuery]
+  );
 
   return (
     <View
@@ -33,6 +47,7 @@ const SearchPage: React.FC = () => {
         paddingBottom: insets.bottom + 16
       }}
     >
+      {/* Search bar */}
       <View
         style={{
           flexDirection: "row",
@@ -41,7 +56,8 @@ const SearchPage: React.FC = () => {
           borderColor: "#ccc",
           borderRadius: 8,
           paddingHorizontal: 10,
-          backgroundColor: "#f9f9f9"
+          backgroundColor: "#f9f9f9",
+          marginBottom: 12
         }}
       >
         <Icon
@@ -52,33 +68,14 @@ const SearchPage: React.FC = () => {
         />
         <TextInput
           style={{ flex: 1, paddingVertical: 10, fontSize: 16 }}
-          placeholder="Search location"
+          placeholder="Search courses..."
+          value={searchQuery}
+          onChangeText={setSearchQuery}
         />
       </View>
+
+      {/* Filters (hidden by default inside disclosure) */}
       <Disclosure title="Filters">
-        <View
-          style={{
-            flexDirection: "row",
-            alignItems: "center",
-            borderWidth: 1,
-            borderColor: "#ccc",
-            borderRadius: 8,
-            paddingHorizontal: 10,
-            backgroundColor: "#f9f9f9"
-          }}
-        >
-          <Icon
-            name="search-outline"
-            size={20}
-            color="#888"
-            style={{ marginRight: 6 }}
-          />
-          <TextInput
-            style={{ flex: 1, paddingVertical: 10, fontSize: 16 }}
-            placeholder="Search courses..."
-          />
-        </View>
-        {/* Sort Options */}
         <CustomDropDown
           label="Sort by"
           selectedValue={selectedSort}
@@ -98,34 +95,32 @@ const SearchPage: React.FC = () => {
           max={100}
           step={1}
           value={maxDistance}
-          onValueChange={val => setMaxDistance(val)}
-        />;
+          onValueChange={setMaxDistance}
+        />
       </Disclosure>
 
-      <View
-        style={{
-          flexDirection: "row",
-          justifyContent: "space-around",
-          marginBottom: 16
-        }}
-      />
       {/* Results */}
-      <Text style={{ fontSize: 16, fontWeight: "500", marginBottom: 6 }}>
-        Results
+      <Text style={{ fontSize: 16, fontWeight: "500", marginVertical: 8 }}>
+        Results ({filteredCourses.length})
       </Text>
-      {/* <FlatList
-        data={}
-        keyExtractor={item => item.id}
+
+      <FlatList
+        data={filteredCourses}
+        keyExtractor={item => item.course_id}
         renderItem={({ item }) =>
           <MiniReviewCard
-            courseName={item.name}
-            courseSubtitle={item.courseSubtitle}
-            reviewDate={item.reviewDate}
-            yardage={item.yardage}
-            par={item.par}
-            // distance={item.distance}
+            course={{
+              course_id: item.course_id,
+              course_name: item.course_name,
+              par: item.par,
+              // yardage: item.length_yards,
+              holes: item.holes
+              // courseSubtitle: item.region,
+              // reviewDate: "2025-08-23"
+            }} // <- update MiniReviewCard to take `course` object instead of split props
           />}
-      /> */}
+        contentContainerStyle={{ gap: 12, paddingBottom: 50 }}
+      />
     </View>
   );
 };

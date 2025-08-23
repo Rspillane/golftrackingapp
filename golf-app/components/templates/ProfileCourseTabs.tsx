@@ -32,7 +32,15 @@ const ProfileCourseTabs: React.FC<ProfileCourseTabsProps> = ({
           {reviewData.map((review, index) => (
             <MiniReviewCard
               key={index}
-              courseName={review.courseName}
+              course={{
+                // course_id: review.courseId,
+                course_name: review.courseName,
+                // courseSubtitle: review.courseSubtitle,
+                par: review.par,
+                length_yards: review.yardsage,
+                holes: review.holes
+              }}
+              course_name={review.courseName}
               courseSubtitle={review.courseSubtitle}
               reviewScore={review.reviewScore}
               userReviewScore={review.userReviewScore}

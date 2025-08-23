@@ -1,89 +1,109 @@
 import React from "react";
-import { View, Text, FlatList } from "react-native";
+import { View, Text, TouchableOpacity } from "react-native";
 import ReviewScore from "../organisms/ReviewScore";
+import { useRouter } from "expo-router";
 
 export interface MiniReviewCardProps {
-  courseName: string;
-  courseSubtitle?: string;
+  course: {
+    course_id: number;
+    course_name: string;
+    holes?: number;
+    par?: number;
+    length_yards?: number;
+    tee_details?: any[];
+    url?: string;
+  };
   reviewScore?: number;
   userReviewScore?: number;
-  reviewDate: string;
-  par: number;
-  yardage: number;
-  holes: number;
+  reviewDate?: string;
   strokes?: number;
 }
 
 const MiniReviewCard: React.FC<MiniReviewCardProps> = ({
-  courseName,
-  courseSubtitle,
+  course,
+  reviewScore,
+  userReviewScore,
   reviewDate,
-  yardage,
-  par,
   strokes
 }) => {
+  const router = useRouter();
+
+  const handlePress = () => {
+    {
+      router.push(`/course/${course.course_id}`);
+    }
+  };
   return (
-    // Should be clickable to navigate to more detailed review page
-    <View
-      style={{
-        borderWidth: 1,
-        borderColor: "#e0e0e0",
-        borderRadius: 12,
-        padding: 16,
-        backgroundColor: "#fff",
-        boxShadow: "0 1px 3px rgba(0,0,0,0.1)"
-      }}
-    >
-      {/* Course Info */}
-      <View style={{ flexDirection: "column", alignItems: "flex-start" }}>
-        <Text style={{ fontWeight: "600", fontSize: 16, color: "#222" }}>
-          {courseName}
-        </Text>
-        <View
-          style={{
-            flexDirection: "row",
-            alignItems: "center",
-            gap: 24,
-            width: "100%",
-            paddingVertical: 8
-          }}
-        >
-          <Text>
-            {yardage} yards
+    <TouchableOpacity onPress={handlePress} activeOpacity={0.8}>
+      <View
+        style={{
+          borderWidth: 1,
+          borderColor: "#e0e0e0",
+          borderRadius: 12,
+          padding: 16,
+          backgroundColor: "#fff",
+          shadowColor: "#000",
+          shadowOffset: { width: 0, height: 1 },
+          shadowOpacity: 0.1,
+          shadowRadius: 2,
+          elevation: 2
+        }}
+      >
+        {/* Course Info */}
+        <View style={{ flexDirection: "column", alignItems: "flex-start" }}>
+          <Text style={{ fontWeight: "600", fontSize: 16, color: "#222" }}>
+            {course.course_name}
           </Text>
-          <Text>
-            Par {par}
-          </Text>
-        </View>
-        <View>
+          <View
+            style={{
+              flexDirection: "row",
+              alignItems: "center",
+              gap: 24,
+              width: "100%",
+              paddingVertical: 8
+            }}
+          >
+            <Text>
+              {course.length_yards
+                ? `${course.length_yards} yards`
+                : "Yardage N/A"}
+            </Text>
+            <Text>
+              Par {course.par || "?"}
+            </Text>
+            <Text>
+              {course.holes ? `${course.holes} Holes` : "Holes N/A"}
+            </Text>
+          </View>
           <View
             style={{
               flexDirection: "row",
               alignItems: "center",
               minWidth: 100,
               gap: 24,
-              width: "100%"
+              width: "100%",
+              paddingVertical: 4
             }}
           >
-            <ReviewScore reviewScore={10} />
-            <ReviewScore userReviewScore={10} />
+            <ReviewScore reviewScore={reviewScore || 0} />
+            <ReviewScore userReviewScore={userReviewScore || 0} />
           </View>
+          {reviewDate &&
+            <Text
+              style={{
+                paddingTop: 12,
+                fontSize: 14,
+                color: "#666",
+                fontStyle: "italic"
+              }}
+            >
+              {strokes
+                ? `Shot ${strokes} on ${reviewDate}`
+                : `Rated on ${reviewDate}`}
+            </Text>}
         </View>
-        {courseSubtitle &&
-          <Text
-            style={{
-              paddingTop: 12,
-              fontSize: 14,
-              color: "#666",
-              fontStyle: "italic"
-            }}
-          >
-            {strokes
-              ? `"${courseSubtitle}", Shot ${strokes} on ${reviewDate}`
-              : `Rated on the ${reviewDate}`}
-          </Text>}
       </View>
-    </View>
+    </TouchableOpacity>
   );
 };
 

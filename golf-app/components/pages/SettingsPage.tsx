@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, TouchableOpacity, ScrollView, Alert } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
-
+import { useAuth } from "../../contexts/AuthContext";
 interface SettingsItemProps {
   title: string;
   subtitle?: string;
@@ -103,6 +103,7 @@ const SettingsPage: React.FC<{ onBackPress?: () => void }> = ({
   onBackPress
 }) => {
   const insets = useSafeAreaInsets();
+  const { logout } = useAuth();
 
   // Placeholder functions for settings actions
   const handleProfilePress = () =>
@@ -132,7 +133,7 @@ const SettingsPage: React.FC<{ onBackPress?: () => void }> = ({
   const handleSignOutPress = () =>
     Alert.alert("Sign Out", "Are you sure you want to sign out?", [
       { text: "Cancel", style: "cancel" },
-      { text: "Sign Out", style: "destructive" }
+      { text: "Sign Out", style: "destructive", onPress: logout }
     ]);
 
   const settingsSections = [
@@ -215,9 +216,7 @@ const SettingsPage: React.FC<{ onBackPress?: () => void }> = ({
 
   return (
     <ScrollView style={{ flex: 1, backgroundColor: "#f5f5f5" }}>
-      <View
-        style={{ paddingTop: insets.top + 20, paddingBottom: insets.top + 20 }}
-      >
+      <View style={{ paddingTop: insets.top + 20, paddingBottom: 30 }}>
         {/* Header */}
         <View
           style={{
@@ -240,7 +239,7 @@ const SettingsPage: React.FC<{ onBackPress?: () => void }> = ({
                 marginRight: 16
               }}
             >
-              <Text style={{ fontSize: 18 }}>←</Text>
+              <Text style={{ fontSize: 18 }}>‹</Text>
             </TouchableOpacity>}
           <Text
             style={{

@@ -1,17 +1,19 @@
 import React, { useState } from "react";
 import { View, Text, TouchableOpacity } from "react-native";
 import ReviewScore from "../organisms/ReviewScore";
-import UserScoreModal from "../molecules/userScoreModal";
+import UserScoreModal from "../molecules/UserScoreModal";
 
 interface CourseUserReviewProps {
   label: string;
   score: number;
   userScore?: number;
   isLast?: boolean;
+  modalMessage: string;
 }
 
 const CourseUserReview: React.FC<CourseUserReviewProps> = ({
   label,
+  modalMessage,
   score,
   isLast
 }) => {
@@ -52,6 +54,7 @@ const CourseUserReview: React.FC<CourseUserReviewProps> = ({
         visible={modalVisible}
         initialScore={userReview.userScore}
         onClose={() => setModalVisible(false)}
+        message={modalMessage}
         onSave={newScore => {
           setUserReview(prev => ({ ...prev, userScore: newScore }));
         }}

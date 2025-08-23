@@ -15,12 +15,14 @@ interface UserScoreModalProps {
   onClose: () => void;
   onSave: (newScore: number) => void;
   label: string;
+  message: string;
 }
 
 const UserScoreModal: React.FC<UserScoreModalProps> = ({
   visible,
   initialScore,
   label,
+  message,
   onClose,
   onSave
 }) => {
@@ -57,6 +59,10 @@ const UserScoreModal: React.FC<UserScoreModalProps> = ({
             <Text style={styles.title}>
               {label}
             </Text>
+            {/* Message */}
+            <Text style={styles.message}>
+              {message}
+            </Text>
 
             {/* Preview Number */}
             <Text style={styles.scoreText}>
@@ -65,7 +71,7 @@ const UserScoreModal: React.FC<UserScoreModalProps> = ({
 
             {/* Star Selector */}
             <View style={styles.starsContainer}>
-              {Array.from({ length: 10 }, (_, i) => {
+              {Array.from({ length: 5 }, (_, i) => {
                 const starValue = i + 1;
                 const filled = starValue <= tempScore;
                 return (
@@ -122,7 +128,14 @@ const styles = StyleSheet.create({
     padding: 20,
     alignItems: "center"
   },
-  title: { fontSize: 18, fontWeight: "500", marginBottom: 12 },
+  title: { fontSize: 36, fontWeight: "500", marginBottom: 12 },
+  message: {
+    fontSize: 14,
+    fontWeight: "500",
+    justifyContent: "center",
+    alignItems: "center",
+    maxWidth: 300
+  },
   scoreText: { fontSize: 100, fontWeight: "700", marginBottom: 16 },
   starsContainer: {
     flexDirection: "row",
@@ -134,7 +147,7 @@ const styles = StyleSheet.create({
     margin: 4
   },
   star: {
-    fontSize: 20,
+    fontSize: 30,
     color: "#ccc"
   },
   filledStar: {

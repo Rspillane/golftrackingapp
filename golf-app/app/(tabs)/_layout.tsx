@@ -42,13 +42,6 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="course"
-        options={{
-          title: 'Course',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="flag" color={color} />,
-        }}
-      />
-      <Tabs.Screen
         name="profileTabContainer"
         options={{
           title: 'Profile',
