@@ -12,7 +12,7 @@ interface CourseHeaderProps {
 
 const CourseHeader: React.FC<CourseHeaderProps> = ({
   title,
-  image,
+  // image,
   score,
   numOfReviews,
   onReviewPress,
@@ -22,18 +22,7 @@ const CourseHeader: React.FC<CourseHeaderProps> = ({
   return (
     <>
       {/* Course Image */}
-      {image
-        ? <Image
-            source={{ uri: image }}
-            style={{
-              width: "100%",
-              height: 200,
-              borderRadius: 12,
-              marginBottom: 20
-            }}
-            resizeMode="cover"
-          />
-        : <View
+      {<View
             style={{
               width: "100%",
               height: 200,

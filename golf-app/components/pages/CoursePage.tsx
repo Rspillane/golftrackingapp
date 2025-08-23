@@ -54,7 +54,7 @@ export interface Course {
 interface CoursePageProps {
   course: Course;
   reviewItems?: {
-    label: "Teeboxes" | "Fairways" | "Greens" | "Clubhouse" | "Facilities" | "Pace of play";
+    label: "Teeboxes" | "Fairways" | "Greens" | "Clubhouse" | "Facilities" | "Pace of play" | "Value";
     score: number;
     userScore?: 1 | 2 | 3 | 4 | 5;
     modalMessage: string;
@@ -177,6 +177,7 @@ const router = useRouter();
             }}
           >
             {[
+              { label: "Address", value: `${course.address}`},
               { label: "Course Par", value: course.par ? `${course.par}` : "Unknown" },
               { label: "Holes", value: course.holes ? `${course.holes} Holes` : "Unknown" },
               { label: "Yardage", value: course.length_yards ? `${course.length_yards} yards` : "Unknown" },
@@ -195,7 +196,6 @@ const router = useRouter();
               course.rentals?.rental_clubs
                 ? { label: "Rental Clubs", value: "Available" }
                 : null,
-              course.address ? { label: "Address", value: course.address } : null
             ]
               .filter(Boolean)
               .map((item, index, arr) => (
@@ -214,7 +214,7 @@ const router = useRouter();
 
       <View style={{ padding: 20 }}>
         <Text style={{ fontSize: 18, fontWeight: "bold", marginBottom: 10 }}>
-          Golfer Reviews
+          What have do your fellow Golfers think?
         </Text>
         <Comment
           userName="Sarah Johnson"

@@ -79,6 +79,13 @@ const CoursePageRoute = () => {
           userScore: 4,
           modalMessage:
             "The thing Tee'd up hate most is slow play. What was your round like? Was it too busy? Give it 1 star then"
+        },
+        {
+          label: "Value",
+          score: 4,
+          userScore: 4,
+          modalMessage:
+            "How would you say the quality compared to the price you paid?"
         }
       ]}
       numOfReviews={24}

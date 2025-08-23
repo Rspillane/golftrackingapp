@@ -14,28 +14,41 @@ const SearchPage: React.FC = () => {
   const [selectedSort, setSelectedSort] = useState("rating");
   const [maxDistance, setMaxDistance] = useState(20);
   const [searchQuery, setSearchQuery] = useState("");
+  const [filteredCourses, setFilteredCourses] = useState(courses.slice(0, 20)); // initially first 20
 
   const insets = useSafeAreaInsets();
 
+  const handleSearchChange = (text: string) => {
+    setSearchQuery(text);
+
+    const filtered = courses
+      .filter(course =>
+        course.course_name.toLowerCase().includes(text.toLowerCase())
+      )
+      .slice(0, 20); // only show first 20 matches
+
+    setFilteredCourses(filtered);
+  };
+
   // Filter + limit to 20 results
-  const filteredCourses = useMemo(
-    () => {
-      let result = courses;
+  // const filteredCourses = useMemo(
+  //   () => {
+  //     let result = courses;
 
-      if (searchQuery.trim()) {
-        const query = searchQuery.toLowerCase();
-        result = result.filter(
-          c =>
-            c.course_name.toLowerCase().includes(query) ||
-            c.county.toLowerCase().includes(query) ||
-            c.region.toLowerCase().includes(query)
-        );
-      }
+  //     if (searchQuery.trim()) {
+  //       const query = searchQuery.toLowerCase();
+  //       result = result.filter(
+  //         c =>
+  //           c.course_name.toLowerCase().includes(query) ||
+  //           c.county.toLowerCase().includes(query) ||
+  //           c.region.toLowerCase().includes(query)
+  //       );
+  //     }
 
-      return result.slice(0, 20);
-    },
-    [searchQuery]
-  );
+  //     return result.slice(0, 20);
+  //   },
+  //   [searchQuery]
+  // );
 
   return (
     <View
@@ -70,7 +83,7 @@ const SearchPage: React.FC = () => {
           style={{ flex: 1, paddingVertical: 10, fontSize: 16 }}
           placeholder="Search courses..."
           value={searchQuery}
-          onChangeText={setSearchQuery}
+          onChangeText={handleSearchChange}
         />
       </View>
 
@@ -112,12 +125,12 @@ const SearchPage: React.FC = () => {
               course_id: item.course_id,
               course_name: item.course_name,
               par: item.par,
-              // yardage: item.length_yards,
+              length_yards: item.length_yards,
               holes: item.holes
-              // courseSubtitle: item.region,
-              // reviewDate: "2025-08-23"
-            }} // <- update MiniReviewCard to take `course` object instead of split props
-          />}
+            }}
+          />
+        // <- update MiniReviewCard to take `course` object instead of split props
+        }
         contentContainerStyle={{ gap: 12, paddingBottom: 50 }}
       />
     </View>
