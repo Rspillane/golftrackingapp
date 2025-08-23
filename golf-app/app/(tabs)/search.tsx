@@ -106,7 +106,6 @@ const SearchPage: React.FC = () => {
 
       <FlatList
         data={filteredCourses}
-        keyExtractor={item => item.course_id}
         renderItem={({ item }) =>
           <MiniReviewCard
             course={{

@@ -13,6 +13,7 @@ import CoursePageHeader from "../templates/CoursePageHeader";
 import CourseUserReview from "../templates/CourseUserReview";
 import Tabs from "../templates/Tabs";
 import Comment from "../organisms/Comment";
+import { useRouter } from "expo-router"; 
 
 
 interface TeeDetail {
@@ -74,7 +75,7 @@ const CoursePage: React.FC<CoursePageProps> = ({
 }) => {
   const [activeTab, setActiveTab] = React.useState<"info" | "ratings">("ratings");
   const insets = useSafeAreaInsets();
-
+const router = useRouter();
   const handleWebsitePress = async () => {
     if (course.website) {
       try {
@@ -93,6 +94,20 @@ const CoursePage: React.FC<CoursePageProps> = ({
   return (
     <ScrollView style={{ flex: 1, backgroundColor: "#fff" }}>
       <View style={{ paddingTop: insets.top, backgroundColor: "#fff", paddingLeft: 16 }} />
+            <View style={{ padding: 16, backgroundColor: "#fff" }}>
+        <TouchableOpacity
+          onPress={() => router.back()}
+          style={{
+            padding: 8,
+            backgroundColor: "#eee",
+            borderRadius: 8,
+            width: 80,
+            alignItems: "center"
+          }}
+        >
+          <Text style={{ fontSize: 16 }}>←</Text>
+        </TouchableOpacity>
+      </View>
 
       <View style={{ padding: 20 }}>
         <CoursePageHeader
