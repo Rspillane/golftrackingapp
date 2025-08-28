@@ -18,37 +18,22 @@ const SearchPage: React.FC = () => {
 
   const insets = useSafeAreaInsets();
 
-  const handleSearchChange = (text: string) => {
-    setSearchQuery(text);
+const handleSearchChange = (text: string) => {
+  setSearchQuery(text);
 
-    const filtered = courses
-      .filter(course =>
-        course.course_name.toLowerCase().includes(text.toLowerCase())
-      )
-      .slice(0, 20); // only show first 20 matches
+  const query = text.toLowerCase();
 
-    setFilteredCourses(filtered);
-  };
+  const filtered = courses
+    .filter(course =>
+      course.course_name?.toLowerCase().includes(query) ||
+      course.region?.toLowerCase().includes(query) ||
+      course.county?.toLowerCase().includes(query) ||
+      course.address?.toLowerCase().includes(query)
+    )
+    .slice(0, 20); // only show first 20 matches
 
-  // Filter + limit to 20 results
-  // const filteredCourses = useMemo(
-  //   () => {
-  //     let result = courses;
-
-  //     if (searchQuery.trim()) {
-  //       const query = searchQuery.toLowerCase();
-  //       result = result.filter(
-  //         c =>
-  //           c.course_name.toLowerCase().includes(query) ||
-  //           c.county.toLowerCase().includes(query) ||
-  //           c.region.toLowerCase().includes(query)
-  //       );
-  //     }
-
-  //     return result.slice(0, 20);
-  //   },
-  //   [searchQuery]
-  // );
+  setFilteredCourses(filtered);
+};
 
   return (
     <View
@@ -128,9 +113,7 @@ const SearchPage: React.FC = () => {
               length_yards: item.length_yards,
               holes: item.holes
             }}
-          />
-        // <- update MiniReviewCard to take `course` object instead of split props
-        }
+          />}
         contentContainerStyle={{ gap: 12, paddingBottom: 50 }}
       />
     </View>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import {
   View,
   Linking,
@@ -73,6 +73,8 @@ const CoursePage: React.FC<CoursePageProps> = ({
   image,
   score
 }) => {
+  const [userReviews, setUserReviews] = useState<{ [label: string]: number }>({});
+
   const [activeTab, setActiveTab] = React.useState<"info" | "ratings">("ratings");
   const insets = useSafeAreaInsets();
 const router = useRouter();
@@ -112,7 +114,7 @@ const router = useRouter();
       <View style={{ padding: 20 }}>
         <CoursePageHeader
           title={course.course_name}
-          image={image}
+          // image={image}
           score={score}
           numOfReviews={numOfReviews}
           onReviewPress={() => {}}
@@ -154,16 +156,24 @@ const router = useRouter();
               borderTopRightRadius: 0
             }}
           >
-            {reviewItems.map((item, index) => (
-              <CourseUserReview
-                key={index}
-                label={item.label}
-                score={item.score}
-                userScore={item.userScore}
-                isLast={index === reviewItems.length - 1}
-                modalMessage={item.modalMessage}
-              />
-            ))}
+{reviewItems.map((item, index) => (
+  <CourseUserReview
+    key={index}
+    label={item.label}
+    score={item.score}               // the "average" score (from DB or static)
+    userScore={userReviews[item.label]}  // user’s score (from parent state)
+    isLast={index === reviewItems.length - 1}
+    modalMessage={item.modalMessage}
+    onSaveUserScore={(newScore) => {
+      // update local state (or context) when user saves
+      setUserReviews(prev => ({
+        ...prev,
+        [item.label]: newScore
+      }));
+    }}
+  />
+))}
+
           </View>
         )}
 
@@ -210,6 +220,42 @@ const router = useRouter();
               ))}
           </View>
         )}
+      </View>
+    <TouchableOpacity
+    onPress={() => router.push(`/course/${course.course_id}/review`)}
+          style={{
+            alignItems: "center",
+            marginHorizontal: 16,
+            padding: 15,
+            minWidth: 100,
+            borderRadius: 16,
+            backgroundColor: "#3e9114ff"
+          }}
+        >
+          <Text style={{ fontSize: 18, fontWeight: "bold", color: "#fff" }}>
+            Submit Review
+          </Text>
+        </TouchableOpacity>
+
+              <View style={{ padding: 20 }}>
+        <Text style={{ fontSize: 18, fontWeight: "bold", marginBottom: 10 }}>
+          Your Reviews
+        </Text>
+        <Comment
+          userName="ME"
+          comment="Loved the course! The greens were rolling fast and true."
+          commentDate="August 17, 2025"
+          userReviewScore={9}
+          strokes={75}
+        />
+
+        <Comment
+          userName="ME"
+          comment="Decent value for money, but the pace of play was slow."
+          commentDate="August 12, 2025"
+          userReviewScore={8}
+          strokes={80}
+        />
       </View>
 
       <View style={{ padding: 20 }}>

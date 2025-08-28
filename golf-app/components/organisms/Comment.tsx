@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text, Image } from "react-native";
-import ReviewScore from "./ReviewScore";
+import ReviewScore from "../molecules/ReviewScore";
 
 interface CommentProps {
   userAvatar?: string; // optional image URL

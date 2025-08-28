@@ -1,42 +1,48 @@
-import React from "react";
-import { View, Text, TouchableOpacity, Image } from "react-native";
+import React, { useState } from "react";
+import { View, Text, TouchableOpacity } from "react-native";
+import { Ionicons } from "@expo/vector-icons"; // or react-native-vector-icons
 
 interface CourseHeaderProps {
   title: string;
-  image?: string;
   score?: number;
   numOfReviews?: number;
-  onReviewPress: () => void;
-  onBucketListPress: () => void;
+  onReviewPress?: () => void;
+  onBucketListPress?: () => void;
 }
 
 const CourseHeader: React.FC<CourseHeaderProps> = ({
   title,
-  // image,
   score,
   numOfReviews,
   onReviewPress,
   onBucketListPress,
 }) => {
   const hasReviewed = score !== undefined && score > 0;
+
+  // Track saved/bookmarked state
+  const [isBookmarked, setIsBookmarked] = useState(false);
+
+  const handleBookmarkPress = () => {
+    setIsBookmarked(!isBookmarked);
+    onBucketListPress?.();
+  };
+
   return (
     <>
       {/* Course Image */}
-      {<View
-            style={{
-              width: "100%",
-              height: 200,
-              backgroundColor: "#e0e0e0",
-              borderRadius: 12,
-              marginBottom: 20,
-              justifyContent: "center",
-              alignItems: "center"
-            }}
-          >
-            <Text style={{ color: "#999", fontSize: 16 }}>
-              No Image Available
-            </Text>
-          </View>}
+      <View
+        style={{
+          width: "100%",
+          height: 200,
+          backgroundColor: "#e0e0e0",
+          borderRadius: 12,
+          marginBottom: 20,
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <Text style={{ color: "#999", fontSize: 16 }}>No Image Available</Text>
+      </View>
 
       {/* Course Title */}
       <View style={{ marginBottom: 4 }}>
@@ -57,53 +63,57 @@ const CourseHeader: React.FC<CourseHeaderProps> = ({
         }}
       >
         {/* Review Score */}
-        <View
-          style={{ alignItems: "center", minWidth: 100 }}
-        >
+        <View style={{ alignItems: "center", minWidth: 100 }}>
           <Text style={{ fontSize: 24, marginBottom: 8 }}>⭐</Text>
 
-            <View style={{ flexDirection: "row", alignItems: "flex-end" }}>
-          <Text style={{ fontSize: 16, fontWeight: "500" }}>
-            {score}
-          </Text>
-          <Text style={{ fontSize: 12, color: "#666" }}> / 5</Text>
-          </View>
-          <Text style={{ fontSize: 12, fontWeight: "400", paddingTop: 2  }}>({numOfReviews})</Text>
-
-        </View>
-
-        {/* Review Button */}
-        {hasReviewed &&
-        <View
-          style={{ alignItems: "center", minWidth: 100 }}
-        >
-          <Text style={{ fontSize: 24, marginBottom: 8, color: "blue" }}>★</Text>
           <View style={{ flexDirection: "row", alignItems: "flex-end" }}>
             <Text style={{ fontSize: 16, fontWeight: "500" }}>{score}</Text>
             <Text style={{ fontSize: 12, color: "#666" }}> / 5</Text>
           </View>
-          <Text style={{ fontSize: 12, fontWeight: "400", paddingTop: 2 }}>Your review</Text>
+          <Text style={{ fontSize: 12, fontWeight: "400", paddingTop: 2 }}>
+            ({numOfReviews})
+          </Text>
         </View>
-}
-        {!hasReviewed &&
+
+        {/* Review Button */}
+        {hasReviewed ? (
+          <View style={{ alignItems: "center", minWidth: 100 }}>
+            <Text style={{ fontSize: 24, marginBottom: 8, color: "blue" }}>★</Text>
+            <View style={{ flexDirection: "row", alignItems: "flex-end" }}>
+              <Text style={{ fontSize: 16, fontWeight: "500" }}>{score}</Text>
+              <Text style={{ fontSize: 12, color: "#666" }}> / 5</Text>
+            </View>
+            <Text style={{ fontSize: 12, fontWeight: "400", paddingTop: 2 }}>
+              Your review
+            </Text>
+          </View>
+        ) : (
+          <TouchableOpacity
+            onPress={onReviewPress}
+            style={{ alignItems: "center", minWidth: 100 }}
+          >
+            <Text style={{ fontSize: 24, marginBottom: 8 }}>★</Text>
+            <Text style={{ fontSize: 16, fontWeight: "500" }}>Review course</Text>
+          </TouchableOpacity>
+        )}
+
+        {/* Bookmark / Save Button */}
         <TouchableOpacity
-          onPress={onReviewPress}
+          onPress={handleBookmarkPress}
           style={{ alignItems: "center", minWidth: 100 }}
         >
-          <Text style={{ fontSize: 24, marginBottom: 8 }}>★</Text>
-          <Text style={{ fontSize: 16, fontWeight: "500" }}>Review course</Text>
-        </TouchableOpacity>
-}
-        {/* Bucket List Button */}
-        <TouchableOpacity
-          onPress={onBucketListPress}
-          style={{ alignItems: "center", minWidth: 100 }}
-        >
-          <Text style={{ fontSize: 24, marginBottom: 12 }}>➕</Text>
-          <Text style={{ fontSize: 16, fontWeight: "500" }}>Bucket List</Text>
+          <Ionicons
+            name={isBookmarked ? "bookmark" : "bookmark-outline"}
+            size={28}
+            color={isBookmarked ? "blue" : "black"}
+            style={{ marginBottom: 8 }}
+          />
+          <Text style={{ fontSize: 16, fontWeight: "500" }}>
+            {isBookmarked ? "Saved" : "Save"}
+          </Text>
         </TouchableOpacity>
       </View>
-      </>
+    </>
   );
 };
 

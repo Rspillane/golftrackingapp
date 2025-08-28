@@ -1,35 +1,30 @@
 import React, { useState } from "react";
 import { View, Text, TouchableOpacity } from "react-native";
-import ReviewScore from "../organisms/ReviewScore";
+import ReviewScore from "../molecules/ReviewScore";
 import UserScoreModal from "../molecules/UserScoreModal";
 
 interface CourseUserReviewProps {
   label: string;
-  score: number;
-  userScore?: number;
+  score: number;        // average/global score
+  userScore?: number;   // user’s personal score (from parent/context)
   isLast?: boolean;
   modalMessage: string;
+  onSaveUserScore: (newScore: number) => void; // callback to parent
 }
 
 const CourseUserReview: React.FC<CourseUserReviewProps> = ({
   label,
   modalMessage,
   score,
-  isLast
+  userScore,
+  isLast,
+  onSaveUserScore
 }) => {
   const [modalVisible, setModalVisible] = useState(false);
 
-  const [userReview, setUserReview] = useState({
-    id: "1",
-    userName: "John Smith",
-    userTitle: "Scratch Golfer",
-    userScore: 6,
-    comment: "Loved the greens!",
-    commentDate: "2025-08-20"
-  });
-
   return (
     <View>
+      {/* Row */}
       <TouchableOpacity
         style={{
           flexDirection: "row",
@@ -41,22 +36,24 @@ const CourseUserReview: React.FC<CourseUserReviewProps> = ({
         }}
         onPress={() => setModalVisible(true)}
       >
-        <Text style={{ fontSize: 16, fontWeight: "500" }}>
-          {label}
-        </Text>
+        <Text style={{ fontSize: 16, fontWeight: "500" }}>{label}</Text>
+
         <View style={{ flexDirection: "row", alignItems: "flex-end", gap: 24 }}>
           <ReviewScore reviewScore={score} />
-          <ReviewScore userReviewScore={userReview.userScore} />
+          <ReviewScore userReviewScore={userScore} />
         </View>
       </TouchableOpacity>
+
+      {/* Modal */}
       <UserScoreModal
         label={label}
         visible={modalVisible}
-        initialScore={userReview.userScore}
+        initialScore={userScore ?? 0}
         onClose={() => setModalVisible(false)}
         message={modalMessage}
-        onSave={newScore => {
-          setUserReview(prev => ({ ...prev, userScore: newScore }));
+        onSave={(newScore) => {
+          onSaveUserScore(newScore);  // bubble to parent
+          setModalVisible(false);
         }}
       />
     </View>

@@ -1,15 +1,15 @@
 import React from "react";
 import { View, Text, TouchableOpacity } from "react-native";
-import ReviewScore from "../organisms/ReviewScore";
+import ReviewScore from "../molecules/ReviewScore";
 import { useRouter } from "expo-router";
 
 export interface MiniReviewCardProps {
   course: {
     course_id: number;
     course_name: string;
-    holes?: number;
-    par?: number;
-    length_yards?: number;
+    holes?: number | null;
+    par?: number | null;
+    length_yards?: number | null;
     tee_details?: any[];
     url?: string;
   };

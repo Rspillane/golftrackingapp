@@ -30,7 +30,7 @@ const ReviewScore: React.FC<ReviewScoreProps> = ({
             fontWeight: "600"
           }}
         >
-          {userReviewScore}
+          {userReviewScore || fallbackText}
         </Text>
         <Text
           style={{

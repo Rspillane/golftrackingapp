@@ -2,6 +2,7 @@ import { Stack } from "expo-router";
 import React from "react";
 import { AuthProvider, useAuth } from "../contexts/AuthContext";
 import { View, ActivityIndicator } from "react-native";
+import { UserReviewsProvider } from "../contexts/UserReviewsContext";
 
 function RootLayoutNav() {
   const { isAuthenticated, isLoading } = useAuth();
@@ -28,7 +29,9 @@ function RootLayoutNav() {
 export default function RootLayout() {
   return (
     <AuthProvider>
-      <RootLayoutNav />
+      <UserReviewsProvider>
+        <RootLayoutNav />
+      </UserReviewsProvider>
     </AuthProvider>
   );
 }
