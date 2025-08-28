@@ -222,22 +222,21 @@ const router = useRouter();
         )}
       </View>
     <TouchableOpacity
-    onPress={() => router.push(`/course/${course.course_id}/review`)}
-          style={{
-            alignItems: "center",
-            marginHorizontal: 16,
-            padding: 15,
-            minWidth: 100,
-            borderRadius: 16,
-            backgroundColor: "#3e9114ff"
-          }}
-        >
-          <Text style={{ fontSize: 18, fontWeight: "bold", color: "#fff" }}>
-            Submit Review
-          </Text>
-        </TouchableOpacity>
-
-              <View style={{ padding: 20 }}>
+      onPress={() => router.push(`/course/${course.course_id}/review`)}
+      style={{
+        alignItems: "center",
+        marginHorizontal: 16,
+        padding: 15,
+        minWidth: 100,
+        borderRadius: 16,
+        backgroundColor: "#3e9114ff"
+      }}
+    >
+      <Text style={{ fontSize: 18, fontWeight: "bold", color: "#fff" }}>
+        Submit Review
+      </Text>
+    </TouchableOpacity>
+    <View style={{ padding: 20 }}>
         <Text style={{ fontSize: 18, fontWeight: "bold", marginBottom: 10 }}>
           Your Reviews
         </Text>
