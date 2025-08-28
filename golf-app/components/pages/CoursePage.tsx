@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import {
   View,
   Linking,
@@ -13,8 +13,7 @@ import CoursePageHeader from "../templates/CoursePageHeader";
 import CourseUserReview from "../templates/CourseUserReview";
 import Tabs from "../templates/Tabs";
 import Comment from "../organisms/Comment";
-import { useRouter } from "expo-router"; 
-
+import { useRouter } from "expo-router";
 
 interface TeeDetail {
   tee: string;
@@ -50,7 +49,6 @@ export interface Course {
   url?: string;
 }
 
-
 interface CoursePageProps {
   course: Course;
   reviewItems?: {
@@ -63,7 +61,6 @@ interface CoursePageProps {
   image?: string;
   score?: number;
   paceOfPlay?: number;
-
 }
 
 const CoursePage: React.FC<CoursePageProps> = ({
@@ -74,10 +71,10 @@ const CoursePage: React.FC<CoursePageProps> = ({
   score
 }) => {
   const [userReviews, setUserReviews] = useState<{ [label: string]: number }>({});
-
   const [activeTab, setActiveTab] = React.useState<"info" | "ratings">("ratings");
   const insets = useSafeAreaInsets();
-const router = useRouter();
+  const router = useRouter();
+
   const handleWebsitePress = async () => {
     if (course.website) {
       try {
@@ -96,7 +93,7 @@ const router = useRouter();
   return (
     <ScrollView style={{ flex: 1, backgroundColor: "#fff" }}>
       <View style={{ paddingTop: insets.top, backgroundColor: "#fff", paddingLeft: 16 }} />
-            <View style={{ padding: 16, backgroundColor: "#fff" }}>
+      <View style={{ padding: 16, backgroundColor: "#fff" }}>
         <TouchableOpacity
           onPress={() => router.back()}
           style={{
@@ -114,7 +111,6 @@ const router = useRouter();
       <View style={{ padding: 20 }}>
         <CoursePageHeader
           title={course.course_name}
-          // image={image}
           score={score}
           numOfReviews={numOfReviews}
           onReviewPress={() => {}}
@@ -157,21 +153,32 @@ const router = useRouter();
             }}
           >
 {reviewItems.map((item, index) => (
-  <CourseUserReview
+  <View
     key={index}
-    label={item.label}
-    score={item.score}               // the "average" score (from DB or static)
-    userScore={userReviews[item.label]}  // user’s score (from parent state)
-    isLast={index === reviewItems.length - 1}
-    modalMessage={item.modalMessage}
-    onSaveUserScore={(newScore) => {
-      // update local state (or context) when user saves
-      setUserReviews(prev => ({
-        ...prev,
-        [item.label]: newScore
-      }));
+    style={{
+      flexDirection: "row",
+      justifyContent: "space-between",
+      alignItems: "center",
+      padding: 15,
+      borderBottomWidth: index === reviewItems.length - 1 ? 0 : 1,
+      borderBottomColor: "#e0e0e0",
     }}
-  />
+  >
+    <Text style={{ fontSize: 16, fontWeight: "500" }}>{item.label}</Text>
+
+    <View style={{ flexDirection: "row", alignItems: "flex-end", gap: 24 }}>
+      {/* Average Score */}
+      <Text style={{ fontSize: 16, fontWeight: "500" }}>
+        ⭐️ {item.score.toFixed(1)}
+      </Text>
+
+      {/* User Score */}
+        <Text style={{ fontSize: 16, fontWeight: "500", color: "blue" }}>
+          ★ {userReviews[item.label] ?? "      "}
+        </Text>
+      
+    </View>
+  </View>
 ))}
 
           </View>
@@ -221,22 +228,25 @@ const router = useRouter();
           </View>
         )}
       </View>
-    <TouchableOpacity
-      onPress={() => router.push(`/course/${course.course_id}/review`)}
-      style={{
-        alignItems: "center",
-        marginHorizontal: 16,
-        padding: 15,
-        minWidth: 100,
-        borderRadius: 16,
-        backgroundColor: "#3e9114ff"
-      }}
-    >
-      <Text style={{ fontSize: 18, fontWeight: "bold", color: "#fff" }}>
-        Submit Review
-      </Text>
-    </TouchableOpacity>
-    <View style={{ padding: 20 }}>
+
+      <TouchableOpacity
+        onPress={() => router.push(`/course/${course.course_id}/review`)}
+        style={{
+          alignItems: "center",
+          marginHorizontal: 16,
+          padding: 15,
+          minWidth: 100,
+          borderRadius: 16,
+          backgroundColor: "#3e9114ff"
+        }}
+      >
+        <Text style={{ fontSize: 18, fontWeight: "bold", color: "#fff" }}>
+          Start a Review
+        </Text>
+      </TouchableOpacity>
+
+      {/* Existing Comments */}
+      <View style={{ padding: 20 }}>
         <Text style={{ fontSize: 18, fontWeight: "bold", marginBottom: 10 }}>
           Your Reviews
         </Text>
@@ -247,7 +257,6 @@ const router = useRouter();
           userReviewScore={9}
           strokes={75}
         />
-
         <Comment
           userName="ME"
           comment="Decent value for money, but the pace of play was slow."
@@ -268,7 +277,6 @@ const router = useRouter();
           userReviewScore={9}
           strokes={75}
         />
-
         <Comment
           userName="James Miller"
           comment="Decent value for money, but the pace of play was slow."
@@ -284,4 +292,3 @@ const router = useRouter();
 };
 
 export default CoursePage;
-
