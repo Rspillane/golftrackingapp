@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import {
   View,
   Text,
-  ScrollView,
   TouchableOpacity,
   TextInput,
   Alert,
@@ -45,7 +44,7 @@ const REVIEW_TOPICS = [
   }
 ];
 
-export default function ReviewPage() {
+export default function ReviewPage({ courseName }) {
   const router = useRouter();
   const { id } = useLocalSearchParams(); // course id
 
@@ -98,27 +97,11 @@ export default function ReviewPage() {
   };
 
   return (
-    <ScrollView
-      style={{
-        flex: 1,
-        backgroundColor: "#fff",
-        paddingTop: insets.top + 16,
-        paddingBottom: insets.bottom + 16
-      }}
-      keyboardShouldPersistTaps="handled"
-    >
+    <View>
       {/* Header */}
-      <View style={{ padding: 16 }}>
-        <TouchableOpacity
-          onPress={() => router.back()}
-          style={styles.backButton}
-        >
-          <Text style={{ fontSize: 16 }}>← Back</Text>
-        </TouchableOpacity>
-      </View>
 
       <Text style={styles.pageTitle}>
-        Review Course {id}
+        Review Course {courseName}
       </Text>
 
       {/* Ratings Section */}
@@ -220,18 +203,11 @@ export default function ReviewPage() {
           Submit Review
         </Text>
       </TouchableOpacity>
-    </ScrollView>
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
-  backButton: {
-    padding: 8,
-    backgroundColor: "#eee",
-    borderRadius: 8,
-    width: 80,
-    alignItems: "center"
-  },
   pageTitle: {
     fontSize: 22,
     fontWeight: "bold",

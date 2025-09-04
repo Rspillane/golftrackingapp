@@ -1,0 +1,853 @@
+"course_id","name","address","region","county","phone_number","website","par","length","facility_range","facility_putting_green","rental_carts","rental_clubs"
+1,"Beadlow Manor Golf & Country Club - Baron Course","Ampthill Road, Ampthill, Bedfordshire, SG17 5PH","England","Bedfordshire","","http://www.golfpass.com/",73,6611,true,true,true,false
+2,"Vanity Fair Golf & Tennis Club","Pack Horse Ln, Ampthill, Bedfordshire, ","England","Bedfordshire","","http://www.golfpass.com/",72,6465,true,false,true,true
+3,"Bedford & County Golf Club","Green Lane, Clapham, Bedford, Bedfordshire, MK416ET","England","Bedfordshire","","http://www.golfpass.com/",70,6039,false,true,true,false
+4,"Beadlow Manor Golf & Country Club - Baroness Course","Ampthill Road, Bedford, Bedfordshire, SG17 5PH","England","Bedfordshire","","http://www.golfpass.com/",71,6098,true,true,true,false
+5,"Mentmore Golf & Country Club","Mentmore, Bedford, Bedfordshire, LU70UA","England","Bedfordshire","","http://www.golfpass.com/","","",true,true,true,false
+6,"Mentmore Golf & Country Club - Rothschild Course","Mentmore, Bedford, Bedfordshire, LU70UA","England","Bedfordshire","","http://www.golfpass.com/","","",true,true,true,false
+7,"Chalgrave Manor Golf Club","Dunstable Road, Dunstable, Bedfordshire, LU5 6JN","England","Bedfordshire","","http://www.golfpass.com/",72,5510,false,true,true,false
+8,"Dunstable Downs Golf Club","Whipsnade Road, Dunstable, Bedfordshire, LU62NB","England","Bedfordshire","","http://www.golfpass.com/",70,6322,false,true,true,false
+9,"Luton Hoo Hotel, Golf, & Spa","The Mansion House, Luton, Bedfordshire, LU1 3TQ","England","Bedfordshire","","http://www.golfpass.com/",73,7107,true,true,true,true
+10,"Downshire Golf Complex - Championship","Easthampstead Park, Bracknell, Berkshire, RG40 3DH","England","Berkshire","","http://www.golfpass.com/","","",true,true,true,true
+11,"Downshire Golf Complex - Pitch & Putt Course","Easthampstead Park, Bracknell, Berkshire, RG40 3DH","England","Berkshire","","http://www.golfpass.com/","","",true,true,true,true
+12,"Blue Mountain Golf & Conference Centre","Wood Lane, Binfield, Bracknell, Berkshire, RG42 4EX","England","Berkshire","","http://www.golfpass.com/","","",true,true,true,true
+13,"Temple Golf Club","Henley Road, Maidenhead, Berkshire, SL6 5LH","England","Berkshire","","http://www.golfpass.com/",70,6210,false,true,true,false
+14,"Maidenhead Golf Club","Maidenhead Golf Club, Maidenhead, Berkshire, SL62PZ","England","Berkshire","","http://www.golfpass.com/",70,6338,false,true,false,false
+15,"Newbury Racecourse Golf Club","Bury's Bankk Rd., Newbury, Berkshire, RG19 8BZ","England","Berkshire","","http://www.golfpass.com/",70,6088,true,true,false,false
+16,"Deanwood Park Golf Course","Stockcross, Newbury, Berkshire, RG20 8JP","England","Berkshire","","http://www.golfpass.com/",32,2114,true,true,true,true
+17,"Newbury & Crookham Golf Simulator","Bury's Bank Road, Newbury, Berkshire, RG19 8BZ","England","Berkshire","","http://www.golfpass.com/","","",false,false,false,false
+18,"Reading Golf Club","17 Kidmore End Road, Reading, Berkshire, RG4 8SG","England","Berkshire","","http://www.golfpass.com/",70,6222,true,true,true,true
+19,"Billingbear Park Golf Course - The Old Course","The Straight Mile, Reading, Berkshire, RG40 5SJ","England","Berkshire","","http://www.golfpass.com/",69,5928,false,true,true,true
+20,"Sonning Golf Club","Duffield Road, Sonning-on-Thames, Reading, Berkshire, RG4 6GJ","England","Berkshire","","http://www.golfpass.com/",70,6329,true,true,true,true
+21,"Sand Martins Golf Club","Finchampstead Road, Reading, Berkshire, RG40 3RQ","England","Berkshire","","http://www.golfpass.com/",70,6232,true,true,true,true
+22,"East Berkshire","Ravenswood Avenue, Reading, Berkshire, RG45 6BD","England","Berkshire","","http://www.golfpass.com/","","",false,true,false,false
+23,"Billingbear Park Golf Course - Par 3 Course","The Straight Mile, Reading, Berkshire, RG40 5SJ","England","Berkshire","","http://www.golfpass.com/","","",false,true,true,true
+24,"Magnolia Park Golf Club","Arncott Road, Aylesbury, Buckinghamshire, HP189XX","England","Buckinghamshire","","http://www.golfpass.com/","","",true,true,true,true
+25,"Magnolia Park 9 Hole & Footgolf","Arncott Road, Aylesbury, Buckinghamshire, HP189XX","England","Buckinghamshire","","http://www.golfpass.com/","","",true,true,true,true
+26,"Denham Golf club","Tilehouse Lane, Beaconsfiled, Buckinghamshire, UB9 5DE","England","Buckinghamshire","","http://www.golfpass.com/","","",false,false,false,false
+27,"Harewood Downs Golf Club","Cokes Lane, Chalfont St Giles, Buckinghamshire, HP84TA","England","Buckinghamshire","","http://www.golfpass.com/","","",false,true,true,true
+28,"Gerrards Cross Golf Club","Chalfont Park, Gerrards Cross, Buckinghamshire, SL9 0QA","England","Buckinghamshire","","http://www.golfpass.com/",69,6243,true,true,true,true
+29,"Wycombe Heights Golf Centre","Rayners Avenue, High Wycombe, Buckinghamshire, HP109SZ","England","Buckinghamshire","","http://www.golfpass.com/","","",true,true,true,true
+30,"Wycombe Heights Golf Centre - Par 3 Course","Rayners Avenue, High Wycombe, Buckinghamshire, HP109SZ","England","Buckinghamshire","","http://www.golfpass.com/",54,1955,true,true,true,true
+31,"Hazlemere Golf Club Crazy Golf","Penn Road, High Wycombe, Buckinghamshire, HP15 7LR","England","Buckinghamshire","","http://www.golfpass.com/","","",false,false,false,false
+32,"Three Locks Golf Club","Great Brickhill, Milton Keynes, Buckinghamshire, MK179BH","England","Buckinghamshire","","http://www.golfpass.com/",70,5872,false,true,true,true
+33,"Abbey Hill Golf Centre - Main Course","Monks Way, Milton Keynes, Buckinghamshire, MK8 8AA","England","Buckinghamshire","","http://www.golfpass.com/","","",true,true,true,true
+34,"Abbey Hill Golf Centre - Short Course","Monks Way, Milton Keynes, Buckinghamshire, MK8 8AA","England","Buckinghamshire","","http://www.golfpass.com/",27,1080,true,true,true,true
+35,"Aspley Guise & Woburn Sands Golf Club","West Hill, Milton Keynes, Buckinghamshire, MK17 8DX","England","Buckinghamshire","","http://www.golfpass.com/","","",false,true,true,false
+36,"Whiteleaf Golf Club","Upper Icknield Way, Princes Risborough, Buckinghamshire, HP17 0LY","England","Buckinghamshire","","http://www.golfpass.com/",66,5388,false,true,false,true
+37,"Princes Risborough Golf Club","Lee Road, Princes Risborough, Buckinghamshire, HP27 9NX","England","Buckinghamshire","","http://www.golfpass.com/","","",false,true,true,true
+38,"The South Buckinghamshire Golf Club - Academy Course (9 holes)","Stoke Road, Stoke Poges, Slough, Buckinghamshire, SL24PJ","England","Buckinghamshire","","http://www.golfpass.com/",34,2268,true,true,false,false
+39,"Wexham Park Foot Golf","Wexham Street, Slough, Slough, Buckinghamshire, SL3 6ND","England","Buckinghamshire","","http://www.golfpass.com/",72,1924,false,false,false,false
+40,"Burnham Beeches Golf Club","Green Lane, Slough, Buckinghamshire, SL18EG","England","Buckinghamshire","","http://www.golfpass.com/","","",true,true,true,true
+41,"Cypress Lakes Golf & Country Club","Court Road, Burwell, Cambridgeshire, BR6 9BX","England","Cambridgeshire","","http://www.golfpass.com/",71,6562,true,false,true,true
+42,"Brampton Park Golf Course","Buckden Road, Brampton,, Cambridge, Cambridgeshire, PE284NF","England","Cambridgeshire","","http://www.golfpass.com/",71,6310,true,true,true,true
+43,"Bourn Golf & Country Club","Toft Road, Bourn, Cambridge, Cambridgeshire, CB232TT","England","Cambridgeshire","","http://www.golfpass.com/",72,6529,true,true,true,false
+44,"Kingsway Golf Centre Ltd","Cambridge Road, Cambridge, Cambridgeshire, SG8 6EY","England","Cambridgeshire","","http://www.golfpass.com/",33,2329,true,true,false,true
+45,"Abbotsley Golf Hotel","Potton Road,, Cambridge, Cambridgeshire, PE19 6XN","England","Cambridgeshire","","http://www.golfpass.com/",72,6321,true,false,true,true
+46,"Abbotsley Golf Hotel & Country Club - Cromwell Course","Potton Road, Cambridge, Cambridgeshire, PE19 6XN","England","Cambridgeshire","","http://www.golfpass.com/",70,6164,true,false,true,true
+47,"Abbotsley Golf Hotel & Country Club - Huntingdonshire Course","Potton Road,, Cambridge, Cambridgeshire, PE19 6XN","England","Cambridgeshire","","http://www.golfpass.com/","","",true,false,true,true
+48,"Cambridge Meridian Golf Club","Comberton Road, Cambridge, Cambridgeshire, CB23 2RY","England","Cambridgeshire","","http://www.golfpass.com/","","",true,true,true,true
+49,"Elton Furze Golf Club","Bullock Road, Peterborough, Cambridgeshire, PE7 3TT","England","Cambridgeshire","","http://www.golfpass.com/",70,6279,true,true,true,false
+50,"Peterborough Milton Golf Club","Milton Ferry, Peterborough, Cambridgeshire, PE67AG","England","Cambridgeshire","","http://www.golfpass.com/",71,6043,true,true,true,true
+51,"Royal Liverpool Golf Club","Meols Drive, Altrincham, Cheshire, CH47 4AL","England","Cheshire","","http://www.golfpass.com/","","",false,false,false,false
+52,"High Legh Park Academy Course","Warrington Road, Altrincham, Cheshire, WA16 0WA","England","Cheshire","","http://www.golfpass.com/",32,2323,true,true,true,false
+53,"Dunham Forest Golf Club","Oldfield Lane, Altrincham, Cheshire, WA14 4TY","England","Cheshire","","http://www.golfpass.com/","","",true,true,true,true
+54,"Ringway Golf Club","Hale Road, Altrincham, Cheshire, WA15 8SW","England","Cheshire","","http://www.golfpass.com/","","",true,true,true,true
+55,"Altrincham Golf Course","Stockport Road, Altrincham, Cheshire, WA15 7LP","England","Cheshire","","http://www.golfpass.com/","","",true,true,true,true
+56,"Eaton Golf Club","Guy Lane, Waverton, Chester, Cheshire, CH3 7PH","England","Cheshire","","http://www.golfpass.com/",72,6714,true,true,true,true
+57,"The Oaks at Mollington Golf Club","Townfield Lane, Chester, Cheshire, CH1 6NJ","England","Cheshire","","http://www.golfpass.com/",72,6529,false,true,true,false
+58,"Helsby Golf Club","Towers Ln, Chester, Cheshire, WA6 0JB","England","Cheshire","","http://www.golfpass.com/",70,6260,false,true,true,false
+59,"Ellesmere Port Foot Golf","Chester Road, Little Sutton Ellesmere Port, Chester, Cheshire, CH661QF","England","Cheshire","","http://www.golfpass.com/","","",false,false,false,false
+60,"Chester Golf Club","Curzon Park North, Chester, Cheshire, CH4 8AR","England","Cheshire","","http://www.golfpass.com/","","",false,true,true,false
+61,"Astbury Golf Club","Peel Lane, Congleton, Cheshire, CW123NQ","England","Cheshire","","http://www.golfpass.com/","","",false,true,true,true
+62,"Crewe Golf Club Ltd","Fields Road, Crewe, Cheshire, CW1 5TB","England","Cheshire","","http://www.golfpass.com/","","",true,true,false,false
+63,"De Vere Wychwood Park - Gorstyhill Course","Wychwood Park, Weston, Crewe, Cheshire, CW2 5GP","England","Cheshire","","http://www.golfpass.com/","","",false,false,false,false
+64,"Onneley Golf Club","Bar Hill Road, Crewe, Cheshire, CW3 9QF","England","Cheshire","","http://www.golfpass.com/",70,5740,false,true,true,false
+65,"Knights Grange Golf Course","Grange Lane, Hartford, Cheshire, CW7 2PT","England","Cheshire","","http://www.golfpass.com/",70,5921,false,true,false,true
+66,"Knights Grange Foot Golf","Grange Lane, Winsford, Hartford, Cheshire, CW72PT","England","Cheshire","","http://www.golfpass.com/","","",false,false,false,false
+67,"Brackenwood Municipal","Brackenwood Lane, Bebington, Hoylake, Cheshire, L63 2LY","England","Cheshire","","http://www.golfpass.com/",70,6285,false,false,false,true
+68,"Hoylake Golf Club","Carr Lane, Hoylake, Cheshire, CH47 4BG","England","Cheshire","","http://www.golfpass.com/",70,6278,false,true,true,true
+69,"Peover Golf Club","Plumley Moor Road, Knutsford, Cheshire, WA16 9SE","England","Cheshire","","http://www.golfpass.com/","","",false,true,true,true
+70,"Wilmslow Golf Club","Warford Lane, Knutsford, Cheshire, WA167AY","England","Cheshire","","http://www.golfpass.com/","","",false,true,true,true
+71,"Prestbury Golf Club","Macclesfield Road, Prestbury, Macclesfield, Cheshire, SK10 4BJ","England","Cheshire","","http://www.golfpass.com/",71,6406,true,true,false,true
+72,"Macclesfield Golf Club","The Hollins, Macclesfield, Cheshire, SK11 7EA","England","Cheshire","","http://www.golfpass.com/",71,5975,false,true,true,false
+73,"Shrigley Hall - Par 3 Course","Pott Shrigley, Macclesfield, Cheshire, SK10 5SB","England","Cheshire","","http://www.golfpass.com/","","",false,true,true,true
+74,"Brookfield Golf Club","Hankelow, Nantwich, Cheshire, CW3 0JE","England","Cheshire","","http://www.golfpass.com/",70,6128,true,true,true,false
+75,"Sandiway Golf Club","The Clubhouse,, Northwich, Cheshire, CW8 2DJ","England","Cheshire","","http://www.golfpass.com/",70,6404,true,true,true,true
+76,"Runcorn Golf Club","Clifton Road, Runcorn, Cheshire, WA7 4SU","England","Cheshire","","http://www.golfpass.com/",69,6048,true,true,true,false
+77,"Sutton Hall Golf Club","Aston Lane, Runcorn, Cheshire, WA73ED","England","Cheshire","","http://www.golfpass.com/","","",true,true,true,false
+78,"Sale Golf Club","Golf Road, Sale, Cheshire, M33 2XU","England","Cheshire","","http://www.golfpass.com/","","",false,true,true,true
+79,"Gatley Golf Club","Waterfall Farm, Styal Road Cheadle, Stockport, Cheshire, SK8 3TW","England","Cheshire","","http://www.golfpass.com/",69,5864,false,true,false,false
+80,"Romiley Golf Club","Goosehouse Green, Stockport, Cheshire, SK6 4LJ","England","Cheshire","","http://www.golfpass.com/","","",false,true,true,true
+81,"Stockport Golf Club","Offerton Road, Stockport, Cheshire, SK2 5HL","England","Cheshire","","http://www.golfpass.com/","","",false,true,true,true
+82,"Lymm Golf Club","Whitbarrow Road, Lymm, Warrington, Cheshire, WA139AN","England","Cheshire","","http://www.golfpass.com/",71,6341,false,true,true,false
+83,"Mersey Valley Golf & Country Club","Warrington Road, Widnes, Cheshire, WA8 3XL","England","Cheshire","","http://www.golfpass.com/",72,6300,false,false,true,false
+84,"Lanhydrock Hotel and Golf Club","Lanhydrock Hotel and Golf Club, Bodmin, Cornwall, PL30 5AQ","England","Cornwall","","http://www.golfpass.com/","","",false,false,true,true
+85,"Bude & North Cornwall","Burn View Bude, Bude, Cornwall, EX23 8DA","England","Cornwall","","http://www.golfpass.com/",71,6036,false,true,true,true
+86,"Newquay Golf Club","Tower Road, Crantock, Cornwall, TR7 1LT","England","Cornwall","","http://www.golfpass.com/",69,6141,false,true,true,true
+87,"The Famous Nine at Gwel An Mor","Gwel an Mor Luxury Resort, Portreath, Cornwall, TR16 4PE","England","Cornwall","","http://www.golfpass.com/",54,2482,false,false,false,true
+88,"China Fleet Country Club","North Pill, Saltash, Cornwall, PL12 6LJ","England","Cornwall","","http://www.golfpass.com/",72,6551,true,false,true,true
+89,"St. Mellion International Resort - The Jack Nicklaus Signature Course","St Mellion, Saltash, Cornwall, PL12 6SD","England","Cornwall","","http://www.golfpass.com/",72,6593,false,false,false,false
+90,"West Cornwall Golf Club","Church Lane, St Ives, Cornwall, TR26 3DZ","England","Cornwall","","http://www.golfpass.com/",69,5850,false,false,true,true
+91,"Killiow Golf Club","Kea, Truro, Cornwall, TR3 6AG","England","Cornwall","","http://www.golfpass.com/",71,6124,true,true,false,true
+92,"Carlisle Golf & Country Club","Aglionby, Carlisle, Cumberland, CA4 8AG","England","Cumberland","","http://www.golfpass.com/","","",false,true,true,false
+93,"Grange Fell Golf Club","Fell Road, Grange Over Sands, Cumberland, LA11 6HB","England","Cumberland","","http://www.golfpass.com/",70,5400,false,false,false,false
+94,"Maryport Golf Club","Bankend, Maryport, Cumberland, CA15 6PA","England","Cumberland","","http://www.golfpass.com/",70,5982,false,true,true,true
+95,"Workington Golf Club","Branthwaite Road, Workington, Cumberland, CA14 4SS","England","Cumberland","","http://www.golfpass.com/","","",false,true,true,true
+96,"Alfreton Golf Club","Wingfield Road, Alfreton, Derbyshire, DE55 7LH","England","Derbyshire","","http://www.golfpass.com/",67,5538,false,true,false,false
+97,"Hallowes Golf Club","Hallowes Lane, Chesterfield, Derbyshire, S18 1UR","England","Derbyshire","","http://www.golfpass.com/",71,6101,true,true,true,false
+98,"Chesterfield Golf Club","Matlock Road, Walton, Chesterfield, Derbyshire, S42 7LA","England","Derbyshire","","http://www.golfpass.com/",71,6281,false,true,true,false
+99,"Barlborough Links Golf Club","Oxcroft Way, Chesterfield, Derbyshire, S43 4WNÂ","England","Derbyshire","","http://www.golfpass.com/","","",true,false,true,true
+100,"Breedon Priory Golf Centre","Green Lane, Derby, Derbyshire, DE73 8LG","England","Derbyshire","","http://www.golfpass.com/",70,5971,false,true,true,true
+101,"The Pastures Golf Club","Off Merlin Way, Derby, Derbyshire, DE3 0UJ","England","Derbyshire","","http://www.golfpass.com/",64,4950,false,true,false,false
+102,"Allestree Park Golf Club","Duffield Rd, Derby, Derbyshire, DE22 2EU","England","Derbyshire","","http://www.golfpass.com/",68,5728,false,true,false,true
+103,"Derby Golf Club","Wilmore Road, Derby, Derbyshire, DE24 9HD","England","Derbyshire","","http://www.golfpass.com/","","",false,true,false,true
+104,"Broughton Heath","Bent Lane Church Broughton, Derby, Derbyshire, DE65 5BA","England","Derbyshire","","http://www.golfpass.com/","","",true,true,true,false
+105,"Kedleston Park Golf Club","Kedleston, Derby, Derbyshire, DE22 5JD","England","Derbyshire","","http://www.golfpass.com/","","",true,true,true,true
+106,"Morley Hayes Golf Club","Main Road, Ilkeston, Derbyshire, DE76DG","England","Derbyshire","","http://www.golfpass.com/",72,6726,true,true,true,true
+107,"Erewash Valley Golf Club","Golf Club Road, Ilkeston, Derbyshire, DE7 4QR","England","Derbyshire","","http://www.golfpass.com/","","",false,true,true,true
+108,"Pewit Golf Course","West End Drive, Ilkeston, Derbyshire, DE7 5GH","England","Derbyshire","","http://www.golfpass.com/",31,1893,false,true,false,false
+109,"Ormonde Fields Golf Club","Nottingham Rd, Ripley, Derbyshire, DE5 9RL","England","Derbyshire","","http://www.golfpass.com/",72,6520,false,true,true,true
+110,"The St. Pierre Park Hotel & Golf Resort","Rohais, Devon, Devon, GY1 1FD","England","Devon","","http://www.golfpass.com/","","",true,true,true,true
+111,"Oak Meadows Golf Club","New Road House, New Rd, Starcross, Exeter, Devon, EX6 8QG","England","Devon","","http://www.golfpass.com/",33,1514,false,false,false,true
+112,"Exeter Golf & Country Club","Topsham Road, Exeter, Devon, EX2 7AE","England","Devon","","http://www.golfpass.com/",69,6023,true,true,true,true
+113,"Woodbury Park Hotel & Golf Club - Acorns Golf Course","Woodbury Castle, Woodbury, Exeter, Devon, EX5 1JJ","England","Devon","","http://www.golfpass.com/","","",true,true,true,false
+114,"Teignmouth Golf Club","Haldon Moor, Exeter, Devon, TQ149NY","England","Devon","","http://www.golfpass.com/",69,6082,true,true,true,false
+115,"Downes Crediton Golf Club","Hookway, Exeter, Devon, EX17 3PT","England","Devon","","http://www.golfpass.com/","","",false,false,false,false
+116,"East Devon Golf Club","Links Road, Exmouth, Devon, EX9 6DG","England","Devon","","http://www.golfpass.com/",70,6200,false,true,true,true
+117,"Bigbury Golf Club","Bigbury-on-Sea, Kingsbridge, Devon, TQ7 4BB","England","Devon","","http://www.golfpass.com/",70,6035,true,true,true,true
+118,"Bovey Tracey Golf Club","Monks Way, Newton Abbot, Devon, TQ13 9NG","England","Devon","","http://www.golfpass.com/",68,5526,true,true,true,true
+119,"Stover Golf Club","Bovey Road, Newton Abbot, Devon, TQ126QQ","England","Devon","","http://www.golfpass.com/",69,5952,false,false,true,false
+120,"Churston Golf Club","Churston, Paignton, Devon, TQ5 0LA","England","Devon","","http://www.golfpass.com/",70,6276,true,true,true,true
+121,"Boringdon Park - Saltram Course","55 Plymbridge Road, Plymouth, Devon, PL7 4QG","England","Devon","","http://www.golfpass.com/",73,6607,true,true,true,true
+122,"Boringdon Park - Estuary Course","55 Plymbridge Road, Plymouth, Devon, PL7 4QG","England","Devon","","http://www.golfpass.com/",36,3246,true,true,true,true
+123,"Dinnaton (Ivy Bridge) Golf Club","Blachford Road, Plymouth, Devon, PL21 9HU","England","Devon","","http://www.golfpass.com/",62,3940,true,true,false,true
+124,"Welbeck Manor","Sparkwell, Plymouth, Devon, PL7 5DF","England","Devon","","http://www.golfpass.com/",68,5772,true,true,true,true
+125,"Torquay Golf Club","30 Petitor Rd, Torquay, Devon, TQ1 4QF","England","Devon","","http://www.golfpass.com/",69,6138,true,true,true,true
+126,"St Clements (Jersey)","St Clements Golf & Sports Centre, Plat Douet Road, St Clement, Jersey, Torquay, Devon, JE2 6PN","England","Devon","","http://www.golfpass.com/","","",false,false,false,false
+127,"Wrangaton Golf Club","Golf Links Road, Wrangaton, Devon, TQ10 9HJ","England","Devon","","http://www.golfpass.com/",70,6065,false,false,true,false
+128,"Dudsbury Golf Club","Dudsbury Golf Club, Bournemouth, Dorset, BH22 8ST","England","Dorset","","http://www.golfpass.com/",71,6606,true,true,true,false
+129,"Hoburne Golf","The Clubhouse, Bournemouth, Dorset, BH31 7LH","England","Dorset","","http://www.golfpass.com/","","",false,false,false,false
+130,"Knighton Heath Golf Club","Francis Avenue, Bournemouth, Dorset, BH118NX","England","Dorset","","http://www.golfpass.com/",70,6065,false,true,true,false
+131,"Ferndown Golf Club - Presidents Course","Golf Links Rd, Bournemouth, Dorset, BH22 8BU","England","Dorset","","http://www.golfpass.com/",70,5748,true,true,true,true
+132,"Parley Golf Centre","Parley Green Lane, Bournemouth, Dorset, BH23 6BB","England","Dorset","","http://www.golfpass.com/","","",false,false,false,false
+133,"Remedy Oak Golf Club","Horton Road,, Cranborne, Dorset, BH21 8ND","England","Dorset","","http://www.golfpass.com/",72,7004,true,true,true,true
+134,"Les Ormes Golf & Leisure Club","Mont a la Brune, Jersey, Dorset, JE3 8FL","England","Dorset","","http://www.golfpass.com/",64,4638,false,true,true,true
+135,"Parkstone Golf Club","Links Road, Poole, Dorset, BH149QS","England","Dorset","","http://www.golfpass.com/","","",true,true,true,true
+136,"Sherborne Golf Club","Higher Clatcombe, Sherborne, Dorset, DT9 4RN","England","Dorset","","http://www.golfpass.com/",72,6175,true,true,true,true
+137,"Moors Valley Golf Course","Horton Road Ringwood, Wimborne Minster, Dorset, BH242ET","England","Dorset","","http://www.golfpass.com/",72,6337,false,true,true,true
+138,"Moors Valley Foot Golf","Horton Road, Ringwood, Wimborne Minster, Dorset, BH242ET","England","Dorset","","http://www.golfpass.com/","","",false,false,false,false
+139,"Broadstone Golf Club","Wentworth Drive, Wimborne Minster, Dorset, BH188DQ","England","Dorset","","http://www.golfpass.com/",70,6479,false,true,true,true
+140,"Ferndown Golf Club - The Old Course","119 Golf Links Road, Ferndown, Wimborne Minster, Dorset, BH22 8BU","England","Dorset","","http://www.golfpass.com/",71,6508,true,true,true,true
+141,"Rockliffe Hall Hotel Golf & Spa","Hurworth On Tees, Darlington, Durham, DL22DU","England","Durham","","http://www.golfpass.com/",72,6848,true,true,true,true
+142,"Headingley Golf Club","Headlam, Darlington, Durham, DL23HA","England","Durham","","http://www.golfpass.com/","","",false,false,false,false
+143,"Hall Garth Hotel & Country Club","Brafferton Lane, Darlington, Durham, DL13LU","England","Durham","","http://www.golfpass.com/",72,6211,false,true,true,true
+144,"Headlam Hall Country Hotel & Spa","Headlam, Darlington, Durham, DL23HA","England","Durham","","http://www.golfpass.com/","","",true,true,false,false
+145,"Middlesbrough","Ladgate Lane, Darlington, Durham, TS56YZ","England","Durham","","http://www.golfpass.com/","","",false,false,false,false
+146,"Woodham Golf & Country Club","Burnhill Way, Newton Aycliffe, Durham, DL54PN","England","Durham","","http://www.golfpass.com/","","",false,true,true,false
+147,"Beamish Park Golf Club","Beamish, Stanley, Durham, DH9 0RH","England","Durham","","http://www.golfpass.com/","","",false,false,false,false
+148,"Ingleby Barwick Golf Academy","Lullingstone Cresent, Stockton-On-Tees, Durham, TS17 5GJ","England","Durham","","http://www.golfpass.com/","","",false,false,false,false
+149,"Belhus Park Golf Club","South Ockendon, Aveley, Essex, RM15 4QR","England","Essex","","http://www.golfpass.com/",69,5303,true,true,true,true
+150,"Millers Barn Golf Park","Jaywick Lane, Aveley, Essex, CO15 2GF","England","Essex","","http://www.golfpass.com/","","",false,false,false,false
+151,"Fairlop Waters","Forest Road, Barking, Essex, IG6 3HN","England","Essex","","http://www.golfpass.com/",72,6281,true,true,true,true
+152,"Fairlop Waters Golf Club - Par-3 Course","Forest Road, Barking, Essex, IG6 3HN","England","Essex","","http://www.golfpass.com/","","",true,true,true,true
+153,"Basildon Golf Course","Clay hill Lane, Basildon, Essex, SS16 5JP","England","Essex","","http://www.golfpass.com/","","",false,true,true,true
+154,"Langdon Hills Golf & Country Club - Horndon Course","Lower Dunton Road, Basildon, Essex, RM14 3TY","England","Essex","","http://www.golfpass.com/","","",false,true,true,false
+155,"Langdon Hills Golf & Country Club - Langdon Course","Lower Dunton Road, Bulphan, Basildon, Essex, RM143TY","England","Essex","","http://www.golfpass.com/","","",false,true,true,false
+156,"Warley Park Golf Club - Warley Park Course","Magpie Lane, Brentwood, Essex, CM13 3DX","England","Essex","","http://www.golfpass.com/",71,6250,true,true,true,false
+157,"The Burstead Golf Club","Tye Common Road, Brentwood, Essex, CM12 9SS","England","Essex","","http://www.golfpass.com/","","",true,true,true,true
+158,"Channels Estate","Little Waltham, Chelmsford, Essex, CM33PT","England","Essex","","http://www.golfpass.com/",70,6257,true,true,true,false
+159,"West Park Golf Centre","Waterhouse Lane, Chelmsford, Essex, CM1 2RY","England","Essex","","http://www.golfpass.com/",54,1403,false,false,false,true
+160,"West Essex Golf Club","Bury Road, Chingford, Essex, E4 7QL","England","Essex","","http://www.golfpass.com/",71,6289,true,true,true,false
+161,"Clacton on Sea Golf Club","West Rd, Clacton-on-Sea, Essex, CO15 1AJ","England","Essex","","http://www.golfpass.com/",71,6448,false,true,true,false
+162,"Millers Barn Golf Park","Jaywick Lane, Clacton-on-Sea, Essex, CO15 2GF","England","Essex","","http://www.golfpass.com/","","",false,false,false,false
+163,"Stoke-by-Nayland - Constable Course","Keepers Lane, Colchester, Essex, CO64PZ","England","Essex","","http://www.golfpass.com/",72,6544,true,true,true,true
+164,"Stoke-by-Nayland - Gainsborough Course","Keepers Lane, Colchester, Essex, CO64PZ","England","Essex","","http://www.golfpass.com/",72,6561,true,true,true,true
+165,"Colchester Golf Club","Braiswick, Colchester, Essex, CO4 5AU","England","Essex","","http://www.golfpass.com/",70,6357,true,true,true,false
+166,"Braintree Golf Club","King's Lane, Stisted,, Colchester, Essex, CM77 8DD","England","Essex","","http://www.golfpass.com/",70,6252,false,true,true,false
+167,"The Essex Golf & Country Club - Garden Course 9 Hole Course","Earls Colne, Colchester, Essex, CO6 2NS","England","Essex","","http://www.golfpass.com/","","",true,true,true,true
+168,"North Weald Golf Club","Rayley Lane North Weald, Epping, Essex, CM166AR","England","Essex","","http://www.golfpass.com/",71,6265,true,true,true,false
+169,"Epping Golf Club","Fluxs Lane, Epping, Essex, CMI6 7NJ","England","Essex","","http://www.golfpass.com/",68,5434,false,false,false,false
+170,"Maldon Golf Club","Beeleigh, Maldon, Essex, CM9 4SS","England","Essex","","http://www.golfpass.com/",71,6216,false,true,true,false
+171,"Ingrebourne Links - The Mini Links Course","New Road, Wennington, Rainham, Essex, RM139FL","England","Essex","","http://www.golfpass.com/","","",true,false,false,false
+172,"Risebridge Golf Centre","Risebridge Chase Lower Bedfords Road Romford, Romford, Essex, RM1 4DG","England","Essex","","http://www.golfpass.com/",72,6276,true,false,true,true
+173,"Stapleford Abbotts Golf Club","Horsemanside, Romford, Essex, RM41JU","England","Essex","","http://www.golfpass.com/",70,5871,false,true,true,true
+174,"Ballards Gore Golf Club","Gore Road, Canewdon, Southend-On-Sea, Essex, SS42DA","England","Essex","","http://www.golfpass.com/",72,6716,false,true,true,true
+175,"Belfairs Golf Club","Eastwood Road North, Southend-On-Sea, Essex, SS9 4LR","England","Essex","","http://www.golfpass.com/",70,5840,false,true,false,true
+176,"The Rayleigh Club","Hullbridge Road, Southend-On-Sea, Essex, SS1 9ES","England","Essex","","http://www.golfpass.com/",67,4580,true,true,true,false
+177,"Garon Park Golf Complex","Garon Park, Southend-On-Sea, Essex, SS2 4FA","England","Essex","","http://www.golfpass.com/",70,6000,true,true,true,true
+178,"The Rayleigh Club - South Course","Hullbridge Road, Southend-On-Sea, Essex, SS69QS","England","Essex","","http://www.golfpass.com/","","",true,true,true,false
+179,"Rivenhall Oaks Golf Centre - Acorns Course","Forest Road, Tiptree, Essex, CM8 2PS","England","Essex","","http://www.golfpass.com/","","",true,true,true,false
+180,"Langdon Hills Golf & Country Club - Bulphan Course","Lower Dunton Road, Upminster, Essex, RM143TY","England","Essex","","http://www.golfpass.com/","","",false,true,true,false
+181,"Warley Park Golf Club - Childerditch Course","Magpie Lane, Warley, Essex, CM13 3DX","England","Essex","","http://www.golfpass.com/",69,5795,true,true,true,false
+182,"Woodspring Golf & Country Club","Yanley Lane, Long Ashton, Bristol, Gloucestershire, BS419LR","England","Gloucestershire","","http://www.golfpass.com/",73,6662,true,true,true,true
+183,"Shirehampton Park Golf Club","Park Hill, Bristol, Gloucestershire, BS11 0UL","England","Gloucestershire","","http://www.golfpass.com/",67,5502,false,true,true,false
+184,"Golf","Golf Course Lane, Bristol, Gloucestershire, BS347QS","England","Gloucestershire","","http://www.golfpass.com/","","",false,false,false,false
+185,"Thornbury Golf Centre","Bristol Road, Bristol, Gloucestershire, BS35 3XL","England","Gloucestershire","","http://www.golfpass.com/",71,6308,true,true,true,true
+186,"Tracy Park Golf & Country Hotel - Cromwell Course","Bath Road, Bristol, Gloucestershire, BS30 5RN","England","Gloucestershire","","http://www.golfpass.com/",71,6157,true,true,true,true
+187,"Tracy Park Golf & Country Club - Crown Course","Bath Road, Bristol, Gloucestershire, BS30 5RN","England","Gloucestershire","","http://www.golfpass.com/",69,6201,true,true,true,true
+188,"Thornbury Golf Centre - Severn View Course","Bristol Road, Thornbury, Bristol, Gloucestershire, BS35 3XL","England","Gloucestershire","","http://www.golfpass.com/",54,2195,true,true,true,true
+189,"Lilley Brook Golf Club","Cirencestor Road, Bristol, Gloucestershire, GL53 8EG","England","Gloucestershire","","http://www.golfpass.com/","","",false,false,false,false
+190,"Shortwood Lodge Golf Club","Carsons Road, Bristol, Gloucestershire, BS16 9LW","England","Gloucestershire","","http://www.golfpass.com/","","",false,true,true,true
+191,"Woodlands Golf & Country Club - Masters Course","Trench Lane, Bristol, Gloucestershire, BS32 4JZ","England","Gloucestershire","","http://www.golfpass.com/","","",false,true,true,true
+192,"Woodlands Golf & Country Club - Signature Course","Trench Lane, Bristol, Gloucestershire, BS32 4JZ","England","Gloucestershire","","http://www.golfpass.com/","","",false,true,true,true
+193,"Lilley Brook Golf Club","Cirencestor Road, Cheltenham, Gloucestershire, GL53 8EG","England","Gloucestershire","","http://www.golfpass.com/",69,6212,false,true,true,false
+194,"Stinchcombe Hill Golf Club","Stinchcombe Hill, Stroud, Gloucestershire, GL116AQ","England","Gloucestershire","","http://www.golfpass.com/","","",false,true,false,false
+195,"Tewkesbury Park Hotel Golf and Country Club","Lincoln Green Lane, Tewkesbury, Gloucestershire, GL207DN","England","Gloucestershire","","http://www.golfpass.com/",73,6533,true,true,true,true
+196,"Southwood Golf Course","Ively Road, Aldershot, Hampshire, GU14 0LJ","England","Hampshire","","http://www.golfpass.com/",69,5338,false,true,true,true
+197,"Hartley Wintney Golf Club","London Road, Hartley Wintney, Aldershot, Hampshire, RG27 8PT","England","Hampshire","","http://www.golfpass.com/",71,5950,true,true,true,true
+198,"Blacknest Golf & Country Club","Frith End Road, Alton, Hampshire, GU344QL","England","Hampshire","","http://www.golfpass.com/",69,5901,true,true,true,false
+199,"Blackmoor Golf Club","Firgrove Rd, Alton, Hampshire, GU35 9EH","England","Hampshire","","http://www.golfpass.com/",69,6164,true,true,true,false
+200,"Dummer Golf Club","Down Street,, Basingstoke, Hampshire, RG25 2AD","England","Hampshire","","http://www.golfpass.com/",72,6066,true,true,true,false
+201,"Sherfield Oaks Golf Club - Wellington Course","Wildmoor Lane, Basingstoke, Hampshire, RG270HA","England","Hampshire","","http://www.golfpass.com/",72,6412,true,true,true,true
+202,"Bishopswood Golf Course","Bishopswood Lane, Basingstoke, Hampshire, RG264AT","England","Hampshire","","http://www.golfpass.com/",72,6474,true,true,true,false
+203,"Club Champion Basingstoke","Unit 7, Vickers Business Centre, Priestley Rd, Basingstoke, Hampshire, RG24 9NP","England","Hampshire","","http://www.golfpass.com/","","",false,false,false,false
+204,"Osborne Golf Club","Osborne House Estate, Cowes, Hampshire, PO32 6JX","England","Hampshire","","http://www.golfpass.com/","","",false,true,true,true
+205,"Lymington Golf Club","South Baddesley Road, Lyndhurst, Hampshire, SO41 5SD","England","Hampshire","","http://www.golfpass.com/","","",true,true,true,true
+206,"South Petersfield Golf Club","12 Russell Way, Petersfield, Hampshire, GU31 4LD","England","Hampshire","","http://www.golfpass.com/","","",false,true,true,true
+207,"Mack Golf","Horton Road, Ringwood, Hampshire, BH24 2ET","England","Hampshire","","http://www.golfpass.com/","","",false,false,false,false
+208,"Dibden Golf Centre","Main Road, Dibden, Southampton, Hampshire, SO45 5TB","England","Hampshire","","http://www.golfpass.com/",70,5935,true,true,true,false
+209,"Wellow Golf Club","West Wellow, Southampton, Hampshire, SO51 6BD","England","Hampshire","","http://www.golfpass.com/",70,5698,true,true,true,true
+210,"Cams Hall Estate Golf Club - Park Course","Porchester Road, Southampton, Hampshire, PO16 8UP","England","Hampshire","","http://www.golfpass.com/",36,3202,true,true,true,true
+211,"Wickham Park Golf Club","Titchfield Lane Wickham, Southampton, Hampshire, PO17 5PJ","England","Hampshire","","http://www.golfpass.com/",69,5868,true,true,true,true
+212,"15148","Sandy Lane, Southampton, Hampshire, SO32 2HQ","England","Hampshire","","http://www.golfpass.com/","","",false,false,false,false
+213,"15148","Sandy Lane, Southampton, Hampshire, SO32 2HQ","England","Hampshire","","http://www.golfpass.com/","","",false,false,false,false
+214,"Lee-on-the-Solent Golf Club","Brune Lane, Southampton, Hampshire, PO13","England","Hampshire","","http://www.golfpass.com/",69,5962,false,true,false,false
+215,"Cowes Golf Club","Crossfield Avenue, Cowes, Ventnor, Hampshire, PO31 8HN","England","Hampshire","","http://www.golfpass.com/",70,5915,false,true,true,true
+216,"Newport Golf Club","St Georges Down, Ventnor, Hampshire, PO30 3BA","England","Hampshire","","http://www.golfpass.com/","","",true,true,false,false
+217,"Royal Winchester Golf Club","Sarum Road, Winchester, Hampshire, SO22 5QE","England","Hampshire","","http://www.golfpass.com/","","",false,false,false,false
+218,"Hockley Golf Club","Twyford, Winchester, Hampshire, SO21 1PL","England","Hampshire","","http://www.golfpass.com/",71,6420,true,true,true,true
+219,"South Winchester Golf Club","Romsey Road, Winchester, Hampshire, SO22 5QX","England","Hampshire","","http://www.golfpass.com/",72,7002,true,true,true,true
+220,"Alresford Golf Club","Cheriton Road, Winchester, Hampshire, SO240PN","England","Hampshire","","http://www.golfpass.com/",69,5751,true,true,true,false
+221,"Royal Winchester Golf Club","Sarum Road, Winchester, Hampshire, SO22 5QE","England","Hampshire","","http://www.golfpass.com/",72,6407,false,true,true,true
+222,"Burghill Valley Golf Club","Tillington Road, Hereford, Herefordshire, HR4 7RW","England","Herefordshire","","http://www.golfpass.com/",71,6224,true,true,true,true
+223,"Alexander Park Golf Course","Court-Y-Park, Ledbury, Herefordshire, HR8 2RW","England","Herefordshire","","http://www.golfpass.com/",73,6825,true,false,true,true
+224,"Grove Golf Centre","Ford Bridge, Leominster, Herefordshire, HR60LE","England","Herefordshire","","http://www.golfpass.com/",70,6128,true,true,true,true
+225,"South Herefordshire Golf Club","Upton Bishop, Ross-On-Wye, Herefordshire, HR9 7UA","England","Herefordshire","","http://www.golfpass.com/",71,6672,true,true,true,true
+226,"Hadley Wood","Beech Hill, Barnet, Hertfordshire, EN4 0JJ","England","Hertfordshire","","http://www.golfpass.com/","","",true,true,true,true
+227,"The Shire London","St. Albans Road, Barnet, Hertfordshire, EN54RE","England","Hertfordshire","","http://www.golfpass.com/","","",true,true,true,true
+228,"Great Hadham Golf & Country Club","Great Hadham Road, Bishop’S Stortford, Hertfordshire, SG10 6JE","England","Hertfordshire","","http://www.golfpass.com/",72,6854,true,true,true,false
+229,"East Herts Golf Club","Hamels Park, Bishop’S Stortford, Hertfordshire, SG9 9NB","England","Hertfordshire","","http://www.golfpass.com/","","",false,true,true,true
+230,"Letchworth Golf Club","Letchworth Lane, Hitchin, Hertfordshire, SG63NQ","England","Hertfordshire","","http://www.golfpass.com/",71,6459,true,true,true,true
+231,"Letchworth Golf Club - Academy Course","Letchworth Lane, Hitchin, Hertfordshire, SG63NQ","England","Hertfordshire","","http://www.golfpass.com/","","",true,true,true,true
+232,"Royston Golf Club","Baldock Road, Royston, Hertfordshire, SG8 5BG","England","Hertfordshire","","http://www.golfpass.com/",70,5976,true,true,true,false
+233,"Redbourn Golf Club","Kinsbourne Green Lane, St Albans, Hertfordshire, AL3 7QA","England","Hertfordshire","","http://www.golfpass.com/",70,6270,true,true,true,true
+234,"Aldwickbury Park Golf Club","Piggottshill Lane, Harpenden, St Albans, Hertfordshire, AL5 1AB","England","Hertfordshire","","http://www.golfpass.com/",71,6368,true,true,true,true
+235,"Abbey View Golf Course","Verulamium Park, St Albans, Hertfordshire, AL1 2DL","England","Hertfordshire","","http://www.golfpass.com/",29,1500,false,false,false,true
+236,"Stevenage Golf Course Par 3","Aston Lane, Stevenage, Hertfordshire, SG2 7EL","England","Hertfordshire","","http://www.golfpass.com/",27,880,true,true,true,true
+237,"Stevenage Golf & Conference Centre","Aston Lane, Stevenage, Hertfordshire, SG2 7EL","England","Hertfordshire","","http://www.golfpass.com/","","",false,false,false,false
+238,"Chesfield Downs - Short Course","Jack's Hill, Stevenage, Hertfordshire, SG4 7EQ","England","Hertfordshire","","http://www.golfpass.com/","","",true,true,true,true
+239,"Radlett Park Golf Club","Watling Street, Nr. Radlett ,Borehamwood, Watford, Hertfordshire, WD63AA","England","Hertfordshire","","http://www.golfpass.com/",72,6419,true,true,true,true
+240,"Rickmansworth Par 3","Moor Lane Rickmansworth, Watford, Hertfordshire, WD31QL","England","Hertfordshire","","http://www.golfpass.com/",27,2326,false,true,true,true
+241,"Bushey Golf & Country Club","High Street Bushey, Watford, Hertfordshire, WD23 1TT","England","Hertfordshire","","http://www.golfpass.com/",35,2986,true,false,true,true
+242,"Bushey Hall Golf Club","Bushey Hall Drive, Watford, Hertfordshire, WD23 2EP","England","Hertfordshire","","http://www.golfpass.com/","","",false,true,true,false
+243,"Aldenham Golf Club","Church Lane, Watford, Hertfordshire, WD25 8NN","England","Hertfordshire","","http://www.golfpass.com/",70,6409,true,true,true,true
+244,"Hartsbourne Country Club","Hartsbourne Avenue, Bushey Heath, Watford, Hertfordshire, WD2 1JW","England","Hertfordshire","","http://www.golfpass.com/",71,6333,true,true,true,true
+245,"Aldenham Golf Club - Village Course","Church Lane, Watford, Hertfordshire, WD25 8NN","England","Hertfordshire","","http://www.golfpass.com/",33,2350,true,true,true,true
+246,"Hartsbourne Country Club - The Firs","Hartsbourne Avenue, Bushey Heath, Watford, Hertfordshire, WD2 1JW","England","Hertfordshire","","http://www.golfpass.com/","","",false,false,false,false
+247,"Hartsbourne Country Club - The Firs","Hartsbourne Avenue, Bushey Heath, Watford, Hertfordshire, WD2 1JW","England","Hertfordshire","","http://www.golfpass.com/","","",false,false,false,false
+248,"Hartsbourne Country Club - The Oaks","Hartsbourne Avenue, Bushey Heath, Watford, Hertfordshire, WD2 1JW","England","Hertfordshire","","http://www.golfpass.com/","","",true,true,true,true
+249,"Brocket Hall Golf Club -The Palmerston Course","Brocket Hall, Welwyn Garden City, Hertfordshire, AL8 7XG","England","Hertfordshire","","http://www.golfpass.com/",73,6810,true,true,true,false
+250,"The Melbourne Club at Brocket Hall","Brocket Park, Welwyn Garden City, Hertfordshire, AL87XG","England","Hertfordshire","","http://www.golfpass.com/",72,6616,true,true,true,false
+251,"Mill Green Golf Club","Gypsy Lane, Welwyn Garden City, Hertfordshire, AL7 4TY","England","Hertfordshire","","http://www.golfpass.com/","","",true,true,true,false
+252,"Welwyn Garden City Golf Club","Mannicotts, High Oaks Rd, Welwyn Garden City, Hertfordshire, AL87BP","England","Hertfordshire","","http://www.golfpass.com/","","",false,true,true,true
+253,"Mill Green Golf Club - Short Course","Gypsy Lane, Welwyn Garden City, Hertfordshire, AL7 4TY","England","Hertfordshire","","http://www.golfpass.com/",72,6618,true,true,true,false
+254,"St Ives (Hunts) Golf Club","St Ives (Hunts) Golf Club, St Ives, Huntingdonshire, PE27 4NB","England","Huntingdonshire","","http://www.golfpass.com/",72,6758,true,true,true,true
+255,"Ashford Golf Club","Sandyhurst Lane, Ashford, Kent, TN25 4NT","England","Kent","","http://www.golfpass.com/",71,6280,false,true,true,true
+256,"Weald of Kent","Maidstone Road, Ashford, Kent, TN279PT","England","Kent","","http://www.golfpass.com/",70,6133,false,true,true,false
+257,"Roundwood Hall Golf Club","Stone St, Ashford, Kent, CT18 8DJ","England","Kent","","http://www.golfpass.com/",58,2439,false,true,false,true
+258,"Langley Park Golf Club","Barnfield Wood Road, Beckenham, Kent, BR3 6SZ","England","Kent","","http://www.golfpass.com/","","",false,true,true,true
+259,"Chart Hills Golf Club","Weeks Lane, Biddenden, Kent, TN278JX","England","Kent","","http://www.golfpass.com/",72,7107,false,true,true,true
+260,"West Kent Golf Club","Milking Lane, Biggin Hill, Kent, BR6 7LD","England","Kent","","http://www.golfpass.com/","","",false,false,false,false
+261,"West Kent Golf Club","Milking Lane, Biggin Hill, Kent, BR67LD","England","Kent","","http://www.golfpass.com/","","",false,false,false,false
+262,"Bromley Golf Club","Magpie Hall Lane, Bromley, Kent, BR28JF","England","Kent","","http://www.golfpass.com/",35,2795,true,true,true,true
+263,"Pedham Place Golf Centre - Championship Course","London Road, Bromley, Kent, BR8 8PP","England","Kent","","http://www.golfpass.com/",72,6047,true,true,true,false
+264,"Cave Hotel and Golf Resort","Brickfield Lane, Boughton, Canterbury, Kent, ME139AJ","England","Kent","","http://www.golfpass.com/",72,6422,true,true,true,true
+265,"Rochester & Cobham Park","Park Pale by Rochester, Chatham, Kent, ME2 3UL","England","Kent","","http://www.golfpass.com/",71,6597,true,true,true,false
+266,"Rochester & Cobham Park","Park Pale by Rochester, Chatham, Kent, ME2 3UL","England","Kent","","http://www.golfpass.com/","","",false,false,false,false
+267,"Tudor Park Marriott Hotel & Country Club - 9 holes","Tudor Park Marriott Hotel & Country Club Ashford Road, Bearsted, Dartford, Kent, ME144NQ","England","Kent","","http://www.golfpass.com/","","",false,false,false,false
+268,"Pedham Place Golf Centre - Academy Course","London Road, Dartford, Kent, BR88PP","England","Kent","","http://www.golfpass.com/","","",true,true,false,false
+269,"Birchwood Park Golf Club","Birchwood Road, Dartford, Kent, DA2 7HJ","England","Kent","","http://www.golfpass.com/","","",true,true,true,true
+270,"Sidcup Golf Club","Hurst Road, Dartford, Kent, DA15 9AW","England","Kent","","http://www.golfpass.com/",68,5571,false,true,false,false
+271,"Birchwood Park Golf Club","Birchwood Road, Dartford, Kent, DA27HJ","England","Kent","","http://www.golfpass.com/","","",false,false,false,false
+272,"Prince's Golf Club, Sandwich","Sandwich Bay, Dover, Kent, CT13 9QB","England","Kent","","http://www.golfpass.com/",72,6596,true,true,true,true
+273,"Prince's Golf Club - Himalayas Course","Sandwich Bay, Dover, Kent, CT13 9QB","England","Kent","","http://www.golfpass.com/","","",true,true,true,true
+274,"Prince's Golf Club - Dunes Course","Sandwich Bay, Dover, Kent, CT13 9QB","England","Kent","","http://www.golfpass.com/","","",true,true,true,true
+275,"The Kent And Surrey Golf Club","The Kent & Surrey Golf Club, Edenbridge, Kent, TN85LQ","England","Kent","","http://www.golfpass.com/",71,6324,true,true,true,false
+276,"Hever Castle Boleyn Course","Hever Road, Edenbridge, Kent, TN87NP","England","Kent","","http://www.golfpass.com/",71,5604,true,true,true,true
+277,"Sene Valley Golf Club","40 Blackhouse Hill, Folkestone, Kent, CT18 8BL","England","Kent","","http://www.golfpass.com/",71,5970,false,true,true,false
+278,"Etchinghill Golf Club","Canterbury Road, Folkestone, Kent, CT18 8FA","England","Kent","","http://www.golfpass.com/",70,5537,true,true,true,false
+279,"Gillingham Golf Club","Woodlands Road, Gillingham, Kent, ME7 2AP","England","Kent","","http://www.golfpass.com/",68,5473,false,false,true,false
+280,"Southern Valley Golf Club","Thong Lane, Gravesend, Kent, DA124LF","England","Kent","","http://www.golfpass.com/",69,6148,true,true,true,false
+281,"Kings Hill Golf Club","Fortune Way, Kings Hill, Kent, ME19 4GF","England","Kent","","http://www.golfpass.com/",72,6622,true,true,false,true
+282,"Lamberhurst Golf Club","Church Road, Lamberhurst, Kent, TN3 8DT","England","Kent","","http://www.golfpass.com/",72,6448,false,true,true,false
+283,"Littlestone Golf Club - Warren Course","St. Andrews Road, Littlestone, Kent, TN288RB","England","Kent","","http://www.golfpass.com/",67,5266,true,true,true,true
+284,"Littlestone Golf Club - Championship Links","St. Andrews Road, Littlestone, Kent, TN28 8RB","England","Kent","","http://www.golfpass.com/",71,6122,true,true,true,true
+285,"Cobtree Manor Park Golf Course","Chatham Road, Maidstone, Maidstone, Kent, ME143AZ","England","Kent","","http://www.golfpass.com/",69,5576,false,true,true,true
+286,"Marriott Tudor Park Hotel & Country Club","Ashford Road, Maidstone, Kent, ME14 4NQ","England","Kent","","http://www.golfpass.com/","","",false,false,false,false
+287,"The Ridge Golf Club","Chartway Street, Sutton Valence, Maidstone, Kent, ME17 3JB","England","Kent","","http://www.golfpass.com/",71,6242,true,true,true,true
+288,"Bearsted Golf Club","Ware Street, Maidstone, Kent, ME144PQ","England","Kent","","http://www.golfpass.com/",71,6381,false,true,true,true
+289,"Orpington Golf Centre","Cray Ruxley, Sandy Lane, Orpington, Kent, BR5 3HY","England","Kent","","http://www.golfpass.com/",70,5669,true,true,true,true
+290,"High Elms Golf Club","High Elms Road Downe, Orpington, Kent, BR67JL","England","Kent","","http://www.golfpass.com/",71,6221,false,true,true,true
+291,"Orpington Golf Centre - Ruxley Park","Cray Ruxley, Sandy Lane, Orpington, Kent, BR5 3HY","England","Kent","","http://www.golfpass.com/",70,5601,true,true,true,true
+292,"Broke Hill Golf Club","Sevenoaks, Road Halstead, Sevenoaks, Kent, TN147HR","England","Kent","","http://www.golfpass.com/",72,6284,false,false,true,false
+293,"Redlibbets Golf Club","Manor Lane, Sevenoaks, Kent, TN157HT","England","Kent","","http://www.golfpass.com/",72,6572,true,true,true,true
+294,"Darenth Valley Golf Club","Station Road, Sevenoaks, Kent, TN147SA","England","Kent","","http://www.golfpass.com/",72,6193,false,true,true,false
+295,"Woodlands Manor Golf Club","Woodlands Manor Golf Club, Sevenoaks, Kent, TN15 6AB","England","Kent","","http://www.golfpass.com/",70,5788,true,true,true,false
+296,"London Golf Club - The Heritage","Stansted Lane, Sevenoaks, Kent, TN15 7EH","England","Kent","","http://www.golfpass.com/","","",true,true,true,true
+297,"Wildernesse Golf Club","Park Lane, Seal, Sevenoaks, Kent, TN15 0JE","England","Kent","","http://www.golfpass.com/","","",true,true,true,false
+298,"Upchurch River Valley Golf Course","Oak Lane, Sittingbourne, Kent, ME9 7AY","England","Kent","","http://www.golfpass.com/","","",true,true,true,false
+299,"Upchurch River Valley Golf Course 9 holes","Oak Lane, Sittingbourne, Kent, ME9 7AY","England","Kent","","http://www.golfpass.com/","","",true,true,true,false
+300,"London Beach Golf Club","Ashford Road, Tenterden, Kent, TN306SP","England","Kent","","http://www.golfpass.com/",70,6036,true,true,true,true
+301,"Tunbridge Wells Golf Club","Langton Road, Tunbridge Wells, Kent, TN4 8XH","England","Kent","","http://www.golfpass.com/",65,4751,false,false,false,false
+302,"Chestfield Golf Club","103 Chesfield Road, Whitstable, Kent, CT53PZ","England","Kent","","http://www.golfpass.com/",70,6255,true,true,true,true
+303,"Whitstable & Seasalter Golf Club","Collingwood Road, Whitstable, Kent, CT5 1EB","England","Kent","","http://www.golfpass.com/",66,5321,false,true,false,false
+304,"Furness Golf Club","Central Drive, Barrow-In-Furness, Lancashire, LA14 3LN","England","Lancashire","","http://www.golfpass.com/","","",false,true,false,false
+305,"Casterton Golf Club - Par-3 Course","Sedbergh Road, Barrow-In-Furness, Lancashire, LA62LA","England","Lancashire","","http://www.golfpass.com/","","",true,true,true,true
+306,"Fleetwood Golf Club","Princes Way, Blackpool, Lancashire, FY78AF","England","Lancashire","","http://www.golfpass.com/","","",false,false,true,false
+307,"Bolton Old Links Golf Club","Chorley Old Rd, Bolton, Lancashire, BL1 5SU","England","Lancashire","","http://www.golfpass.com/",72,6479,false,true,true,false
+308,"Westhoughton Golf Club","Long Island, Bolton, Lancashire, BL5 2BR","England","Lancashire","","http://www.golfpass.com/","","",false,true,true,false
+309,"Marsden Park Golf Course","Townhouse Road, Burnley, Lancashire, BB9 8DG","England","Lancashire","","http://www.golfpass.com/",70,5989,false,true,true,true
+310,"Oak Royal Golf & Country Club","Bury Lane, Chorley, Lancashire, PR6 8SW","England","Lancashire","","http://www.golfpass.com/","","",false,false,false,false
+311,"Kirkby Valley Golf Club","Kirkby Valley Golf Club, Liverpool, Lancashire, L32 4SS","England","Lancashire","","http://www.golfpass.com/",72,6449,false,true,true,true
+312,"Leasowe Golf Club","Leasowe Road, Liverpool, Lancashire, CH46 3RD","England","Lancashire","","http://www.golfpass.com/",71,6263,false,false,false,true
+313,"Eastham Lodge Golf Club","Ferry Road, Eastham, Liverpool, Lancashire, CH6 20AP","England","Lancashire","","http://www.golfpass.com/",68,5706,false,false,true,true
+314,"Bowring Park FootGolf","Roby Road, Huyton, Liverpool, Lancashire, L364HD","England","Lancashire","","http://www.golfpass.com/",71,2527,false,false,false,false
+315,"The Manor 9 Hole Golf Course","Childwall Valley Road, Liverpool, Lancashire, L27 3YA","England","Lancashire","","http://www.golfpass.com/","","",false,false,false,false
+316,"Lee Park Golf Club","Childwall Valley Road, Liverpool, Lancashire, L27 3YA","England","Lancashire","","http://www.golfpass.com/",70,5959,true,true,false,false
+317,"Eccleston Park Golf Club","Rainhill Road, Rainhill, Liverpool, Lancashire, L35 4PG","England","Lancashire","","http://www.golfpass.com/","","",false,true,true,true
+318,"Ormskirk Golf Club","Cranes Lane, Liverpool, Lancashire, L405UJ","England","Lancashire","","http://www.golfpass.com/","","",false,true,true,true
+319,"Lytham Green Drive Golf Club","Ballam Road, Lytham, Lancashire, FY8 4LE","England","Lancashire","","http://www.golfpass.com/",70,6305,true,true,true,true
+320,"William Wroe Golf Course","Pennybridge Lane, Manchester, Lancashire, M41 5DX","England","Lancashire","","http://www.golfpass.com/",64,4368,false,true,false,true
+321,"Bruntwood Park Golf Course","Bruntwood Lane, Manchester, Lancashire, SK8 1HX","England","Lancashire","","http://www.golfpass.com/","","",false,false,false,true
+322,"Blackley Golf Club","Victoria Avenue, East Blackley, Manchester, Lancashire, M9 7HW","England","Lancashire","","http://www.golfpass.com/","","",true,true,true,false
+323,"Northenden Golf Club","Palatine Road, Manchester, Lancashire, M22 4FR","England","Lancashire","","http://www.golfpass.com/","","",false,true,true,true
+324,"Swinton Park","East Lancashire Road, Manchester, Lancashire, M27 5LX","England","Lancashire","","http://www.golfpass.com/","","",false,false,false,false
+325,"Ashton-under-Lyne","Gorsey Way, Oldham, Lancashire, OL6 9HT","England","Lancashire","","http://www.golfpass.com/",70,6207,false,true,false,true
+326,"Ingol Village Golf Club","Tanterton Hall Ingol, Preston, Lancashire, PR2 7BY","England","Lancashire","","http://www.golfpass.com/","","",false,false,false,false
+327,"Longridge Golf Club","Jeffrey Hill, Preston, Lancashire, PR32TU","England","Lancashire","","http://www.golfpass.com/",70,5974,false,true,true,false
+328,"Fishwick Hall Golf Club","Glenluce Drive, Preston, Lancashire, PR15TD","England","Lancashire","","http://www.golfpass.com/",70,6062,false,true,true,false
+329,"Preston Golf Club","Fulwood Hall Lane, Preston, Lancashire, PR28DD","England","Lancashire","","http://www.golfpass.com/","","",true,true,true,false
+330,"Rochdale Golf Club","Bagslate, Rochdale, Lancashire, OL11 5YR","England","Lancashire","","http://www.golfpass.com/",71,6002,false,true,true,true
+331,"Marland Golf at Springfield Park","Springfield Park, Rochdale, Lancashire, OL11","England","Lancashire","","http://www.golfpass.com/",67,5191,false,false,false,false
+332,"Hesketh Golf Club","Cockle Dicks Lane, Southport, Lancashire, PR99QQ","England","Lancashire","","http://www.golfpass.com/",72,6718,false,false,true,true
+333,"Southport Old Links Golf Club","Moss Lane, Southport, Lancashire, PR97QS","England","Lancashire","","http://www.golfpass.com/","","",false,true,true,true
+334,"Houghwood Golf Club","Billinge Hill, St Helens, Lancashire, WA11 8RL","England","Lancashire","","http://www.golfpass.com/",71,6388,true,true,true,true
+335,"Beacon Park Golf & Country Club","Beacon Lane, Dalton, St Helens, Lancashire, WN87RU","England","Lancashire","","http://www.golfpass.com/","","",true,true,true,false
+336,"Didsbury Golf Club","Ford Lane, Stockport, Lancashire, M22 4NQ","England","Lancashire","","http://www.golfpass.com/","","",false,true,true,true
+337,"Houldsworth Golf Club","Houldsworth Street, Stockport, Lancashire, SK56BN","England","Lancashire","","http://www.golfpass.com/",71,6246,false,true,true,false
+338,"Bidston Golf Club","Bidston Link Road, Wallasey, Lancashire, CH44 2HR","England","Lancashire","","http://www.golfpass.com/",70,6153,false,true,true,true
+339,"Fiddlers Ferry Golf Club","1 Widnes Road, Warrington, Lancashire, WA5 2UW","England","Lancashire","","http://www.golfpass.com/","","",true,true,true,true
+340,"Warrington Golf Club","Hill Warren, Warrington, Lancashire, WA4 5HR","England","Lancashire","","http://www.golfpass.com/","","",false,true,true,false
+341,"Ashton-in-Makerfield Golf Club","Garswood Park, Wigan, Lancashire, WN4 0YT","England","Lancashire","","http://www.golfpass.com/","","",false,true,true,false
+342,"Gathurst Golf Club","Miles Lane, Wigan, Lancashire, WN6 8EW","England","Lancashire","","http://www.golfpass.com/",70,6063,false,true,true,false
+343,"Scraptoft Golf Club","Beeby Road, Leicester, Leicestershire, LE7 9SJ","England","Leicestershire","","http://www.golfpass.com/",70,6257,false,true,true,true
+344,"Humberstone Heights Golf Club","Gipsy Lane, Leicester, Leicestershire, LE50TB","England","Leicestershire","","http://www.golfpass.com/","","",true,true,true,true
+345,"Kibworth Golf Club","Weir Road, Leicester, Leicestershire, LE8 0LP","England","Leicestershire","","http://www.golfpass.com/","","",true,true,true,false
+346,"Park Hill Golf Club","Park Hill Seagrave, Loughborough, Leicestershire, LE12 7NG","England","Leicestershire","","http://www.golfpass.com/","","",true,true,true,false
+347,"Rushcliffe Golf Club","Stocking Lane, Loughborough, Leicestershire, LE12 5RL","England","Leicestershire","","http://www.golfpass.com/",70,6193,false,true,true,true
+348,"Lutterworth Golf Club","Rugby Road, Lutterworth, Leicestershire, LE17 4HN","England","Leicestershire","","http://www.golfpass.com/",70,6243,false,true,true,true
+349,"Stoke Albany Golf & Country Club","Ashley Road, Market Harborough, Leicestershire, LE168PL","England","Leicestershire","","http://www.golfpass.com/","","",false,true,true,false
+350,"Stapleford Park Country House Hotel & Sporting Estate","Stapleford Park,, Melton Mowbray, Leicestershire, LE142EF","England","Leicestershire","","http://www.golfpass.com/",73,6944,true,true,true,true
+351,"Luffenham Heath Golf Club","Stamford Rd, Stamford, Leicestershire, PE93UU","England","Leicestershire","","http://www.golfpass.com/","","",false,false,true,true
+352,"Stoke Rochford Golf Club","Stoke Rochford Golf Club, The Great North Road, Grantham, Lincolnshire, NG335EW","England","Lincolnshire","","http://www.golfpass.com/",70,6313,false,true,true,true
+353,"Belton Park Golf Club","Londonthorpe Road, Grantham, Lincolnshire, NG31 9SH","England","Lincolnshire","","http://www.golfpass.com/",71,6490,false,true,false,false
+354,"Belton Woods Golf Club - Red Arrows Academy Course","Belton, Grantham, Lincolnshire, NG322LN","England","Lincolnshire","","http://www.golfpass.com/","","",true,true,true,true
+355,"Waltham Windmill Golf Club","Cheapside, Grimsby, Lincolnshire, DN37 0HT","England","Lincolnshire","","http://www.golfpass.com/","","",true,true,false,false
+356,"Immingham Golf Club","St Andrews lane, Grimsby, Lincolnshire, DN40 2EU","England","Lincolnshire","","http://www.golfpass.com/","","",false,true,true,true
+357,"Horncastle Golf & Country Club","Twin Lakes Centre, Hemingby Lane West Ashby, Horncastle, Lincolnshire, LN95PP","England","Lincolnshire","","http://www.golfpass.com/",70,5577,true,false,true,true
+358,"Canwick Park Golf Club","Washingborough Rd, Lincoln, Lincolnshire, LN4 1EF","England","Lincolnshire","","http://www.golfpass.com/",70,6153,true,true,true,true
+359,"Lincoln Golf Centre","Moor Lane Thorpe On The Hill, Lincoln, Lincolnshire, LN6 9BW","England","Lincolnshire","","http://www.golfpass.com/",31,3678,true,true,false,false
+360,"South Kyme Golf Club","Skinners Lane, Lincoln, Lincolnshire, LN44AT","England","Lincolnshire","","http://www.golfpass.com/","","",false,true,true,true
+361,"Carholme Golf Club","Carholme Road, Lincoln, Lincolnshire, LN1 1SE","England","Lincolnshire","","http://www.golfpass.com/","","",false,true,false,true
+362,"Sandilands Golf Club","Roman Bank, Mablethorpe, Lincolnshire, LN12 2RJ","England","Lincolnshire","","http://www.golfpass.com/",70,6021,false,true,true,false
+363,"Forest Pines Hotel & Golf Resort - Pines Course","Ermine Street, Broughton, Scunthorpe, Lincolnshire, DN20 0AQ","England","Lincolnshire","","http://www.golfpass.com/","","",false,false,false,false
+364,"Forest Pines Hotel & Golf Resort - Beeches Course","Ermine Street, Scunthorpe, Lincolnshire, DN20 0AQ","England","Lincolnshire","","http://www.golfpass.com/","","",false,false,false,false
+365,"Seacroft Golf Club","Drummond Road, Seacroft, Skegness, Lincolnshire, PE24 3AU","England","Lincolnshire","","http://www.golfpass.com/",71,6492,false,true,true,true
+366,"Rutland County Golf Club","Pickworth, Stamford, Lincolnshire, PE9 4AQ","England","Lincolnshire","","http://www.golfpass.com/",71,6188,false,false,false,false
+367,"Rutland County Golf Club (6 Hole Short Course)","Pickworth, Stamford, Lincolnshire, PE9 4AQ","England","Lincolnshire","","http://www.golfpass.com/",36,3084,true,true,true,true
+368,"Burghley Park Golf Club","St Martins Without, Stamford, Lincolnshire, PE93JX","England","Lincolnshire","","http://www.golfpass.com/",70,6284,true,true,true,false
+369,"Whitewebbs Golf Club","Clay Hill, Enfield, Middlesex, EN29HH","England","Middlesex","","http://www.golfpass.com/",68,5822,false,true,true,true
+370,"Perivale Park Golf Course","Perivale Park, Stockdove Way, Greenford, Middlesex, UB6 8TJ","England","Middlesex","","http://www.golfpass.com/",34,2667,false,true,false,true
+371,"Horsenden Hill Golf Club","Woodland Rise, Greenford, Middlesex, UB6 0RD","England","Middlesex","","http://www.golfpass.com/",28,1642,false,true,false,true
+372,"Fulwell","Wellington Road, Hampton, Middlesex, TW121JY","England","Middlesex","","http://www.golfpass.com/","","",false,true,true,false
+373,"Playgolf London","280 Watford Road, Harrow, Middlesex, HA1 3TZ","England","Middlesex","","http://www.golfpass.com/",29,1804,false,false,false,false
+374,"Metro Golf Centre - Adventure Course","Champions Way, Hendon, Middlesex, NW4 1PX","England","Middlesex","","http://www.golfpass.com/","","",false,false,false,false
+375,"Metro Golf Centre -Simulator","Champions Way, Hendon, Middlesex, NW4 1PX","England","Middlesex","","http://www.golfpass.com/","","",false,false,false,false
+376,"Hampstead Golf Club","82 Winnington Road, London, Middlesex, N2 0TU","England","Middlesex","","http://www.golfpass.com/","","",false,true,true,true
+377,"North Middlesex Golf Club","The Manor House, London, Middlesex, N20 0NI","England","Middlesex","","http://www.golfpass.com/",69,5675,false,true,true,false
+378,"Ealing Golf Club","Perivale Lane Greenford, London, Middlesex, UB68TS","England","Middlesex","","http://www.golfpass.com/",70,6201,false,true,true,true
+379,"Muswell Hill Golf Club","Rhodes Avenue, London, Middlesex, N227UT","England","Middlesex","","http://www.golfpass.com/",71,6431,false,true,true,true
+380,"The West London Golf Centre","Ruislip Road, London, Middlesex, UB56QZ","England","Middlesex","","http://www.golfpass.com/",31,2277,true,true,false,false
+381,"Trent Park Golf Centre","Bramley Road, London, Middlesex, N14 4UW","England","Middlesex","","http://www.golfpass.com/",70,6216,true,true,true,true
+382,"South Herts Golf Club - Rees Course","Links Drive, London, Middlesex, N208QU","England","Middlesex","","http://www.golfpass.com/",28,1489,false,true,true,false
+383,"Lee Valley Golf Club","Meridian Way, London, Middlesex, N9 0AR","England","Middlesex","","http://www.golfpass.com/",67,5204,false,true,false,true
+384,"Pitch Golf London","Hasilwood House, 60-64 Bishopsgate, London, Middlesex, EC2N 4AW","England","Middlesex","","http://www.golfpass.com/","","",false,false,false,false
+385,"Pitch Golf London - Sim 2","Hasilwood House, 60-64 Bishopsgate, London, Middlesex, EC2N 4AW","England","Middlesex","","http://www.golfpass.com/","","",false,false,false,false
+386,"Pitch Golf London - Sim 3","Hasilwood House, 60-64 Bishopsgate, London, Middlesex, EC2N 4AW","England","Middlesex","","http://www.golfpass.com/","","",false,false,false,false
+387,"Finchley Golf Club","Nether Court, Frith Lane, Mill Hill, Middlesex, NW7 1PU","England","Middlesex","","http://www.golfpass.com/",72,6356,false,true,true,true
+388,"Northwood Golf Club","Rickmansworth Road, Pinner, Middlesex, HA6 2QW","England","Middlesex","","http://www.golfpass.com/",71,6473,false,true,true,true
+389,"Ruislip Golf Club","Ickenham Road, Ruislip, Middlesex, HA4 7DQ","England","Middlesex","","http://www.golfpass.com/",69,5571,true,true,true,true
+390,"Sunbury Golf Centre - Academy Course","Charlton Lane, Shepperton, Middlesex, TW17 8QA","England","Middlesex","","http://www.golfpass.com/","","",true,true,true,true
+391,"Ashford Manor Golf Club","Fordbridge Road, Staines, Middlesex, TW153RT","England","Middlesex","","http://www.golfpass.com/",70,6351,false,true,true,false
+392,"Caldecott Hall Golf & Leisure","Beccles Road, East Dereham, Norfolk, NR31 9EY","England","Norfolk","","http://www.golfpass.com/",54,2658,true,true,true,true
+393,"Weston Park","Weston Longville, Norwich, Norfolk, NR9 5JE","England","Norfolk","","http://www.golfpass.com/",72,6648,false,true,true,true
+394,"The Norwich Golf Course","Drayton High Road, Norwich, Norfolk, NR6 5AH","England","Norfolk","","http://www.golfpass.com/","","",false,true,false,false
+395,"Thetford Golf Club","Brandon Road, Thetford, Norfolk, IP24 3NE","England","Norfolk","","http://www.golfpass.com/",72,6849,false,true,true,true
+396,"Heathpark Golf Club","Stockley Road, West Drayton, Norfolk, UB7 9NA","England","Norfolk","","http://www.golfpass.com/",64,4490,false,true,false,true
+397,"Overstone Park","Billing Lane, Brackley, Northamptonshire, NN6 0AS","England","Northamptonshire","","http://www.golfpass.com/","","",false,false,false,false
+398,"Daventry & District Golf Club","Norton Road, Daventry, Northamptonshire, NN11 4AA","England","Northamptonshire","","http://www.golfpass.com/","","",false,false,false,false
+399,"Hellidon Lakes Golf & Spa Hotel - Lakes Course","Unnamed Road, Daventry, Northamptonshire, NN11 6GG","England","Northamptonshire","","http://www.golfpass.com/","","",false,false,false,false
+400,"Kettering Golf Club","Headlands, Kettering, Northamptonshire, NN15 6XA","England","Northamptonshire","","http://www.golfpass.com/",69,6057,false,true,true,true
+401,"Market Harborough Golf Club","Great Oxendon Road, Market Harborough, Northamptonshire, LE16 9HB","England","Northamptonshire","","http://www.golfpass.com/",70,6014,false,true,true,false
+402,"Northampton Golf Club","Harlestone, Northampton, Northamptonshire, NN74EF","England","Northamptonshire","","http://www.golfpass.com/",72,6515,false,true,true,false
+403,"Overstone Park","Billing Lane, Northampton, Northamptonshire, NN6 0AS","England","Northamptonshire","","http://www.golfpass.com/",72,6478,false,true,true,true
+404,"Cold Ashby Golf Club - Ashby & Elkington Course","Stanford Road, Northampton, Northamptonshire, NN6 6EP","England","Northamptonshire","","http://www.golfpass.com/","","",true,true,true,false
+405,"Cold Ashby Golf Club - Elkington & Winwick Course","Stanford Road, Northampton, Northamptonshire, NN6 6EP","England","Northamptonshire","","http://www.golfpass.com/","","",true,true,true,false
+406,"Farthingstone Hotel & Golf","Farthingstone, Towcester, Northamptonshire, NN128HA","England","Northamptonshire","","http://www.golfpass.com/",70,6299,false,true,true,true
+407,"Bamburgh Castle Golf Club","The Wynding, Alnwick, Northumberland, NE69 7DE","England","Northumberland","","http://www.golfpass.com/",68,5645,false,true,true,true
+408,"Heworth Golf Club","Muncastergate, Gateshead, Northumberland, NE108XY","England","Northumberland","","http://www.golfpass.com/",71,6498,false,false,false,false
+409,"Percy Wood Golf & Country Retreat","Chesterhill, Swarland, Morpeth, Northumberland, NE65 9JW","England","Northumberland","","http://www.golfpass.com/",72,6013,true,true,true,false
+410,"Longhirst Hall Golf Club - Old Course","Longhirst, Morpeth, Morpeth, Northumberland, NE61 3LL","England","Northumberland","","http://www.golfpass.com/",72,6983,true,true,true,true
+411,"Ponteland","53 Bell Villas, Newcastle-Upon-Tyne, Northumberland, NE20 9BD","England","Northumberland","","http://www.golfpass.com/",71,6587,true,true,true,true
+412,"Centurion Park","Rheydt Avenue, Newcastle-Upon-Tyne, Northumberland, NE28 8SU","England","Northumberland","","http://www.golfpass.com/",69,5767,true,true,true,true
+413,"The Lee Westwood Filly Course at Close House","Close House Estate, Newcastle-Upon-Tyne, Northumberland, NE150HT","England","Northumberland","","http://www.golfpass.com/","","",true,true,true,true
+414,"Matfen Hall Golf Club - Standing Stone/ Dewlaw","Matfen Newcastle Upon Tyne, Newcastle-Upon-Tyne, Northumberland, NE20 0RH","England","Northumberland","","http://www.golfpass.com/","","",false,false,false,false
+415,"Matfen Hall Golf Club - Dewlaw/ Douglas","Matfen Newcastle Upon Tyne, Newcastle-Upon-Tyne, Northumberland, NE20 0RH","England","Northumberland","","http://www.golfpass.com/","","",false,false,false,false
+416,"Leen Valley Golf Club","Wigwam Lane, Hucknall, Nottinghamshire, NG157TA","England","Nottinghamshire","","http://www.golfpass.com/",70,6120,true,true,true,true
+417,"Caddy Shack Golf Centre","Mansfield Golf Club, Mansfield, Nottinghamshire, NG183PJ","England","Nottinghamshire","","http://www.golfpass.com/",71,6170,true,true,false,false
+418,"Sherwood Forest Golf Club","Eakring Road, Mansfield, Nottinghamshire, NG18 3EW","England","Nottinghamshire","","http://www.golfpass.com/","","",false,true,true,true
+419,"Notts. Golf Club","Woodthorpe Drive, Nottingham, Nottinghamshire, NG54AT","England","Nottinghamshire","","http://www.golfpass.com/","","",true,true,true,false
+420,"Ramsdale Park Golf Centre - Seely Course","Oxton Road, Nottingham, Nottinghamshire, NG146NU","England","Nottinghamshire","","http://www.golfpass.com/","","",true,true,true,true
+421,"Bulwell Hall Golf Club","Bulwell Hall Park, Nottingham, Nottinghamshire, NG6 8BL","England","Nottinghamshire","","http://www.golfpass.com/","","",false,false,false,false
+422,"Wollaton Park Golf Club","Lime Tree Avenue, Nottingham, Nottinghamshire, NG8 1BT","England","Nottinghamshire","","http://www.golfpass.com/","","",true,true,true,true
+423,"Stanton-on-the-Wolds Golf Club","Golf Course Road, Stanton on the Wolds, Nottinghamshire, NG12 5BH","England","Nottinghamshire","","http://www.golfpass.com/","","",false,true,true,false
+424,"Coxmoor Golf Club","Coxmoor Road, Sutton-in-Ashfield, Nottinghamshire, NG175LF","England","Nottinghamshire","","http://www.golfpass.com/","","",false,true,false,false
+425,"Frilford Heath Golf Club - Red","Frilford Heath,, Abingdon, Oxfordshire, ","England","Oxfordshire","","http://www.golfpass.com/","","",true,true,true,true
+426,"Frilford Heath Golf Club - Blue Course","Frilford Heath,, Abingdon, Oxfordshire, OX13","England","Oxfordshire","","http://www.golfpass.com/","","",true,true,true,true
+427,"Frilford Heath Golf Club - Green Course","Frilford Heath,, Abingdon, Oxfordshire, OX13","England","Oxfordshire","","http://www.golfpass.com/","","",true,true,true,true
+428,"The Adderbury Golf Club","Aynho Road, Banbury, Oxfordshire, OX173NT","England","Oxfordshire","","http://www.golfpass.com/","","",true,false,true,false
+429,"The Adderbury Golf Club","Aynho Road, Banbury, Oxfordshire, OX173NT","England","Oxfordshire","","http://www.golfpass.com/","","",false,false,false,false
+430,"Tadmarton Heath Golf Club","Wiggington, Chipping Norton, Oxfordshire, OX15 5HL","England","Oxfordshire","","http://www.golfpass.com/",69,5936,true,true,true,true
+431,"The Wychwood Golf Club","Lyneham, Chipping Norton, Oxfordshire, OX7 6QQ","England","Oxfordshire","","http://www.golfpass.com/","","",true,true,true,true
+432,"Carswell Golf & Country Club","Carswell golf club, Carswell, Faringdon, Oxfordshire, SN7 8PU","England","Oxfordshire","","http://www.golfpass.com/",72,6527,true,true,true,true
+433,"Greys Green Golf Course","Dog Lane, Rotherfield Peppard, Henley-On-Thames, Oxfordshire, RG95JU","England","Oxfordshire","","http://www.golfpass.com/","","",true,true,false,false
+434,"North Oxford Golf Club","Banbury Road, Oxford, Oxfordshire, OX2 8EZ","England","Oxfordshire","","http://www.golfpass.com/",67,5702,false,true,true,true
+435,"Waterstock Golf Club","Thame Road Waterstock, Oxford, Oxfordshire, OX33 1HT","England","Oxfordshire","","http://www.golfpass.com/",72,6535,true,true,true,true
+436,"Hinksey Heights Golf Club","South Hinksey, Oxford, Oxfordshire, OX15AB","England","Oxfordshire","","http://www.golfpass.com/",74,6127,true,true,true,true
+437,"Hadden Hill Foot Golf","Wallingford Road Didcot, Wallingford, Oxfordshire, OX119BJ","England","Oxfordshire","","http://www.golfpass.com/",18,860,true,true,true,true
+438,"Astbury Hall Golf Club","Chelmarsh, Bridgnorth, Shropshire, WV16 6AU","England","Shropshire","","http://www.golfpass.com/",71,6517,false,false,false,false
+439,"Chesterton Valley Golf Club","Chesterton, Worfield, Bridgnorth, Shropshire, WV155NX","England","Shropshire","","http://www.golfpass.com/",71,6048,false,true,true,false
+440,"Church Stretton Golf Club","Hunters Moon, Trevor Hill, Church Stretton, Shropshire, SY66JH","England","Shropshire","","http://www.golfpass.com/",66,5030,false,true,true,true
+441,"Ludlow Golf Club","Bromfield, Ludlow, Shropshire, SY8 2BT","England","Shropshire","","http://www.golfpass.com/",70,6277,true,true,true,true
+442,"Lilleshall Hall Golf Club","Lilyhurst Rd, Newport, Shropshire, TF10 9AS","England","Shropshire","","http://www.golfpass.com/","","",true,false,true,true
+443,"Henlle Park Golf Club","Gobowen, Oswestry, Shropshire, SY11 3LQ","England","Shropshire","","http://www.golfpass.com/","","",false,true,true,false
+444,"The Shropshire Golf Centre","Muxton, Telford, Shropshire, TF28PQ","England","Shropshire","","http://www.golfpass.com/","","",true,true,true,true
+445,"Stockwood Vale","Stockwood Lane, Keynsham, Bristol, Somerset, BS31 2ER","England","Somerset","","http://www.golfpass.com/","","",true,false,true,false
+446,"Farrington Park Golf Club","Marsh Lane, Bristol, Somerset, BS39 6TS","England","Somerset","","http://www.golfpass.com/",72,6695,true,true,true,true
+447,"Saltford Golf Club","Golf Club Lane, Bristol, Somerset, BS31 3AA","England","Somerset","","http://www.golfpass.com/",71,6398,true,true,true,false
+448,"Minehead & West Somerset Golf Club","Warren Road, Minehead, Somerset, TA24 5SJ","England","Somerset","","http://www.golfpass.com/",72,6264,false,false,true,true
+449,"Taunton Vale Golf Club","Creech Heathfield, Taunton, Somerset, TA3 5EY","England","Somerset","","http://www.golfpass.com/","","",true,true,true,true
+450,"Taunton & Pickeridge Golf Club","Taunton & Pickeridge Golf Club, Taunton, Somerset, TA3 7BY","England","Somerset","","http://www.golfpass.com/",69,6109,false,true,true,true
+451,"Weston-Super-Mare Golf Club","Uphill Road North, Weston-Super-Mare, Somerset, BS234NQ","England","Somerset","","http://www.golfpass.com/",70,6245,false,true,false,false
+452,"Long Sutton Golf Club","Long Road, Yeovil, Somerset, TA10 9JU","England","Somerset","","http://www.golfpass.com/",71,6352,true,false,true,true
+453,"Cricket St Thomas Golf Club","A30, Yeovil, Somerset, TA20 4DG","England","Somerset","","http://www.golfpass.com/",70,5969,true,true,true,true
+454,"Yeovil Golf Club - Newton Course","Yeovil Golf Club, Yeovil, Somerset, BA21 5BW","England","Somerset","","http://www.golfpass.com/",68,4905,true,false,true,true
+455,"Yeovil Golf Club - Old Course","Sherborne Road, Yeovil, Somerset, BA21 5BW","England","Somerset","","http://www.golfpass.com/",71,6087,true,false,true,true
+456,"The Staffordshire Golf Club","Bridgnorth Road, Dudley, Staffordshire, DY34PU","England","Staffordshire","","http://www.golfpass.com/",71,6121,false,true,true,true
+457,"Hawkesyard Estate","Armitage Lane, Hawkesyard Estate Lichfield, Lichfield, Staffordshire, WS15 1PU","England","Staffordshire","","http://www.golfpass.com/",70,5969,true,true,true,true
+458,"Darnford Moors Golf Club","Darnford Lane, Lichfield, Staffordshire, WS14 9JG","England","Staffordshire","","http://www.golfpass.com/",67,4761,true,true,true,true
+459,"The Chase Golf, Health Club & Spa","Pottal Pool Road,, Lichfield, Staffordshire, ST195RN","England","Staffordshire","","http://www.golfpass.com/","","",true,true,true,false
+460,"Lichfield Golf and Country Club - The Spires","Seedy Mill Lane, Lichfield, Staffordshire, WS13 8HE","England","Staffordshire","","http://www.golfpass.com/","","",true,true,true,false
+461,"Whittington Heath Golf Club","Tamworth Road, Lichfield, Staffordshire, WS14 9PW","England","Staffordshire","","http://www.golfpass.com/","","",false,true,true,false
+462,"Ingestre Park Golf Club","Ingestre, Stafford, Staffordshire, ST18 0RE","England","Staffordshire","","http://www.golfpass.com/","","",false,true,true,true
+463,"Whiston Hall Golf Club","Black Lane, Stoke-On-Trent, Staffordshire, ST10 2HZ","England","Staffordshire","","http://www.golfpass.com/","","",false,true,true,true
+464,"Newcastle-under-Lyme Golf Club","Whitmore Road, Stoke-On-Trent, Staffordshire, ST52QB","England","Staffordshire","","http://www.golfpass.com/","","",false,true,true,true
+465,"Wolstanton Golf Club","Dimsdale Old Hall, Stoke-On-Trent, Staffordshire, ST5 9DR","England","Staffordshire","","http://www.golfpass.com/","","",false,true,true,true
+466,"Norton Bridge","Cold Norton, Stone, Staffordshire, ST15 0NS","England","Staffordshire","","http://www.golfpass.com/",72,6370,true,true,true,true
+467,"Drayton Park Golf Club","Drayton Manor Drive, Tamworth, Staffordshire, B78 3TN","England","Staffordshire","","http://www.golfpass.com/","","",false,true,true,true
+468,"Manor Golf Club (Kingstone)","Kingstone, Uttoxeter, Staffordshire, ST14 8QT","England","Staffordshire","","http://www.golfpass.com/","","",false,true,true,false
+469,"Bloxwich","Bloxwich Golf Club Stafford Road, Walsall, Staffordshire, WS33PQ","England","Staffordshire","","http://www.golfpass.com/","","",false,true,false,true
+470,"Patshull Park Hotel Golf & Country Club","Patshull Road, Wolverhampton, Staffordshire, WV6 7HR","England","Staffordshire","","http://www.golfpass.com/","","",false,true,true,false
+471,"Halfpenny Green Golf Club","Kartar Fm New Rd, Wolverhampton, Staffordshire, DY34PP","England","Staffordshire","","http://www.golfpass.com/","","",true,true,true,true
+472,"Thorpeness Hotel & Golf Club","Thorpeness, Aldeburgh, Suffolk, IP16 4NH","England","Suffolk","","http://www.golfpass.com/",74,6421,false,true,true,true
+473,"Suffolk Golf & Counrtry Club","Fornham St Genevieve, Bury St Edmunds, Suffolk, IP28 6JQ","England","Suffolk","","http://www.golfpass.com/","","",false,false,false,false
+474,"Bury St Edmunds Golf Club","Tut Hill, Bury St Edmunds, Suffolk, IP28","England","Suffolk","","http://www.golfpass.com/","","",false,true,true,true
+475,"Felixstowe Ferry Golf Club - Kingsfleet Course","Ferry Road, Felixstowe, Suffolk, IP49RY","England","Suffolk","","http://www.golfpass.com/",72,6422,true,true,true,false
+476,"Felixstowe Ferry Golf Club - The Martello Course","Ferry Road, Felixstowe, Suffolk, IP11 9RY","England","Suffolk","","http://www.golfpass.com/",72,6422,true,true,true,false
+477,"Haverhill Golf Club","Couples Road, Haverhill, Suffolk, CB9 7UW","England","Suffolk","","http://www.golfpass.com/",70,6067,false,true,false,true
+478,"Ipswich Golf Club The Bixley Course","Bucklesham Road, Ipswich, Suffolk, IP3 8UQ","England","Suffolk","","http://www.golfpass.com/",31,1930,false,true,false,true
+479,"Fynn Valley Golf Club","Witnesham Ipswich, Ipswich, Suffolk, IP69JA","England","Suffolk","","http://www.golfpass.com/",70,6391,true,true,true,true
+480,"Fynn Valley Golf Club 9 Hole","Witnesham, Ipswich, Suffolk, IP69JA","England","Suffolk","","http://www.golfpass.com/",27,957,true,true,true,true
+481,"Rushmere Golf Club","Rushmere Golf Club, Ipswich, Suffolk, IP4 5QQ","England","Suffolk","","http://www.golfpass.com/",70,6265,false,true,true,true
+482,"Bramford Golf Centre","Loraine Way, Bramford, Ipswich, Suffolk, IP8 4JS","England","Suffolk","","http://www.golfpass.com/","","",true,true,true,true
+483,"High Lodge","Haw Wood, Southwold, Suffolk, IP17 3QT","England","Suffolk","","http://www.golfpass.com/","","",false,false,true,true
+484,"Southwold Golf Club","The Common, Southwold, Suffolk, IP18 6TB","England","Suffolk","","http://www.golfpass.com/",70,6067,false,true,false,false
+485,"Waldringfield Golf Club","Newbourne Road, Woodbridge, Suffolk, IP12 4PT","England","Suffolk","","http://www.golfpass.com/",71,6046,true,true,true,true
+486,"Ufford Park Woodbridge Hotel, Golf & Spa","Yarmouth Road, Woodbridge, Suffolk, IP12 1QW","England","Suffolk","","http://www.golfpass.com/",71,5989,true,true,true,true
+487,"London Scottish Golf Club","Windmill Enclosure,, Battersea, Surrey, SW195NQ","England","Surrey","","http://www.golfpass.com/","","",false,true,false,true
+488,"Laleham Golf Club","Laleham Reach, Battersea, Surrey, KT16 8RP","England","Surrey","","http://www.golfpass.com/","","",false,true,true,false
+489,"Wildwood Golf & Country Club","Horsham Road, Cranleigh, Surrey, GU68JE","England","Surrey","","http://www.golfpass.com/",72,6485,false,false,true,true
+490,"De Vere Selsdon Estate Golf Club","Addington Road, Croydon, Surrey, CR2 8YA","England","Surrey","","http://www.golfpass.com/",72,6368,true,true,true,true
+491,"Purley Downs Golf Club","106 Purley Downs Road, Croydon, Surrey, CR20RB","England","Surrey","","http://www.golfpass.com/","","",false,false,true,false
+492,"Shirley Park Golf Club","194 Addiscombe Road, Croydon, Surrey, CR0 7LB","England","Surrey","","http://www.golfpass.com/","","",false,false,true,true
+493,"Farleigh Golf Club - Purple Course","Farleigh Common, Croydon, Surrey, CR69PE","England","Surrey","","http://www.golfpass.com/","","",false,false,false,false
+494,"Farleigh Golf Club - Green Course","Farleigh, Croydon, Surrey, CR69PE","England","Surrey","","http://www.golfpass.com/","","",false,false,false,false
+495,"Farleigh Golf Club - Orange Course","Farleigh Common, Croydon, Surrey, CR69PE","England","Surrey","","http://www.golfpass.com/","","",false,false,false,false
+496,"Godstone Golf Club - 18 Holes","Streete Court Rooks Nest park, Croydon, Surrey, RH9 8BY","England","Surrey","","http://www.golfpass.com/","","",false,false,false,false
+497,"Addington Court Golf Centre - Academy Course","Featherbed Lane, Croydon, Surrey, CR0 9AA","England","Surrey","","http://www.golfpass.com/","","",true,true,true,true
+498,"Horton Park Golf Club - Millennium Course","Hook Road, Epsom, Surrey, KT19 8QG","England","Surrey","","http://www.golfpass.com/",70,6010,true,true,true,true
+499,"Horton Park Golf Club - Academy Course","-0.274846, Epsom, Surrey, KT19 8QG","England","Surrey","","http://www.golfpass.com/","","",false,false,false,false
+500,"Horton Park Golf Club - Academy Course","Hook Road, Epsom, Surrey, KT19 8QG","England","Surrey","","http://www.golfpass.com/",27,1278,true,true,true,true
+501,"Oak Park Golf Club - Village Course","Oak Park Golf Club Heath Lane, Farnham, Surrey, GU105PB","England","Surrey","","http://www.golfpass.com/",36,3218,true,true,false,true
+502,"Oak Park Golf Club - Woodland Course","Heath Lane, Farnham, Surrey, GU105PB","England","Surrey","","http://www.golfpass.com/","","",true,true,false,true
+503,"Oak Park Golf Club - Old Course","Heath Lane, Farnham, Surrey, GU105PB","England","Surrey","","http://www.golfpass.com/","","",false,false,false,false
+504,"19801","Heath Lane, Farnham, Surrey, GU10 5PB","England","Surrey","","http://www.golfpass.com/","","",false,false,false,false
+505,"Mad Swans in The Mendips","Heath Lane, Farnham, Surrey, GU10 5PB","England","Surrey","","http://www.golfpass.com/","","",false,false,false,false
+506,"Clandon Golf Course","Epson Road, Guildford, Surrey, GU4 7AA","England","Surrey","","http://www.golfpass.com/","","",false,false,true,false
+507,"Milford Golf Club","Station Lane, Guildford, Surrey, GU8 5HS","England","Surrey","","http://www.golfpass.com/",69,5890,false,true,true,true
+508,"Rokers Golf Club","Holly Lane, Guildford, Surrey, GU3 3PB","England","Surrey","","http://www.golfpass.com/",36,3037,true,true,true,true
+509,"Puttenham Golf Club","Heath Rd, Puttenham, Guildford, Surrey, GU3 1AL","England","Surrey","","http://www.golfpass.com/",71,6220,true,true,true,true
+510,"Merrist Wood Golf Club","Holly Lane, Worplesdon, Guildford, Surrey, GU3 3PB","England","Surrey","","http://www.golfpass.com/","","",true,true,true,true
+511,"Betchworth Park Golf Club","Reigate Road, Guildford, Surrey, RH4 1NZ","England","Surrey","","http://www.golfpass.com/","","",true,true,true,true
+512,"Bramley Golf Club","Links Road, Guildford, Surrey, GU5 0AL","England","Surrey","","http://www.golfpass.com/","","",true,true,true,false
+513,"Chiddingfold Golf Club","Petworth Road, Haselmere, Surrey, SL41RS","England","Surrey","","http://www.golfpass.com/",68,5098,true,true,true,true
+514,"Coombe Wood Golf Club","George Road, Kington-Upon-Thames, Surrey, KT27NS","England","Surrey","","http://www.golfpass.com/",66,5285,false,true,false,false
+515,"Hampton Court Palace Golf Club","Home Park,, Kington-Upon-Thames, Surrey, KT1 4AD","England","Surrey","","http://www.golfpass.com/","","",false,true,true,true
+516,"Surbiton Golf Club","Woodstock Lane, Kington-Upon-Thames, Surrey, KT9 1UG","England","Surrey","","http://www.golfpass.com/",70,6056,true,true,true,true
+517,"Limpsfield Chart Golf Club","Westerham Road, Oxted, Surrey, RH8 0SH","England","Surrey","","http://www.golfpass.com/",70,5736,false,true,false,false
+518,"Redhill & Reigate Golf Club","Clarence Lodge, Redhill, Surrey, RH1 6LB","England","Surrey","","http://www.golfpass.com/",68,5272,true,true,false,true
+519,"Reigate Hill Golf Club","Gatton Bottom, Reigate, Redhill, Surrey, RH2 0TU","England","Surrey","","http://www.golfpass.com/",72,6246,true,true,true,true
+520,"Malden Golf Club","Traps Lane New Malden, Richmond, Surrey, KT3 4RS","England","Surrey","","http://www.golfpass.com/","","",false,true,false,false
+521,"Burhill Golf Club - The New Course","Burwood Road, Surrey, Surrey, KT12 4BX","England","Surrey","","http://www.golfpass.com/","","",true,true,true,true
+522,"Burhill Golf Club - The Old Course","Burwood Road, Surrey, Surrey, KT124BX","England","Surrey","","http://www.golfpass.com/","","",true,true,true,true
+523,"Tyrrells Wood Golf Club","The Drive, Surrey, Surrey, KT22 8QP","England","Surrey","","http://www.golfpass.com/","","",false,false,false,false
+524,"Pyrford Golf Club","Warren Lane, Pyrford, Woking, Surrey, GU22 8XR","England","Surrey","","http://www.golfpass.com/","","",true,true,true,true
+525,"Hoebridge Golf Centre - Short Course","Old Woking Road, Woking, Surrey, GU228JH","England","Surrey","","http://www.golfpass.com/","","",true,true,true,true
+526,"Hoebridge Golf Centre","Old Woking Road, Woking, Surrey, GU228JH","England","Surrey","","http://www.golfpass.com/",72,6536,true,true,true,true
+527,"Pine Ridge Golf Club","Old Bisley Road, Woking, Surrey, GU16 9NX","England","Surrey","","http://www.golfpass.com/","","",true,true,true,true
+528,"North Downs Golf Club","Northdown Road, Caterham, Woldingham, Surrey, CR37AA","England","Surrey","","http://www.golfpass.com/",69,5815,false,false,true,true
+529,"Bognor Regis Golf Club","Downview Road, Felpham, Bognor Regis, Sussex, PO22 8JD","England","Sussex","","http://www.golfpass.com/",70,6121,true,true,true,false
+530,"Dyke Golf Club","Devils Dyke Road, Brighton, Sussex, BN1 8YJ","England","Sussex","","http://www.golfpass.com/",73,6605,false,true,true,true
+531,"Hollingbury Park Golf Club","Ditchling Road, Brighton, Brighton, Sussex, BN17HS","England","Sussex","","http://www.golfpass.com/",72,6415,false,true,true,false
+532,"Waterhall Golf Club","Saddlescombe Road, Brighton, Sussex, BN45 7DB","England","Sussex","","http://www.golfpass.com/",69,5718,false,true,false,true
+533,"Chichester Golf Club - Tower Course","Hunston Village, Chichester, Sussex, PO20 1AX","England","Sussex","","http://www.golfpass.com/","","",true,true,true,true
+534,"Chichester Golf Club - Cathedral Course","Hunston Village, Chichester, Sussex, PO20 1AX","England","Sussex","","http://www.golfpass.com/","","",true,true,true,true
+535,"Golf at Goodwood - The Downs Course","The Goodwood Hotel, Chichester, Sussex, PO180QB","England","Sussex","","http://www.golfpass.com/","","",true,true,true,true
+536,"Copthorne Golf Club","Borers Arms Road, Copthorne, Sussex, RH10 3LL","England","Sussex","","http://www.golfpass.com/",71,6435,true,true,true,true
+537,"Effingham Park Golf Course","Westpark Road, Copthorne, Sussex, RH103EU","England","Sussex","","http://www.golfpass.com/",30,1822,false,true,false,true
+538,"Cottesmore Hotel, Golf & Country Club - Phoenix Course","Buchan Hill, Crawley, Sussex, RH119AT","England","Sussex","","http://www.golfpass.com/",69,4480,false,true,true,true
+539,"Royal Ashdown Forest Golf Club","Forest Row, Crawley, Sussex, RH18 5LR","England","Sussex","","http://www.golfpass.com/",72,6238,true,true,true,true
+540,"Cottesmore Hotel, Golf & Country Club - Griffin Course","Buchan Hill, Crawley, Sussex, RH119AT","England","Sussex","","http://www.golfpass.com/",72,6076,false,true,true,true
+541,"Royal Ashdown Forest Golf Club - West Course","Forest Row, Crawley, Sussex, RH18 5LR","England","Sussex","","http://www.golfpass.com/",68,5606,true,true,true,true
+542,"Club Champion Crawley","Platinum House, Sussex Manor Business Park,Gatwick Rd, Crawley, Sussex, RH10 9NH","England","Sussex","","http://www.golfpass.com/","","",false,false,false,false
+543,"Crowborough Beacon Golf Club","Beacon Road, Crowborough, Sussex, TN61UJ","England","Sussex","","http://www.golfpass.com/",71,6031,false,false,true,true
+544,"Sedlescombe Golf Club","Kent Street, East Sussex, Sussex, TN33 0SD","England","Sussex","","http://www.golfpass.com/",72,6269,true,true,true,true
+545,"Royal Eastbourne Golf Club - The Devonshire Course","Paradise Drive Eastbourne, Eastbourne, Sussex, BN208BP","England","Sussex","","http://www.golfpass.com/","","",false,true,true,true
+546,"Royal Eastbourne Golf Club - The Hartington Course","Paradise Drive, Eastbourne, Sussex, BN208BP","England","Sussex","","http://www.golfpass.com/","","",false,true,true,true
+547,"Eastbourne Downs Golf Club","East Dean Road, Eastbourne, Sussex, BN208ES","England","Sussex","","http://www.golfpass.com/",72,6601,false,true,false,false
+548,"Hassocks Golf Club","London Road, Hassocks, Sussex, BN6 9NA","England","Sussex","","http://www.golfpass.com/",70,5717,true,true,true,true
+549,"Beauport Park Golf Course","Battle Road, Hastings, Sussex, TN37 7BP","England","Sussex","","http://www.golfpass.com/","","",true,true,true,true
+550,"Piltdown Golf Club","Golf Club Ln, Piltdown, Uckfield, Haywards Heath, Sussex, TN22 3XB,","England","Sussex","","http://www.golfpass.com/",68,5881,true,true,true,false
+551,"Haywards Heath Golf Club","High Beech Lane, Haywards Heath, Sussex, RH161SL","England","Sussex","","http://www.golfpass.com/",71,6216,true,true,true,true
+552,"Horam Park Golf Club","Horam Park Golf Club, Chiddingly Road, Horam-Heathfield, Horam-Heathfield, Sussex, TN210JJ","England","Sussex","","http://www.golfpass.com/",70,5671,true,true,true,true
+553,"Rookwood Golf Course","Robin Hood Lane, Warnham, Horsham, Sussex, RH12 3RR","England","Sussex","","http://www.golfpass.com/",72,6008,false,true,false,true
+554,"Foxbridge Golf Club","Plaistow Road, Horsham, Sussex, RH140LB","England","Sussex","","http://www.golfpass.com/","","",true,true,false,false
+555,"Slinfold Golf & Country Club","Stane Street, Horsham, Sussex, RH13 0RE","England","Sussex","","http://www.golfpass.com/","","",true,true,true,true
+556,"Rusper Golf Club","Rusper Road, Horsham, Sussex, RH5 5BX","England","Sussex","","http://www.golfpass.com/","","",true,true,true,true
+557,"Horsham Park Golf Club - The Oaks Course","Denne Park, Horsham, Sussex, RH13 0AX","England","Sussex","","http://www.golfpass.com/","","",true,true,false,false
+558,"West Hove Golf Club","Badgers Way Hangleton, Hove, Sussex, BN3 8EX","England","Sussex","","http://www.golfpass.com/",70,6022,true,true,true,true
+559,"Rustington Golf","Golfers Ln, Worthing, Sussex, BN16 4NB","England","Sussex","","http://www.golfpass.com/","","",true,true,true,true
+560,"Littlehampton Golf Club","170 Rope Walk, Worthing, Sussex, BN17 5DL","England","Sussex","","http://www.golfpass.com/",70,6200,false,true,true,true
+561,"Hilltop (ENG) Golf Course","Park Lane, Birmingham, Warwickshire, B21 8LJ","England","Warwickshire","","http://www.golfpass.com/","","",false,true,false,true
+562,"Edgbaston Golf Club","Church Road, Birmingham, Warwickshire, B153TB","England","Warwickshire","","http://www.golfpass.com/","","",true,true,false,true
+563,"Harborne Golf Club","40 Tennal Road, Birmingham, Warwickshire, B322JE","England","Warwickshire","","http://www.golfpass.com/","","",false,true,true,true
+564,"Moseley Golf Club","Springfield Road, Birmingham, Warwickshire, B147DX","England","Warwickshire","","http://www.golfpass.com/","","",false,true,true,true
+565,"Great Barr Golf Club","Chapel Lane, Birmingham, Warwickshire, B43 7BA","England","Warwickshire","","http://www.golfpass.com/","","",false,false,true,false
+566,"North Warwickshire Golf Club","Hampton Lane, Meriden, Coventry, Warwickshire, CV7 7LL","England","Warwickshire","","http://www.golfpass.com/",71,6199,false,true,true,true
+567,"Ansty Golf Club - Championship Course","Brinklow Road, Coventry, Warwickshire, CV7 9JL","England","Warwickshire","","http://www.golfpass.com/","","",true,true,true,true
+568,"Coventry Hearsall Golf Club","Beechwood Avenue, Coventry, Warwickshire, CV5 6DF","England","Warwickshire","","http://www.golfpass.com/","","",false,true,false,true
+569,"Stonebridge Golf Club - Blythe Course","Somers Road, Coventry, Warwickshire, CV7 7PL","England","Warwickshire","","http://www.golfpass.com/",71,6206,false,false,false,false
+570,"Stonebridge Golf Club - Somer Course","Somers Road, Meriden, Coventry, Warwickshire, CV7 7PL","England","Warwickshire","","http://www.golfpass.com/",70,6185,false,false,false,false
+571,"Stoneleigh Deer Park Golf Club - Avon Course","The Clubhouse, Coventry Road, Stoneleigh, Coventry, Warwickshire, CV8 3DR","England","Warwickshire","","http://www.golfpass.com/","","",false,true,true,true
+572,"Henley Golf & Country Club","Birmingham Road, Henley-in-Arden, Warwickshire, B955QA","England","Warwickshire","","http://www.golfpass.com/",73,6893,true,true,true,false
+573,"Henley Golf & Country Club - Par 3 Course","Birmingham Road, Henley-in-Arden, Warwickshire, B955QA","England","Warwickshire","","http://www.golfpass.com/","","",true,true,true,false
+574,"Bramcote Waters Golf Club","Bazzard Road, Bramcote, Nuneaton, Warwickshire, CV11 6QJ","England","Warwickshire","","http://www.golfpass.com/",33,2390,false,true,false,false
+575,"Brandhall Golf Course","Heron Road, Oldbury, Warwickshire, B68 8AQ","England","Warwickshire","","http://www.golfpass.com/","","",false,true,true,true
+576,"Newbold Comyn Golf Course","Newbold Terrace Park, Royal Leamington Spa, Warwickshire, CV324EW","England","Warwickshire","","http://www.golfpass.com/","","",false,true,true,true
+577,"Leamington & County Golf Club","Golf Lane, Royal Leamington Spa, Warwickshire, CV31 2QA","England","Warwickshire","","http://www.golfpass.com/",72,6418,false,true,true,true
+578,"Whitefields Golf Club","London Road, Thurlaston, Rugby, Warwickshire, CV23 9LF","England","Warwickshire","","http://www.golfpass.com/",71,6289,true,true,true,true
+579,"West Midlands Golf Club","Marsh House Farm Lane, Solihull, Warwickshire, B920LB","England","Warwickshire","","http://www.golfpass.com/","","",false,true,true,false
+580,"Tidbury Golf Club","Tile House Hill, Solihull, Warwickshire, B90 1PT","England","Warwickshire","","http://www.golfpass.com/","","",true,false,false,false
+581,"Robin Hood Golf Club","Off St Bernards Road, Solihull, Warwickshire, B92 7DJ","England","Warwickshire","","http://www.golfpass.com/","","",true,true,true,true
+582,"Shirley Golf Club","Stratford Road, Solihull, Warwickshire, B90 4EW","England","Warwickshire","","http://www.golfpass.com/",72,6537,true,true,true,true
+583,"Widney Manor Golf Club","Saintbury Drive, Solihull, Warwickshire, B91 3SZ","England","Warwickshire","","http://www.golfpass.com/","","",true,true,true,true
+584,"Walmley Golf Club","Brooks Road, Sutton Coldfield, Warwickshire, B721HR","England","Warwickshire","","http://www.golfpass.com/",72,6603,false,true,true,false
+585,"Sutton Coldfield Golf Club","110 Thornhill Road, Sutton Coldfield, Warwickshire, B74 3ER","England","Warwickshire","","http://www.golfpass.com/","","",false,false,true,false
+586,"Marston Lakes Golf Club","Lea Marston Hotel, Sutton Coldfield, Warwickshire, B76 0BY","England","Warwickshire","","http://www.golfpass.com/","","",true,true,true,false
+587,"Cumberwell Park Golf Club - Blue & Orange Course","Cumberwell Park Golf Club, Bradford-On-Avon, Wiltshire, BA15 2PQ","England","Wiltshire","","http://www.golfpass.com/","","",true,true,true,true
+588,"Cumberwell Park Golf Club - Red & Yellow Course","Cumberwell Park, Bradford-On-Avon, Wiltshire, BA152PQ","England","Wiltshire","","http://www.golfpass.com/","","",true,true,true,true
+589,"Kingsdown Golf Club","Kingsdown, Chippenham, Wiltshire, SN13 8BS","England","Wiltshire","","http://www.golfpass.com/",72,6501,true,true,false,true
+590,"Manor House Golf Club","Castle Combe, Chippenham, Wiltshire, SN147JW","England","Wiltshire","","http://www.golfpass.com/","","",true,true,true,true
+591,"North Wilts Golf Club","Bishops Cannings, Devizes, Wiltshire, SN10 2LP","England","Wiltshire","","http://www.golfpass.com/",71,6414,false,true,true,true
+592,"Hamptworth Golf & Country Club","Hamptworth Road, Hamptworth, Wiltshire, SP52DU","England","Wiltshire","","http://www.golfpass.com/",72,6516,true,true,true,true
+593,"Oaksey Park Golf & Leisure","Longfields Farm, Malmesbury, Wiltshire, SN16 9SB","England","Wiltshire","","http://www.golfpass.com/",35,2908,false,true,false,false
+594,"Marlborough Golf Club","Marlborough Golf Club, Marlborough, Wiltshire, SN81DU","England","Wiltshire","","http://www.golfpass.com/",72,6469,false,true,true,true
+595,"Ogbourne Downs Golf Club","Ogbourne St. George, Marlborough, Wiltshire, SN8 1TB","England","Wiltshire","","http://www.golfpass.com/",71,6422,true,true,true,true
+596,"Tidworth Garrison Golf Club","Bulford Road, Salisbury, Wiltshire, SP97AF","England","Wiltshire","","http://www.golfpass.com/",70,6320,false,true,true,true
+597,"Salisbury & South Wilts - Cathedral Course","Netherhampton Road, Salisbury, Wiltshire, SP2 8PR","England","Wiltshire","","http://www.golfpass.com/",71,6485,false,true,true,true
+598,"West Wilts Golf Club","Elm Tree, Salisbury, Wiltshire, BA12 0UA","England","Wiltshire","","http://www.golfpass.com/",69,5790,false,false,false,true
+599,"Basset Down Golf Course","Lower Salthrop, Basset Down, Swindon, Wiltshire, SN4 9QW","England","Wiltshire","","http://www.golfpass.com/",36,3170,true,true,true,true
+600,"Shrivenham Park Golf Club","Pennyhooks Lane, Shrivenham, Swindon, Wiltshire, SN68EX","England","Wiltshire","","http://www.golfpass.com/",69,5630,false,true,true,true
+601,"Wrag Barn Golf & Country Club","Shrivenham Rd, Swindon, Wiltshire, SN6 7QQ","England","Wiltshire","","http://www.golfpass.com/",72,6622,true,true,false,true
+602,"Blackwell Golf Club","Agmore Road, Bromsgrove, Worcestershire, B60 1PY","England","Worcestershire","","http://www.golfpass.com/",70,6260,false,true,true,true
+603,"Gaudet Luce Golf Club - Phoenix Course","Middle Lane, Droitwich, Worcestershire, WR97JR","England","Worcestershire","","http://www.golfpass.com/","","",true,true,false,false
+604,"Gaudet Luce Golf Club - Hedzor Course","Middle Lane, Droitwich, Worcestershire, WR97JR","England","Worcestershire","","http://www.golfpass.com/","","",true,true,false,false
+605,"The Worcestershire Golf Club","Wood Farm, Malvern Wells, Great Malvern, Worcestershire, WR14 4PP","England","Worcestershire","","http://www.golfpass.com/",71,6455,false,true,true,false
+606,"Burlish Park Golf Club","Zortech Avenue, Kidderminster, Worcestershire, DY11 7EX","England","Worcestershire","","http://www.golfpass.com/",71,6071,false,true,false,false
+607,"Habberley Golf Club","Low Habberley, Kidderminster, Worcestershire, DY11 5RF","England","Worcestershire","","http://www.golfpass.com/","","",false,true,false,false
+608,"Churchill & Blakedown Golf Club","Churchill Lane, Kidderminster, Worcestershire, DY10 3NB","England","Worcestershire","","http://www.golfpass.com/",72,6510,false,true,false,false
+609,"The Vale Golf & Country Club - International Course","The Vale Golf Club Hill Furze Road Bishampton, Pershore, Worcestershire, WR10 2LZ","England","Worcestershire","","http://www.golfpass.com/",74,7154,true,true,true,true
+610,"The Vale Golf & Country Club - The Lenches 9 Hole Course","Hill Furze Road, Bishampton, Pershore, Worcestershire, WR10 2LZ","England","Worcestershire","","http://www.golfpass.com/",74,7154,true,true,true,true
+611,"Evesham Golf Club","Craycombe Links Fladbury Cross, Pershore, Worcestershire, WR102QS","England","Worcestershire","","http://www.golfpass.com/",72,6357,false,true,true,true
+612,"Pitcheroak Golf Course","Plymouth Rd, Redditch, Worcestershire, B97 4PB","England","Worcestershire","","http://www.golfpass.com/","","",true,true,false,true
+613,"Stourbridge Golf Club","Worcester Lane, Stourbridge, Worcestershire, DY8 2RB","England","Worcestershire","","http://www.golfpass.com/",70,6231,false,true,false,false
+614,"Sapey Golf Club - 18 Hole","Upper Sapey, Worcester, Worcestershire, WR6 6XT","England","Worcestershire","","http://www.golfpass.com/",69,5935,false,true,true,true
+615,"Sapey Golf Club - 9 Hole Par 3","Upper Sapey, Worcester, Worcestershire, WR6 6XT","England","Worcestershire","","http://www.golfpass.com/","","",false,true,true,true
+616,"Bransford Golf Club","Bransford, Worcester, Worcestershire, WR65JD","England","Worcestershire","","http://www.golfpass.com/",72,6172,true,true,true,true
+617,"Broadway Golf Club","Broadway, Worcester, Worcestershire, WR12 7LG","England","Worcestershire","","http://www.golfpass.com/","","",false,false,true,false
+618,"Ravenmeadow Golf Centre","Hindlip Lane, Worcester, Worcestershire, WR38SA","England","Worcestershire","","http://www.golfpass.com/","","",true,true,false,true
+619,"Tinsley Park Golf Club","High Hazels Park, Barnoldswick, Yorkshire, S9 4PE","England","Yorkshire","","http://www.golfpass.com/","","",false,false,false,false
+620,"Barnsley Golf Course","Wakefield Road, Barnsley, Yorkshire, S75 6JZ","England","Yorkshire","","http://www.golfpass.com/","","",false,false,true,true
+621,"Bedale Swing Studio","Leyburn Road, Bedale, Yorkshire, DL81EZ","England","Yorkshire","","http://www.golfpass.com/","","",false,false,false,false
+622,"Beverley & East Riding Golf Club","Westwood, Beverley, Beverley, Yorkshire, HU17 8RG","England","Yorkshire","","http://www.golfpass.com/",69,6034,false,true,false,true
+623,"Cherry Burton Golf Club","Leconfield Road,, Beverley, Yorkshire, HU177RB","England","Yorkshire","","http://www.golfpass.com/","","",true,true,true,true
+624,"Flamborough Head Golf Club","Lighthouse Road, Bridlington, Yorkshire, YO151AR","England","Yorkshire","","http://www.golfpass.com/","","",false,true,true,false
+625,"Bridlington Links Golf - Sir Henry Cotton Course","Flamborough Road, Bridlington, Yorkshire, YO15 1DW","England","Yorkshire","","http://www.golfpass.com/","","",true,true,true,false
+626,"Willow Valley Golf - Premier Willow Valley Course","Highmoor Lane, Brighouse, Yorkshire, HD64JB","England","Yorkshire","","http://www.golfpass.com/",72,6496,true,true,true,true
+627,"Willow Valley Golf - Fountain Ridge Course","Highmoor Lane, Brighouse, Yorkshire, HD64JB","England","Yorkshire","","http://www.golfpass.com/","","",true,true,true,true
+628,"Willow Valley - Pine Valley Course","Highmoor Lane, Brighouse, Yorkshire, HD64JB","England","Yorkshire","","http://www.golfpass.com/",66,5032,true,true,true,true
+629,"Elland Golf Club","Hammerstones Leach, Brighouse, Yorkshire, HX5 0TA","England","Yorkshire","","http://www.golfpass.com/","","",false,false,false,false
+630,"Bawtry Golf & Country Club","Cross Lane Austerfield, Doncaster, Yorkshire, DN10 6RF","England","Yorkshire","","http://www.golfpass.com/","","",true,true,true,true
+631,"Kingswood Golf Centre","Thorne Road, Doncaster, Yorkshire, DN7 6EP","England","Yorkshire","","http://www.golfpass.com/","","",true,true,true,false
+632,"Metro Golf Centre - Adventure Course","Champions Way, Hendon, East Riding of Yorkshire, Yorkshire, NW4 1PX","England","Yorkshire","","http://www.golfpass.com/","","",false,false,false,false
+633,"Pannal Golf Club","Follifoot Road, Pannal, Harrogate, Yorkshire, HG3 1ES","England","Yorkshire","","http://www.golfpass.com/",72,6614,true,true,true,true
+634,"Woodsome Hall Golf Club","Woodsome Hall, Huddersfield, Yorkshire, HD8 0LQ","England","Yorkshire","","http://www.golfpass.com/",70,6191,true,true,true,false
+635,"Hull Golf Club","The Hall, Packman Lane, Hull, Yorkshire, HU10 7TJ","England","Yorkshire","","http://www.golfpass.com/",70,6235,false,true,true,false
+636,"Bracken Ghyll Golf Club","Skipton Road, Ilkley, Yorkshire, LS29 0SL","England","Yorkshire","","http://www.golfpass.com/",69,5433,false,true,true,true
+637,"Ben Rhydding Golf Club","High Wood, Ilkley, Yorkshire, LS29 8SB","England","Yorkshire","","http://www.golfpass.com/","","",false,false,false,false
+638,"Bingley St. Ives Golf Club","St Ives Estate, Keighley, Yorkshire, BD16 1AT","England","Yorkshire","","http://www.golfpass.com/",71,6458,false,true,true,false
+639,"South Leeds Golf Club","Parkside Links, Leeds, Yorkshire, LS11 5TU","England","Yorkshire","","http://www.golfpass.com/",69,5865,true,false,true,true
+640,"Moortown Golf Club","Harrogate Road, Leeds, Yorkshire, LS177DB","England","Yorkshire","","http://www.golfpass.com/",71,6747,false,true,true,true
+641,"Moor Allerton Golf Club - Blackmoor","Coal Road, Leeds, Yorkshire, LS179NH","England","Yorkshire","","http://www.golfpass.com/","","",true,true,true,true
+642,"Moor Allerton Golf Club - High","Coal Road, Leeds, Yorkshire, LS179NH","England","Yorkshire","","http://www.golfpass.com/",71,6841,true,true,true,true
+643,"South Bradford Golf Club","Pearson Road, Leeds, Yorkshire, BD6 1BH","England","Yorkshire","","http://www.golfpass.com/",70,6076,false,false,false,true
+644,"Rawdon Golf & Lawn Tennis Club","Buckston Drive, Leeds, Yorkshire, LS19 6BB","England","Yorkshire","","http://www.golfpass.com/","","",false,true,false,true
+645,"Billingham Golf Club","Sandy Lane, Middlesbrough, Yorkshire, TS22 5NA","England","Yorkshire","","http://www.golfpass.com/",71,6346,true,true,true,false
+646,"Cleveland Golf Club","Majuba Road, Redcar, Yorkshire, TS105BJ","England","Yorkshire","","http://www.golfpass.com/","","",false,true,true,true
+647,"Hunley Hotel & Golf Club - Jubilee Course","Ings Lane, Saltburn-by-the-Sea, Yorkshire, TS122QQ","England","Yorkshire","","http://www.golfpass.com/","","",true,true,true,true
+648,"Hunley Hotel & Golf Club - Imperial Course","Ings Lane, Saltburn-by-the-Sea, Yorkshire, TS122QQ","England","Yorkshire","","http://www.golfpass.com/","","",true,true,true,true
+649,"Saltburn-by-the-Sea Golf Club","Hob Hill, Saltburn-by-the-Sea, Yorkshire, TS121NJ","England","Yorkshire","","http://www.golfpass.com/","","",true,true,true,true
+650,"Dore & Totley Golf Club","Bradway Road, Sheffield, Yorkshire, S17 4QR","England","Yorkshire","","http://www.golfpass.com/",72,6763,false,true,true,true
+651,"Beauchief Golf Course","Abbey Lane, Sheffield, Yorkshire, S8 0DB","England","Yorkshire","","http://www.golfpass.com/","","",false,false,true,true
+652,"Birley Wood Golf Club","Birley Lane, Sheffield, Yorkshire, S12 3BP","England","Yorkshire","","http://www.golfpass.com/","","",true,true,true,true
+653,"Tinsley Park Golf Course","High Hazels Park, Sheffield, Yorkshire, S9 4PE","England","Yorkshire","","http://www.golfpass.com/","","",false,true,true,true
+654,"Renishaw Park Golf Club","Mill Lane, Sheffield, Yorkshire, S213UZ","England","Yorkshire","","http://www.golfpass.com/","","",false,true,false,true
+655,"Low Laithes Golf Club","Parkmill Lane Flushdyke, Wakefield, Yorkshire, WF5 9AP","England","Yorkshire","","http://www.golfpass.com/",72,6439,false,false,false,true
+656,"Whitwood Foot Golf Course","Altofts Lane, Wakefield, Yorkshire, WF10 5PZ","England","Yorkshire","","http://www.golfpass.com/",36,3149,false,false,false,false
+657,"City of Wakefield Golf Club","Lupset Park, Wakefield, Yorkshire, WF28QS","England","Yorkshire","","http://www.golfpass.com/","","",false,false,true,true
+658,"Wetherby Golf Club","Linton Lane, Wetherby, Yorkshire, LS22 4JF","England","Yorkshire","","http://www.golfpass.com/",73,6719,true,true,true,true
+659,"Whitby Golf Club","Low Straggleton, Sandsend Road, Whitby, Yorkshire, YO21 3SR","England","Yorkshire","","http://www.golfpass.com/",71,6259,false,true,false,true
+660,"Forest Park Golf Club - Old Foss Course","The Village, York, Yorkshire, YO329UW","England","Yorkshire","","http://www.golfpass.com/","","",true,true,true,true
+661,"Forest Park Golf Club - West Course","Stockton-on-the-Forest, York, Yorkshire, YO329UW","England","Yorkshire","","http://www.golfpass.com/",70,6168,true,true,true,true
+662,"Silver Birch Golf & FootGolf Club","Silver Birch Golf Club, Conwy, Clwyd, LL228BZ","Wales","Clwyd","","http://www.golfpass.com/","","",true,true,true,true
+663,"Rhyl Golf Club","Coast Road, Denbighshire, Clwyd, LL18 3RE","Wales","Clwyd","","http://www.golfpass.com/","","",true,true,true,true
+664,"St. Melyd Golf Club","The Paddock, Denbighshire, Clwyd, LL19 8NB","Wales","Clwyd","","http://www.golfpass.com/",69,5839,false,true,false,true
+665,"Wrexham Golf Club","Holt Road, Wrexham, Clwyd, LL13 9SB","Wales","Clwyd","","http://www.golfpass.com/","","",true,true,true,true
+666,"Glynhir Golf Club","Glynhir Road, Carmarthenshire, Dyfed, SA18 2TF","Wales","Dyfed","","http://www.golfpass.com/",69,6033,false,true,true,true
+667,"Glyn Abbey Golf & Country Club","Trimsaran, Carmarthenshire, Dyfed, SA17 4LB","Wales","Dyfed","","http://www.golfpass.com/",70,6202,true,true,true,true
+668,"Borth & Ynyslas Golf Club","Aer Y Mor, High Street, Ceredigion, Dyfed, SY245JS","Wales","Dyfed","","http://www.golfpass.com/","","",true,true,false,false
+669,"Penrhos Golf & Country Club","Llanrhystud, Ceredigion, Dyfed, SY235AY","Wales","Dyfed","","http://www.golfpass.com/",72,6641,true,true,true,false
+670,"South Pembrokeshire Golf Club","Military Road, Pembrokeshire, Dyfed, SA72 6SE","Wales","Dyfed","","http://www.golfpass.com/",72,6158,false,true,true,true
+671,"Cloudmont Ski & Golf Resort","Hensol Park, Abertillery, Gwent, CV72 8JY","Wales","Gwent","","http://www.golfpass.com/",63,2181,false,true,true,true
+672,"Bryn Meadows Golf Simulator","Bryn Meadows Maesycwmmer, Nr. Ystrad Mynach, Caerphilly, Gwent, CF827SN","Wales","Gwent","","http://www.golfpass.com/","","",false,false,false,false
+673,"Caerleon Golf Club","The Broadway, Monmouthshire, Gwent, NP18 1AY","Wales","Gwent","","http://www.golfpass.com/",68,5719,true,true,false,true
+674,"Raglan Parc Golf Club","Parc Lodge, Raglan, Gwent, NP15 2ER","Wales","Gwent","","http://www.golfpass.com/",72,6615,true,true,true,false
+675,"Anglesey Golf Club","Station Road, Anglesey, Gwynedd, LL64 5QX","Wales","Gwynedd","","http://www.golfpass.com/",70,6330,false,true,false,true
+676,"www.storwswen.org","Brynteg, Anglesey, Gwynedd, LL78 8JY","Wales","Gwynedd","","http://www.golfpass.com/","","",false,false,false,false
+677,"Bull Bay Golf Club","Bull Bay Road, Gwynedd, Gwynedd, LL68 9RY","Wales","Gwynedd","","http://www.golfpass.com/",70,6276,true,true,true,true
+678,"Aberdovey Golf Club","Station Road, Gwynedd, Gwynedd, LL350RT","Wales","Gwynedd","","http://www.golfpass.com/","","",true,true,true,true
+679,"Criccieth Golf Club","Lon Ednyfed, Gwynedd, Gwynedd, LL520PH","Wales","Gwynedd","","http://www.golfpass.com/","","",true,true,true,true
+680,"Pyle & Kenfig Golf Club","Waun-y-Mer, Bridgend, Mid Glamorgan, CF33 4PU","Wales","Mid Glamorgan","","http://www.golfpass.com/",71,6861,true,true,true,true
+681,"Rhondda Golf Club","Pontygwaith, Merthyr Tydfil, Mid Glamorgan, CF43 3PW","Wales","Mid Glamorgan","","http://www.golfpass.com/",70,6063,true,true,true,false
+682,"Pontypool Golf Club","Lasgarn Lane Trevethin, Newport, Mid Glamorgan, NP4 8TR","Wales","Mid Glamorgan","","http://www.golfpass.com/",69,6000,true,true,true,false
+683,"Aberdare Golf Club","Abernant, Rhondda Cynon Taf, Mid Glamorgan, CF44 0RY","Wales","Mid Glamorgan","","http://www.golfpass.com/",69,5982,true,true,true,false
+684,"Pontypridd Golf Club","Ty-Gwyn Road, Rhondda Cynon Taf, Mid Glamorgan, CF37 4DJ","Wales","Mid Glamorgan","","http://www.golfpass.com/","","",false,false,false,false
+685,"Brynhill Golf Club","Port Road, Barry, South Glamorgan, CF62 8PN","Wales","South Glamorgan","","http://www.golfpass.com/",72,6079,false,false,true,true
+686,"Creigiau Golf Club","Llantwit Road, Heol Creigiau, Creigiau, Cardiff, South Glamorgan, CF15 9NN","Wales","South Glamorgan","","http://www.golfpass.com/",71,6108,false,true,true,false
+687,"Llanishen Golf Club","Heol Hir, Cardiff, South Glamorgan, CF14 9UD","Wales","South Glamorgan","","http://www.golfpass.com/",68,5301,false,true,true,true
+688,"Dewstow Golf Club - The Park Course","Dewstow Road, Cardiff, South Glamorgan, NP265AH","Wales","South Glamorgan","","http://www.golfpass.com/","","",false,false,false,false
+689,"Radyr Golf Club","Drysgol Road, Radyr, Cardiff, South Glamorgan, CF15 8BS","Wales","South Glamorgan","","http://www.golfpass.com/",70,6109,true,true,true,true
+690,"Dewstow Golf Club - Valley Course","Dewstow Road, Cardiff, South Glamorgan, NP265AH","Wales","South Glamorgan","","http://www.golfpass.com/","","",true,true,true,true
+691,"Tredegar Park Golf Club","Parc y Brain Road, Cardiff, South Glamorgan, NP10 9TG","Wales","South Glamorgan","","http://www.golfpass.com/",72,6564,false,false,true,false
+692,"Glamorganshire Golf Club","Lavernock Road, Penarth, South Glamorgan, CF64 5UP","Wales","South Glamorgan","","http://www.golfpass.com/",70,6184,false,true,true,true
+693,"Neath Golf Club","Cwmbach Road, Port Talbot, West Glamorgan, SA10 8AH","Wales","West Glamorgan","","http://www.golfpass.com/",72,6490,true,true,true,true
+694,"Langland Bay Golf Club","Langland Bay Road, Swansea, West Glamorgan, SA34QR","Wales","West Glamorgan","","http://www.golfpass.com/",70,6026,false,true,true,true
+695,"Swansea Bay Golf Club","Jersey Marine, Swansea, West Glamorgan, SA10 6JP","Wales","West Glamorgan","","http://www.golfpass.com/",72,6459,true,true,false,true
+696,"Earlswood Golf Course","Jersey Marine, Swansea, West Glamorgan, SA10 6JF","Wales","West Glamorgan","","http://www.golfpass.com/",68,5169,false,false,false,true
+697,"Peterculter Golf Club","Old Town, Aberdeen, Aberdeenshire, AB14 0LN","Scotland","Aberdeenshire","","http://www.golfpass.com/",71,6226,false,true,true,true
+698,"Royal Aberdeen Golf Club - Silverburn Course","Links Rd, Aberdeen, Aberdeenshire, AB23 8AT","Scotland","Aberdeenshire","","http://www.golfpass.com/","","",true,true,true,true
+699,"Royal Aberdeen Golf Club - Balgownie Links","Links Rd, Aberdeen, Aberdeenshire, AB23 8AT","Scotland","Aberdeenshire","","http://www.golfpass.com/","","",true,true,true,true
+700,"Balnagask - 9 Hole Golf Course","St Fittick's Road, Aberdeen, Aberdeenshire, AB11 8TN","Scotland","Aberdeenshire","","http://www.golfpass.com/","","",true,true,false,true
+701,"Newmachar Golf Club - Swailend Course","Swailend, Aberdeen, Aberdeenshire, AB21 7UU","Scotland","Aberdeenshire","","http://www.golfpass.com/","","",true,true,true,true
+702,"Newmachar Golf Club - Hawkshill Course","Swailend, Aberdeen, Aberdeenshire, AB21 7UU","Scotland","Aberdeenshire","","http://www.golfpass.com/","","",true,true,true,true
+703,"Paul Lawrie Golf Centre","South Deeside Road, Aberdeen, Aberdeenshire, AB12 5YN","Scotland","Aberdeenshire","","http://www.golfpass.com/","","",true,true,false,false
+704,"Rothes Golf Club","Blackhall. Rothes, Aberlour, Aberdeenshire, AB38 7AN","Scotland","Aberdeenshire","","http://www.golfpass.com/",35,2629,false,true,true,true
+705,"Braemar Golf Club","Cluniebank Road, Ballater, Aberdeenshire, AB35 5XX","Scotland","Aberdeenshire","","http://www.golfpass.com/","","",false,true,true,true
+706,"Cruden Bay Golf Club - Championship Course","Aulton Road, Cruden Bay, Aberdeenshire, AB42 0NN","Scotland","Aberdeenshire","","http://www.golfpass.com/","","",true,true,false,true
+707,"Fraserburgh Golf Club","Philorth Links, Fraserburgh, Fraserburgh, Aberdeenshire, AB438TL","Scotland","Aberdeenshire","","http://www.golfpass.com/",70,6318,true,true,true,true
+708,"Rosehearty Golf Club","Masons Arms, Fraserburgh, Aberdeenshire, AB43 7JJ","Scotland","Aberdeenshire","","http://www.golfpass.com/","","",true,true,false,true
+709,"Huntly Golf Club","Cooper Park, Huntly, Huntly, Aberdeenshire, AB54 4SH","Scotland","Aberdeenshire","","http://www.golfpass.com/",67,5359,true,true,false,true
+710,"Muirfield Lakes Golf Club","612 Muirfield Crescent, North Berwick, Aberdeenshire, T0J 1Y1","Scotland","Aberdeenshire","","http://www.golfpass.com/","","",false,false,true,true
+711,"Longside Golf Club","West End, Longside, Peterhead, Aberdeenshire, AB42 4XJ","Scotland","Aberdeenshire","","http://www.golfpass.com/","","",true,true,false,false
+712,"Arbroath Golf Links & Arbroath Artisan Golf Club","Elliot By Arbroath, Arbroath, Angus, DD11 2PT","Scotland","Angus","","http://www.golfpass.com/",70,6185,true,true,false,true
+713,"Letham Grange Glens Golf Club","Colliston, Arbroath, Arbroath, Angus, DD11 4RL","Scotland","Angus","","http://www.golfpass.com/",68,5528,false,true,true,true
+714,"Letham Grange Old Course","Colliston, Arbroath, Angus, DD11 4RL","Scotland","Angus","","http://www.golfpass.com/","","",false,true,true,true
+715,"Piperdam Golf & Leisure Resort - The Wee Piper Course","Piperdam Golf And Leisure Resort, Fowlis Dundee, Dundee, Angus, DD2 5LP","Scotland","Angus","","http://www.golfpass.com/",27,1399,true,true,true,true
+716,"Carnoustie - Buddon","20 Links Parade, Dundee, Angus, DD77JF","Scotland","Angus","","http://www.golfpass.com/","","",true,false,true,true
+717,"Carnoustie - Burnside","20 Links Parade, Dundee, Angus, DD77JF","Scotland","Angus","","http://www.golfpass.com/","","",true,false,true,true
+718,"Carnoustie - Championship","20 Links Parade, Dundee, Angus, DD77JF","Scotland","Angus","","http://www.golfpass.com/","","",true,false,true,true
+719,"Montrose Links - Medal","Traill Drive, Montrose, Angus, DD10 8SW","Scotland","Angus","","http://www.golfpass.com/",68,6585,false,true,true,true
+720,"Montrose Links -Broomfield","Traill Drive, Montrose, Angus, DD10 8SW","Scotland","Angus","","http://www.golfpass.com/",66,4825,false,true,true,true
+721,"Machrihanish Golf Club-Championship","Golf Club House, Machrihanish, Campbeltown, Argyllshire, PA28 6PT","Scotland","Argyllshire","","http://www.golfpass.com/",72,7175,true,true,true,true
+722,"Machrihanish Golf Club-Pans Course","Machrihanish, Campbeltown, Argyllshire, PA28 6PT","Scotland","Argyllshire","","http://www.golfpass.com/",34,2319,true,true,true,true
+723,"Loch Lomond Golf Club","Luss, Edentaggart, Argyllshire, G83 8NT","Scotland","Argyllshire","","http://www.golfpass.com/","","",true,true,true,true
+724,"Glencruitten Golf Club","Glencruitten Road, Oban, Oban, Argyllshire, PA34 4PU","Scotland","Argyllshire","","http://www.golfpass.com/",62,4434,true,true,false,true
+725,"Brunston Castle","Golf Course Road, Dailly, Ayrshire, Girvan, Ayrshire, KA26 9GD","Scotland","Ayrshire","","http://www.golfpass.com/",72,6800,true,true,true,true
+726,"Turnberry - Kintyre","Maidens Road, Girvan, Ayrshire, KA269LT","Scotland","Ayrshire","","http://www.golfpass.com/","","",false,false,false,false
+727,"Western Gailes Golf Club","Gailes, Irvine, Ayrshire, KA11 5AE","Scotland","Ayrshire","","http://www.golfpass.com/",71,7014,false,true,true,true
+728,"Loudoun Gowf Club","Newmilns Road, Kilmarnock, Ayrshire, KA4 8PA","Scotland","Ayrshire","","http://www.golfpass.com/",68,6005,true,true,true,true
+729,"Beith Golf Club","Threepwood Road, Kilwinning, Ayrshire, KA15 2JR","Scotland","Ayrshire","","http://www.golfpass.com/","","",false,false,false,false
+730,"Largs Golf Club","Irvine Road, Largs, Ayrshire, KA30 8EU","Scotland","Ayrshire","","http://www.golfpass.com/",70,6150,false,true,true,true
+731,"Skelmorlie Golf Club","Skelmorlie, Largs, Ayrshire, PA17 5ES","Scotland","Ayrshire","","http://www.golfpass.com/","","",false,false,false,false
+732,"Trump Turnberry Resort- Arran Course","Maidens Road, Maybole, Ayrshire, KA269LT","Scotland","Ayrshire","","http://www.golfpass.com/",62,3992,false,false,false,false
+733,"Trump Turnberry Resort- Arran Course","Maidens Road, Maybole, Ayrshire, KA269LT","Scotland","Ayrshire","","http://www.golfpass.com/","","",false,false,false,false
+734,"Trump Turnberry Resort- Arran Course","Maidens Road, Maybole, Ayrshire, KA269LT","Scotland","Ayrshire","","http://www.golfpass.com/","","",false,false,false,false
+735,"Skelmorlie Golf Club","Beithglass Road, North Ayrshire, Ayrshire, PA17 5ES","Scotland","Ayrshire","","http://www.golfpass.com/",65,4746,true,true,false,true
+736,"Prestwick St Cuthbert Golf Club","East Road Prestwick, Prestwick, Ayrshire, KA9 2SX","Scotland","Ayrshire","","http://www.golfpass.com/",71,6356,true,true,true,false
+737,"Prestwick Golf Club","2 Links Road, Prestwick, Ayrshire, KA91QG","Scotland","Ayrshire","","http://www.golfpass.com/","","",true,true,false,true
+738,"Kilmarnock Barassie Golf Club","29 Hillhouse Road, Troon, Ayrshire, KA10 6SY","Scotland","Ayrshire","","http://www.golfpass.com/","","",false,true,true,false
+739,"Kilmarnock Barassie (Hillhouse)","Maidens Road, Troon, Ayrshire, KA269LT","Scotland","Ayrshire","","http://www.golfpass.com/","","",false,false,false,false
+740,"Kilmarnock Barassie (Hillhouse)","29 Hillhouse Road, Troon, Ayrshire, KA10 6SY","Scotland","Ayrshire","","http://www.golfpass.com/","","",false,true,true,false
+741,"Trump Turnberry Resort- Arran Course","Maidens Road, Troon, Ayrshire, KA269LT","Scotland","Ayrshire","","http://www.golfpass.com/","","",false,false,false,false
+742,"Royal Tarlair Golf Club","Buchan Street, Banff, Banffshire, AB44 1TA","Scotland","Banffshire","","http://www.golfpass.com/",71,5894,true,true,true,true
+743,"Duff House Royal Golf Club","Barnyards, Banff, Banffshire, AB45 3SX","Scotland","Banffshire","","http://www.golfpass.com/",68,6109,true,true,true,true
+744,"Hirsel Golf Club","Kelso Road, Coldstream, Berwickshire, TD12 4NJ","Scotland","Berwickshire","","http://www.golfpass.com/",70,6024,true,true,true,true
+745,"Alloa Golf Club","Sauchie, Alloa, Clackmannanshire, FK10 3AX","Scotland","Clackmannanshire","","http://www.golfpass.com/",71,6266,true,true,true,true
+746,"Dollar Golf Club","Brewlands House, Dollar, Clackmannanshire, FK14 7EA","Scotland","Clackmannanshire","","http://www.golfpass.com/","","",false,false,false,true
+747,"New Galloway Golf Club","High Street, Castle Douglas, Dumfriesshire, DG7 3RN","Scotland","Dumfriesshire","","http://www.golfpass.com/",68,5006,true,true,true,true
+748,"Dalbeattie Golf Club","19 Maxwell Park, Dalbeattie, Dumfriesshire, DG5 4LS","Scotland","Dumfriesshire","","http://www.golfpass.com/",68,5710,true,true,true,false
+749,"Colvend Golf Club","Sandyhills, Dalbeattie, Dumfriesshire, DG5 4PY","Scotland","Dumfriesshire","","http://www.golfpass.com/",68,5341,false,true,true,true
+750,"Moffat Golf Club","Coatshill Moffatt, Dumfries, Dumfriesshire, DG10 9SB","Scotland","Dumfriesshire","","http://www.golfpass.com/","","",false,true,true,true
+751,"Vale of Leven Golf Club","Northfield RoadBonhill, Alexandria, Dunbartonshire, G83 9ET","Scotland","Dunbartonshire","","http://www.golfpass.com/",67,5330,false,true,false,false
+752,"Whitekirk Golf & Country Club","Whitekirk, North Berwick, East Lothian, EH395PR","Scotland","East Lothian","","http://www.golfpass.com/",70,6526,true,true,true,true
+753,"The Glen Golf Club","Tantallon Terrace, North Berwick, East Lothian, EH39 4LE","Scotland","East Lothian","","http://www.golfpass.com/",70,6275,false,true,true,true
+754,"Gullane - No.1 Course","West Links Road, North Berwick, East Lothian, EH31 2BB","Scotland","East Lothian","","http://www.golfpass.com/","","",true,true,true,true
+755,"Anstruther Golf Club","Marsfield, Anstruther, Fife, KY10 3DZ","Scotland","Fife","","http://www.golfpass.com/","","",false,true,false,false
+756,"Crail – Balcomie","Balcomie Clubhouse, Crail, Fife, KY103XN","Scotland","Fife","","http://www.golfpass.com/",69,5861,true,true,true,true
+757,"Crail - Craighead","Balcomie Clubhouse Crail, Crail, Fife, KY103XN","Scotland","Fife","","http://www.golfpass.com/",72,6651,true,true,true,true
+758,"Forrester Park Resort","Cairneyhill, Dunfermline, Fife, KY12 8RF","Scotland","Fife","","http://www.golfpass.com/",72,6855,true,true,true,true
+759,"Charleton Country Estate & Golf Club","Colinsburgh, Earlsferry, Fife, KY9 1HD","Scotland","Fife","","http://www.golfpass.com/",72,6446,true,true,true,true
+760,"Cluny Golf Course","Cluny, By Kirkcaldy, Kirkcaldy, Fife, KY2 6QU","Scotland","Fife","","http://www.golfpass.com/","","",true,true,false,true
+761,"Scotscraig Golf Club","Golf Road, Leuchars, Fife, DD69DZ","Scotland","Fife","","http://www.golfpass.com/",71,6550,false,true,true,true
+762,"St. Andrews Links","Pilmour House, St Andrews, Fife, KY16 9SF","Scotland","Fife","","http://www.golfpass.com/","","",true,true,true,true
+763,"Old Course Hotel - Duke's","The Duke's Golf Course, St Andrews, Fife, KY169SP","Scotland","Fife","","http://www.golfpass.com/",71,6550,true,true,true,true
+764,"Kingsbarns","Kingsbarns, St Andrews, Fife, KY168QD","Scotland","Fife","","http://www.golfpass.com/","","",true,true,true,true
+765,"Boat of Garten Golf Club","Nethybridge Road, Aviemore, Inverness-shire, PH24 3BQ","Scotland","Inverness-shire","","http://www.golfpass.com/","","",true,true,true,true
+766,"MacDonald Hotels Spey Valley - 9 Hole Course","Aviemore Centre, Aviemore, Inverness-shire, PH22 1PN","Scotland","Inverness-shire","","http://www.golfpass.com/",31,2368,true,true,true,true
+767,"Alness Golf Course","Ardross Road, Inverness, Inverness-shire, IV17 0QA","Scotland","Inverness-shire","","http://www.golfpass.com/",67,4976,false,false,true,false
+768,"Fortrose & Rosemarkie Golf Club","Ness Road East, Fortrose, Inverness, Inverness-shire, IV10 8SE","Scotland","Inverness-shire","","http://www.golfpass.com/","","",false,false,false,false
+769,"Spean Bridge Golf Club","Station Road, Spean Bridge, Inverness-shire, PH34 4EU","Scotland","Inverness-shire","","http://www.golfpass.com/",34,2214,false,true,false,true
+770,"Fort William Golf Club","Fortwilliam Golf Club, North Road, Spean Bridge, Inverness-shire, PH33 6SN","Scotland","Inverness-shire","","http://www.golfpass.com/","","",false,true,false,true
+771,"Fortwilliam Golf Club Scotland","North Road, Spean Bridge, Inverness-shire, PH33 6SN","Scotland","Inverness-shire","","http://www.golfpass.com/","","",false,false,false,false
+772,"Fortwilliam Golf Club Scotland","North Road, Spean Bridge, Inverness-shire, PH33 6SN","Scotland","Inverness-shire","","http://www.golfpass.com/","","",false,false,false,false
+773,"Culcrieff Golf Club","Crieff Hydro Resort Ferntower Road, Crieff, Kinross-shire, PH73LQ","Scotland","Kinross-shire","","http://www.golfpass.com/",66,4876,true,true,true,true
+774,"Kirkcudbright Golf Club","Stirling Crescent, Kirkcudbright, Kirkcudbrightshire, DG6 4EZ","Scotland","Kirkcudbrightshire","","http://www.golfpass.com/",69,5717,false,true,true,true
+775,"Biggar Golf Club","Broughton Road, Biggar, Lanarkshire, ML12 6HA","Scotland","Lanarkshire","","http://www.golfpass.com/",68,5569,false,true,true,false
+776,"Dullatur - Carrickstone","Glen Douglas Drive, Cumbernauld, Lanarkshire, G68 0DW","Scotland","Lanarkshire","","http://www.golfpass.com/",70,6202,true,true,true,true
+777,"Dullatur - Antonine","Glen Douglas Drive, Cumbernauld, Lanarkshire, G68 0DW","Scotland","Lanarkshire","","http://www.golfpass.com/",69,5875,true,true,true,true
+778,"Mount Ellen Golf Club","Lochend Road, Cumbernauld, Lanarkshire, G69 8BD","Scotland","Lanarkshire","","http://www.golfpass.com/",68,5115,true,false,true,false
+779,"Lenzie Golf Club","19 Crosshill Road, Glasgow, Lanarkshire, G66 5DA","Scotland","Lanarkshire","","http://www.golfpass.com/",69,5984,true,true,true,false
+780,"Bishopbriggs Golf Club","Brackenbrae Road, Glasgow, Lanarkshire, G64 2DX","Scotland","Lanarkshire","","http://www.golfpass.com/",72,6262,true,true,true,true
+781,"Williamwood Golf Club","Clarkston Road, Glasgow, Lanarkshire, G44 3YR","Scotland","Lanarkshire","","http://www.golfpass.com/",70,6045,true,true,true,false
+782,"Douglas Park Golf Club","Hillfoot, Bearsden, Glasgow, Lanarkshire, G61 2TJ","Scotland","Lanarkshire","","http://www.golfpass.com/",69,5962,false,true,true,false
+783,"Torrance House Golf Course","Calderglen Country Park, Glasgow, Lanarkshire, G750QZ","Scotland","Lanarkshire","","http://www.golfpass.com/",72,6433,true,true,false,true
+784,"Cawder Golf Club - Cawder Course","Cadder Road, Bishopbriggs, Glasgow, Lanarkshire, G64 3QD","Scotland","Lanarkshire","","http://www.golfpass.com/",70,6297,true,true,false,true
+785,"Bothwell Castle Golf Club","Uddingston Road, Bothwell, Glasgow, Lanarkshire, G71 8TD","Scotland","Lanarkshire","","http://www.golfpass.com/","","",true,true,false,true
+786,"The Whitecraigs Golf Club","72 Ayr Road, Giffnock, Glasgow, Lanarkshire, G46 6SW","Scotland","Lanarkshire","","http://www.golfpass.com/",70,6064,true,true,true,true
+787,"The Whitecraigs Golf Club - The Wee Course","Golf Club, 72 Ayr Road Giffnock, Glasgow, Lanarkshire, G46 6SW","Scotland","Lanarkshire","","http://www.golfpass.com/",35,3032,true,true,true,true
+788,"Haggs Castle Golf Club","70 Dumbreck Road, Glasgow, Lanarkshire, G41 4SN","Scotland","Lanarkshire","","http://www.golfpass.com/","","",true,true,true,true
+789,"Lethamhill Golf Course","1240 Cumbernauld Road, Glasgow, Lanarkshire, G33 1AH","Scotland","Lanarkshire","","http://www.golfpass.com/",71,5838,false,true,false,false
+790,"Palacerigg Golf Club","Palacerigg Country Park, Glasgow, Lanarkshire, G67 3HU","Scotland","Lanarkshire","","http://www.golfpass.com/",71,5972,true,true,true,false
+791,"Lochview Family Golf Centre","Townhead Road, Glasgow, Lanarkshire, ML5 2HX","Scotland","Lanarkshire","","http://www.golfpass.com/",69,5886,true,true,true,true
+792,"Linn Park Golf Course","Simshill Road, Glasgow, Lanarkshire, G44 5EP","Scotland","Lanarkshire","","http://www.golfpass.com/",68,5187,false,true,false,false
+793,"Cawder Golf Club - Keir Course","Cadder Road, Glasgow, Lanarkshire, G64 3QD","Scotland","Lanarkshire","","http://www.golfpass.com/","","",true,true,false,true
+794,"Sandyhills Golf Club","223 Sandyhills Road, Glasgow, Lanarkshire, G32 9NA","Scotland","Lanarkshire","","http://www.golfpass.com/",70,6189,false,true,true,true
+795,"Club Champion Glasgow","Unit 202, 14 Buccleuch Ave, Glasgow, Lanarkshire, G52 4UA","Scotland","Lanarkshire","","http://www.golfpass.com/","","",false,false,false,false
+796,"Strathclyde Park Golf Course","Mote Hill, Hamilton, Lanarkshire, ML3 6BY","Scotland","Lanarkshire","","http://www.golfpass.com/",36,3051,true,true,false,false
+797,"Langlands Golf Course","Langlands Road, Hamilton, Lanarkshire, G759D","Scotland","Lanarkshire","","http://www.golfpass.com/",70,6164,true,true,false,true
+798,"Larkhall Golf Club","Burnhead Road, Lanark, Lanarkshire, ML9 3AA","Scotland","Lanarkshire","","http://www.golfpass.com/",35,3164,false,false,true,true
+799,"Hollandbush Golf Club","Acretophead, Lanark, Lanarkshire, ML11 0JS","Scotland","Lanarkshire","","http://www.golfpass.com/",72,6183,true,false,false,false
+800,"Torrance Park Golf Course","2 Morris Drive, Motherwell, Lanarkshire, ML1 5UU","Scotland","Lanarkshire","","http://www.golfpass.com/",32,2443,false,true,true,false
+801,"Bellshill Golf Club","Community Road, Motherwell, Lanarkshire, ML4 2RZ","Scotland","Lanarkshire","","http://www.golfpass.com/",71,6240,false,true,false,false
+802,"Broomieknowe Golf Club","36 Golf Course Road, Bonnyrigg, Midlothian, EH19 2HZ","Scotland","Midlothian","","http://www.golfpass.com/",70,6172,true,true,true,true
+803,"Melville Golf Centre","Lasswade, Dalkeith, Midlothian, EH18 1AN","Scotland","Midlothian","","http://www.golfpass.com/",33,2302,true,true,false,true
+804,"Gogarburn Golf Club","Hanley Lodge, Edinburgh, Midlothian, EH28 8NN","Scotland","Midlothian","","http://www.golfpass.com/",43,2761,false,true,true,false
+805,"Bruntsfield Links Golfing Society","32 Barnton Avenue, Edinburgh, Midlothian, EH4 6JH","Scotland","Midlothian","","http://www.golfpass.com/",71,6446,true,true,true,true
+806,"Silverknowes Golf Course","118 Silverknowes Rd, Edinburgh, Midlothian, EH45ET","Scotland","Midlothian","","http://www.golfpass.com/",71,6281,true,true,true,true
+807,"Carrick Knowe Golf Course","Glendevon Park, Edinburgh, Midlothian, EH125UZ","Scotland","Midlothian","","http://www.golfpass.com/",70,6133,false,true,true,true
+808,"Craigentinny Golf Course","Fillyside Road, Edinburgh, Midlothian, EH76RG","Scotland","Midlothian","","http://www.golfpass.com/",67,5511,false,true,true,true
+809,"Wee Braids Golf Course","Princes Golf Course Braid Hills Drive, Edinburgh, Midlothian, EH106GZ","Scotland","Midlothian","","http://www.golfpass.com/","","",false,true,false,true
+810,"Portobello Golf Club","Stanley Street, Edinburgh, Midlothian, EH151JJ","Scotland","Midlothian","","http://www.golfpass.com/",32,2210,false,false,false,true
+811,"Braid Hills Golf Club","Braid Hills Approach, Edinburgh, Midlothian, EH106JY","Scotland","Midlothian","","http://www.golfpass.com/",71,5345,false,true,false,true
+812,"Royal Burgess Golfing Society of Edinburgh","181 Whitehouse Road, Edinburgh, Midlothian, EH4 6BY","Scotland","Midlothian","","http://www.golfpass.com/",71,6511,true,true,true,true
+813,"Mortonhall Golf Club","231 Braid Road, Edinburgh, Midlothian, EH10 6PB","Scotland","Midlothian","","http://www.golfpass.com/","","",false,true,true,true
+814,"Murrayfield Golf Club","43 Murrayfield Rd, Edinburgh, Midlothian, EH12 6EU","Scotland","Midlothian","","http://www.golfpass.com/","","",false,true,false,true
+815,"Cullen Golf Club","The links, The royal burgh of cullen, Cullen, Morayshire, AB56 4WB","Scotland","Morayshire","","http://www.golfpass.com/",64,4623,false,true,false,true
+816,"Maverston Golf Club","Garmouth Road, Elgin, Morayshire, IV30 8LR","Scotland","Morayshire","","http://www.golfpass.com/",70,6284,false,true,true,true
+817,"Maverston Golf Club- 9 hole course","Garmouth Road, Elgin, Elgin, Morayshire, IV30 8LR","Scotland","Morayshire","","http://www.golfpass.com/","","",false,true,true,true
+818,"Kinloss Country Golf Club","Nr Forres, Forres, Morayshire, IV36 2UB","Scotland","Morayshire","","http://www.golfpass.com/","","",true,true,true,true
+819,"The Nairn Golf Club","Seabank Road, Nairn, Nairnshire, IV12 4HB","Scotland","Nairnshire","","http://www.golfpass.com/","","",true,false,false,true
+820,"The Gleneagles Hotel - PGA Centenary","Auchterarder, Auchterarder, Perthshire, PH31NF","Scotland","Perthshire","","http://www.golfpass.com/","","",false,false,false,false
+821,"The Gleneagles Hotel - PGA Centenary","The Gleneagles Hotel, Auchterarder,, Auchterarder, Perthshire, PH31BR","Scotland","Perthshire","","http://www.golfpass.com/","","",false,false,false,false
+822,"The Gleneagles Hotel - PGA Centenary","The Gleneagles Hotel, Auchterarder, Perthshire, PH31BR","Scotland","Perthshire","","http://www.golfpass.com/","","",false,false,false,false
+823,"Strathmore Golf Centre - Leitfie Course","Leroch, Alyth Blairgowrie,, Blairgowrie, Perthshire, PH11 8NZ","Scotland","Perthshire","","http://www.golfpass.com/",29,1666,true,true,true,true
+824,"Blairgowrie Golf Club - Wee Course","Rosemount, Blairgowrie, Perthshire, PH10 6LG","Scotland","Perthshire","","http://www.golfpass.com/","","",true,true,true,true
+825,"Blairgowrie - Lansdowne","Golf Course Road, Blairgowrie, Perthshire, PH106LG","Scotland","Perthshire","","http://www.golfpass.com/","","",true,true,true,true
+826,"Comrie Golf Club","Laggan Braes, Crieff, Perthshire, PH6 2LR","Scotland","Perthshire","","http://www.golfpass.com/",70,6016,true,true,true,true
+827,"Killin Golf Club","Killin, Killen, Perthshire, FK21 8TX","Scotland","Perthshire","","http://www.golfpass.com/",66,4987,true,true,true,true
+828,"The Gleneagles Hotel - Academy Course","The Gleneagles Hotel, Perth, Perthshire, PH3 1BR","Scotland","Perthshire","","http://www.golfpass.com/","","",true,true,false,true
+829,"Cardross Golf Club","Main St., Dumbarton, Renfrewshire, G82 5LB","Scotland","Renfrewshire","","http://www.golfpass.com/",71,6465,true,true,true,true
+830,"Erskine Golf Club","Golf Road, Erskine, Renfrewshire, PA7 5PH","Scotland","Renfrewshire","","http://www.golfpass.com/",71,6372,true,true,true,false
+831,"Gourock Golf Club","Cowal View, Gourock, Renfrewshire, PA19 1HD","Scotland","Renfrewshire","","http://www.golfpass.com/",73,6408,false,true,true,true
+832,"Ranfurly Castle Golf Club","Golf Road Bridge of Weir, Paisley, Renfrewshire, PA11 3HN","Scotland","Renfrewshire","","http://www.golfpass.com/",70,6261,true,true,true,true
+833,"Paisley Golf Club","Braehead Road, Paisley, Renfrewshire, PA2 8TZ","Scotland","Renfrewshire","","http://www.golfpass.com/",71,6479,true,true,true,true
+834,"Cochrane Castle Golf Club","Scott Avenue,Craigston, Johnstone, Paisley, Renfrewshire, PA5 0HF","Scotland","Renfrewshire","","http://www.golfpass.com/",71,6194,true,true,true,false
+835,"Old Course Ranfurly Golf Club","Ranfurly Place, Paisley, Renfrewshire, PA11 3DE","Scotland","Renfrewshire","","http://www.golfpass.com/","","",false,false,false,false
+836,"Port Glasgow Golf Club","Devol Road, Port Glasgow, Renfrewshire, PA14 5XE","Scotland","Renfrewshire","","http://www.golfpass.com/",68,5712,true,true,true,true
+837,"Renfrew Golf Club","Blythswood Estate, Renfrew, Renfrewshire, PA4 9EG","Scotland","Renfrewshire","","http://www.golfpass.com/",70,6107,true,true,false,false
+838,"Strathpeffer Spa Golf Club","Golf Course Road, Strathpeffer, Strathpeffer, Ross-shire, IV14 9AS","Scotland","Ross-shire","","http://www.golfpass.com/",67,5001,false,true,true,true
+839,"Tain Golf Club","Chapel Road, Tain,, Tain, Ross-shire, IV191JE","Scotland","Ross-shire","","http://www.golfpass.com/",70,6404,true,true,true,true
+840,"Kelso Golf Club","Golf Course Road, Kelso, Kelso, Roxburghshire, TD5 7SL","Scotland","Roxburghshire","","http://www.golfpass.com/","","",false,true,true,true
+841,"St Boswells Golf Club","Braeheads, Saint Boswells, Melrose, Roxburghshire, TD6 0DE","Scotland","Roxburghshire","","http://www.golfpass.com/",68,5274,false,false,true,false
+842,"Selkirk Golf Club","Loanhead Cottage, Selkirk, Selkirkshire, TD74NW","Scotland","Selkirkshire","","http://www.golfpass.com/","","",false,true,true,false
+843,"Buchanan Castle Golf Club","Buchanan Castle Estate, Milngavie, Stirlingshire, G63 0HX","Scotland","Stirlingshire","","http://www.golfpass.com/",71,6131,true,true,true,true
+844,"Brucefields Family Golf Centre","Pirnhall Road, Stirling, Stirlingshire, FK78EH","Scotland","Stirlingshire","","http://www.golfpass.com/",34,2419,true,true,true,true
+845,"Royal Golf Club Marianske Lazne - Championship Course","Marianske Lazne 582, Dornoch, Sutherland, 353 01","Scotland","Sutherland","","http://www.golfpass.com/","","",true,true,true,true
+846,"Royal Golf Club Marianske Lazne - Chip & Putt 9-hole Course","Marianske Lazne 582, Dornoch, Sutherland, IV25 3LW","Scotland","Sutherland","","http://www.golfpass.com/","","",true,true,true,true
+847,"West Lothian Golf Club","Airngath Hill, Linlithgow, West Lothian, EH49 7RH","Scotland","West Lothian","","http://www.golfpass.com/",70,6148,false,true,true,true
+848,"Bridgend and District Golf Club","Willowdean, Bridgend, Linlithgow, West Lothian, EH49 6NW","Scotland","West Lothian","","http://www.golfpass.com/","","",false,false,true,true
+849,"Greenburn Golf Club","6 Greenburn Rd, Livingstone, West Lothian, EH47 9HG","Scotland","West Lothian","","http://www.golfpass.com/","","",false,true,false,true
+850,"Harburn Golf Club","West Calder, West Calder, West Lothian, EH55 8RS","Scotland","West Lothian","","http://www.golfpass.com/",71,6125,true,true,true,true
+851,"Newton Stewart Golf Club","2 Kirroughtree Avenue, Newton Stewart, Wigtownshire, DG8 6PF","Scotland","Wigtownshire","","http://www.golfpass.com/","","",true,true,true,true
+852,"Wigtownshire County Golf Club","Mains of Park, Wigtown, Wigtownshire, DG8 0NN","Scotland","Wigtownshire","","http://www.golfpass.com/",70,6104,true,true,true,true

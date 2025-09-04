@@ -9,7 +9,6 @@ import {
 } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import CourseInfoItem from "../organisms/CourseInfoItem";
-import CoursePageHeader from "../templates/CoursePageHeader";
 import CourseUserReview from "../templates/CourseUserReview";
 import Tabs from "../templates/Tabs";
 import Comment from "../organisms/Comment";
@@ -75,49 +74,27 @@ const CoursePage: React.FC<CoursePageProps> = ({
   const insets = useSafeAreaInsets();
   const router = useRouter();
 
-  const handleWebsitePress = async () => {
-    if (course.website) {
-      try {
-        const supported = await Linking.canOpenURL(course.website);
-        if (supported) {
-          await Linking.openURL(course.website);
-        } else {
-          Alert.alert("Error", "Cannot open this website");
-        }
-      } catch {
-        Alert.alert("Error", "Failed to open website");
-      }
-    }
-  };
+  // const handleWebsitePress = async () => {
+  //   if (course.website) {
+  //     try {
+  //       const supported = await Linking.canOpenURL(course.website);
+  //       if (supported) {
+  //         await Linking.openURL(course.website);
+  //       } else {
+  //         Alert.alert("Error", "Cannot open this website");
+  //       }
+  //     } catch {
+  //       Alert.alert("Error", "Failed to open website");
+  //     }
+  //   }
+  // };
 
   return (
     <ScrollView style={{ flex: 1, backgroundColor: "#fff" }}>
       <View style={{ paddingTop: insets.top, backgroundColor: "#fff", paddingLeft: 16 }} />
       <View style={{ padding: 16, backgroundColor: "#fff" }}>
-        <TouchableOpacity
-          onPress={() => router.back()}
-          style={{
-            padding: 8,
-            backgroundColor: "#eee",
-            borderRadius: 8,
-            width: 80,
-            alignItems: "center"
-          }}
-        >
-          <Text style={{ fontSize: 16 }}>←</Text>
-        </TouchableOpacity>
-      </View>
 
-      <View style={{ padding: 20 }}>
-        <CoursePageHeader
-          title={course.course_name}
-          score={score}
-          numOfReviews={numOfReviews}
-          onReviewPress={() => {}}
-          onBucketListPress={() => {}}
-        />
-
-        <TouchableOpacity
+        {/* <TouchableOpacity
           onPress={() => Linking.openURL(course.url || course.website || "")}
           style={{
             alignItems: "center",
@@ -130,7 +107,7 @@ const CoursePage: React.FC<CoursePageProps> = ({
           <Text style={{ fontSize: 18, fontWeight: "bold", color: "#fff" }}>
             Book a round with Golf Now
           </Text>
-        </TouchableOpacity>
+        </TouchableOpacity> */}
 
         <View style={{ marginVertical: 12 }} />
 
@@ -199,7 +176,7 @@ const CoursePage: React.FC<CoursePageProps> = ({
               { label: "Holes", value: course.holes ? `${course.holes} Holes` : "Unknown" },
               { label: "Yardage", value: course.length_yards ? `${course.length_yards} yards` : "Unknown" },
               course.website
-                ? { label: "Website", value: "Visit →", isLink: true, onPress: handleWebsitePress }
+                ? { label: "Website", value: "Visit →", isLink: true, onPress: null }
                 : null,
               course.practice?.driving_range
                 ? { label: "Driving Range", value: "Available" }
@@ -221,7 +198,7 @@ const CoursePage: React.FC<CoursePageProps> = ({
                   label={item!.label}
                   value={item!.value}
                   isLink={item!.isLink}
-                  onPress={item!.onPress}
+                  // onPress={item!.onPress}
                   isLast={index === arr.length - 1}
                 />
               ))}
@@ -229,24 +206,9 @@ const CoursePage: React.FC<CoursePageProps> = ({
         )}
       </View>
 
-      <TouchableOpacity
-        onPress={() => router.push(`/course/${course.course_id}/review`)}
-        style={{
-          alignItems: "center",
-          marginHorizontal: 16,
-          padding: 15,
-          minWidth: 100,
-          borderRadius: 16,
-          backgroundColor: "#3e9114ff"
-        }}
-      >
-        <Text style={{ fontSize: 18, fontWeight: "bold", color: "#fff" }}>
-          Start a Review
-        </Text>
-      </TouchableOpacity>
 
       {/* Existing Comments */}
-      <View style={{ padding: 20 }}>
+      {/* <View style={{ padding: 20 }}>
         <Text style={{ fontSize: 18, fontWeight: "bold", marginBottom: 10 }}>
           Your Reviews
         </Text>
@@ -284,7 +246,7 @@ const CoursePage: React.FC<CoursePageProps> = ({
           userReviewScore={8}
           strokes={80}
         />
-      </View>
+      </View> */}
 
       <View style={{ paddingBottom: insets.bottom + 50 }} />
     </ScrollView>

@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from "react";
+import React, { useState, useEffect } from "react";
 import { View, Text, TextInput, FlatList } from "react-native";
 import MiniReviewCard from "../../components/organisms/MiniReviewCard";
 import Disclosure from "../../components/organisms/Disclosure";
@@ -7,33 +7,52 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 import DistanceSlider from "../../components/molecules/DistanceSlider";
 import CustomDropDown from "../../components/molecules/CustomDropDown";
 
-// Import your data
-import courses from "../../assets/data/courses.json";
+// Import Supabase client
+import { supabase } from "../../lib/supabaseClient"
 
 const SearchPage: React.FC = () => {
   const [selectedSort, setSelectedSort] = useState("rating");
   const [maxDistance, setMaxDistance] = useState(20);
   const [searchQuery, setSearchQuery] = useState("");
-  const [filteredCourses, setFilteredCourses] = useState(courses.slice(0, 20)); // initially first 20
+  const [courses, setCourses] = useState<any[]>([]);
+  const [filteredCourses, setFilteredCourses] = useState<any[]>([]);
 
   const insets = useSafeAreaInsets();
 
+  // Fetch courses from Supabase on mount
+// Initially fetch all courses
+useEffect(() => {
+  const fetchCourses = async () => {
+    const { data, error } = await supabase
+      .from("courses")
+      .select("*"); // fetch all courses
+
+    if (error) {
+      console.error("Error fetching courses:", error);
+    } else {
+      setCourses(data || []);
+      setFilteredCourses(data || []); // show all initially
+    }
+  };
+
+  fetchCourses();
+}, []);
+
+
 const handleSearchChange = (text: string) => {
   setSearchQuery(text);
-
   const query = text.toLowerCase();
 
-  const filtered = courses
-    .filter(course =>
-      course.course_name?.toLowerCase().includes(query) ||
-      course.region?.toLowerCase().includes(query) ||
-      course.county?.toLowerCase().includes(query) ||
-      course.address?.toLowerCase().includes(query)
-    )
-    .slice(0, 20); // only show first 20 matches
+  const filtered = courses.filter(course =>
+    (course.name ?? "").toLowerCase().includes(query) ||
+    (course.region ?? "").toLowerCase().includes(query) ||
+    (course.county ?? "").toLowerCase().includes(query) ||
+    (course.address ?? "").toLowerCase().includes(query)
+  );
 
-  setFilteredCourses(filtered);
+  setFilteredCourses(filtered); // show all matches
 };
+
 
   return (
     <View
@@ -58,12 +77,7 @@ const handleSearchChange = (text: string) => {
           marginBottom: 12
         }}
       >
-        <Icon
-          name="search-outline"
-          size={20}
-          color="#888"
-          style={{ marginRight: 6 }}
-        />
+        <Icon name="search-outline" size={20} color="#888" style={{ marginRight: 6 }} />
         <TextInput
           style={{ flex: 1, paddingVertical: 10, fontSize: 16 }}
           placeholder="Search courses..."
@@ -72,7 +86,7 @@ const handleSearchChange = (text: string) => {
         />
       </View>
 
-      {/* Filters (hidden by default inside disclosure) */}
+      {/* Filters */}
       <Disclosure title="Filters">
         <CustomDropDown
           label="Sort by"
@@ -97,23 +111,23 @@ const handleSearchChange = (text: string) => {
         />
       </Disclosure>
 
-      {/* Results */}
       <Text style={{ fontSize: 16, fontWeight: "500", marginVertical: 8 }}>
         Results ({filteredCourses.length})
       </Text>
 
       <FlatList
         data={filteredCourses}
-        renderItem={({ item }) =>
+        renderItem={({ item }) => (
           <MiniReviewCard
             course={{
               course_id: item.course_id,
-              course_name: item.course_name,
+              course_name: item.name,
               par: item.par,
-              length_yards: item.length_yards,
-              holes: item.holes
+              length_yards: item.length,
+              // remove holes if not in your table
             }}
-          />}
+          />
+        )}
         contentContainerStyle={{ gap: 12, paddingBottom: 50 }}
       />
     </View>

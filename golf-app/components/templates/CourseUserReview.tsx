@@ -39,8 +39,7 @@ const CourseUserReview: React.FC<CourseUserReviewProps> = ({
         <Text style={{ fontSize: 16, fontWeight: "500" }}>{label}</Text>
 
         <View style={{ flexDirection: "row", alignItems: "flex-end", gap: 24 }}>
-          <ReviewScore reviewScore={score} />
-          <ReviewScore userReviewScore={userScore} />
+          <Text style={{letterSpacing: 12, color: "green", fontSize: 18}}>{'★'.repeat(userScore ?? 0)}</Text>
         </View>
       </TouchableOpacity>
 
