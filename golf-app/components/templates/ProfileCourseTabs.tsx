@@ -4,6 +4,7 @@ import Tabs from "./Tabs";
 import MiniReviewCard from "../organisms/MiniReviewCard";
 
 import reviewData from "../../assets/data/reviewData";
+import { theme } from "../../constants/Colors";
 
 interface ProfileCourseTabsProps {
 
@@ -13,21 +14,24 @@ const ProfileCourseTabs: React.FC<ProfileCourseTabsProps> = ({
 
 }) => {
   const [activeTab, setActiveTab] = React.useState<
-    "Top Courses" | "Course Reviews" | "Bucket List"
-  >("Top Courses");
+    "Courses" | "Recent Reviews" | "Saved"
+  >("Courses");
 
   return (
     <>
+    <View style={{marginBottom: 12, borderRadius: 12, backgroundColor: theme.colors.lightBgLight, paddingInline: 16}}>
       <Tabs
         activeTab={activeTab}
         onChange={setActiveTab}
         tabs={[
-          { key: "Top Courses", label: "Top Courses" },
-          { key: "Course Reviews", label: "Reviews" },
-          { key: "Bucket List", label: "Bucket List" }
+          { key: "Courses", label: "Courses" },
+          { key: "Recent Reviews", label: "Recent Reviews" },
+          { key: "Saved", label: "Saved" }
         ]}
       />
-      {activeTab === "Top Courses" &&
+      </View>
+      <View style={{backgroundColor: theme.colors.lightBgDark, paddingHorizontal: 16, marginTop: -28, paddingTop: 24, zIndex:-1}}>
+      {activeTab === "Courses" &&
         <View style={{ gap: 8 }}>
           {reviewData.map((review, index) => (
             <MiniReviewCard
@@ -37,7 +41,7 @@ const ProfileCourseTabs: React.FC<ProfileCourseTabsProps> = ({
                 course_name: review.courseName,
                 // courseSubtitle: review.courseSubtitle,
                 par: review.par,
-                length_yards: review.yardsage,
+                length_yards: review.yardage,
                 holes: review.holes
               }}
               course_name={review.courseName}
@@ -52,20 +56,21 @@ const ProfileCourseTabs: React.FC<ProfileCourseTabsProps> = ({
               />
           ))}
         </View>}
-      {activeTab === "Course Reviews" &&
+      {activeTab === "Recent Reviews" &&
         <View style={{ padding: 20 }}>
           <Text style={{ fontSize: 18, fontWeight: "bold" }}>
             Course Reviews
           </Text>
           {/* Placeholder for course reviews content */}
         </View>}
-      {activeTab === "Bucket List" &&
+      {activeTab === "Saved" &&
         <View style={{ padding: 20 }}>
           <Text style={{ fontSize: 18, fontWeight: "bold" }}>
             Bucket List
           </Text>
           {/* Placeholder for bucket list content */}
         </View>}
+        </View>
     </>
   );
 };

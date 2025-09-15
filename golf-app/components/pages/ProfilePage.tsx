@@ -9,12 +9,14 @@ interface ProfileProps {
   userTitle?: string;
   userAvatar?: string; // optional image URL
   numberOfUserReviews?: number;
+  handicap?: number;
   onSettingsPress?: () => void;
 }
 
 const Profile: React.FC<ProfileProps> = ({
   userName = "Sarah Johnson",
   userTitle = "Scratch Golfer",
+  handicap = 21,
   numberOfUserReviews = 12,
   onSettingsPress
 }) => {
@@ -34,8 +36,7 @@ const Profile: React.FC<ProfileProps> = ({
       <View
         style={{
           paddingVertical: insets.top,
-          backgroundColor: "#fff",
-          paddingHorizontal: 20
+          backgroundColor: "#fff"
         }}
       >
         {/* Header with Settings Button */}
@@ -53,10 +54,15 @@ const Profile: React.FC<ProfileProps> = ({
             style={{
               width: 44,
               height: 44,
+              top: 16,
+              right: 16,
+              position: "absolute",
               borderRadius: 22,
               backgroundColor: "#f5f5f5",
               justifyContent: "center",
-              alignItems: "center"
+              alignItems: "center",
+              cursor: "pointer",
+              zIndex: 1
             }}
             activeOpacity={0.7}
           >
@@ -68,6 +74,7 @@ const Profile: React.FC<ProfileProps> = ({
           userName={userName}
           userTitle={userTitle}
           numberOfUserReviews={numberOfUserReviews}
+          handicap={handicap}
         />
         <ScrollView>
           <ProfileCourseTabs />
