@@ -96,7 +96,8 @@ function Tabs<T extends string>({ tabs, activeTab, onChange }: TabsProps<T>) {
           >
             <Text
               style={{
-                fontSize: 12,
+                fontSize: 14,
+                fontWeight: "300",
                 color: isActive ? theme.colors.lightSecondary : "#666"
               }}
             >

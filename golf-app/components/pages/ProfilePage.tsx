@@ -1,5 +1,12 @@
 import React from "react";
-import { View, Alert, ScrollView, Text, TouchableOpacity } from "react-native";
+import {
+  View,
+  Alert,
+  ScrollView,
+  Text,
+  TouchableOpacity,
+  Image
+} from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import ProfileHeader from "../templates/ProfileHeader";
 import ProfileCourseTabs from "../templates/ProfileCourseTabs";
@@ -15,7 +22,7 @@ interface ProfileProps {
 
 const Profile: React.FC<ProfileProps> = ({
   userName = "Sarah Johnson",
-  userTitle = "Scratch Golfer",
+  userTitle = "Local Legend",
   handicap = 21,
   numberOfUserReviews = 12,
   onSettingsPress
@@ -33,12 +40,7 @@ const Profile: React.FC<ProfileProps> = ({
 
   return (
     <ScrollView style={{ flex: 1, backgroundColor: "#fff" }}>
-      <View
-        style={{
-          paddingVertical: insets.top,
-          backgroundColor: "#fff"
-        }}
-      >
+      <View style={{ paddingVertical: insets.top, backgroundColor: "#fff" }}>
         {/* Header with Settings Button */}
         <View
           style={{
@@ -66,7 +68,11 @@ const Profile: React.FC<ProfileProps> = ({
             }}
             activeOpacity={0.7}
           >
-            <Text style={{ fontSize: 20 }}>⚙️</Text>
+            <Image
+              source={require("../../assets/icons/settings.svg")}
+              style={{ width: 22, height: 22 }}
+              resizeMode="contain"
+            />
           </TouchableOpacity>
         </View>
 

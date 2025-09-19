@@ -1,10 +1,11 @@
 import React from "react";
-import { View, Text, Image } from "react-native";
+import { View, Text } from "react-native";
 import Tabs from "./Tabs";
-import MiniReviewCard from "../organisms/MiniReviewCard";
+import MiniReviewCard from "../cards/ReviewCard";
 
 import reviewData from "../../assets/data/reviewData";
 import { theme } from "../../constants/Colors";
+
 
 interface ProfileCourseTabsProps {
 
@@ -14,8 +15,8 @@ const ProfileCourseTabs: React.FC<ProfileCourseTabsProps> = ({
 
 }) => {
   const [activeTab, setActiveTab] = React.useState<
-    "Courses" | "Recent Reviews" | "Saved"
-  >("Courses");
+    "Top Courses" | "Recent" | "Saved"
+  >("Top Courses");
 
   return (
     <>
@@ -24,14 +25,14 @@ const ProfileCourseTabs: React.FC<ProfileCourseTabsProps> = ({
         activeTab={activeTab}
         onChange={setActiveTab}
         tabs={[
-          { key: "Courses", label: "Courses" },
-          { key: "Recent Reviews", label: "Recent Reviews" },
+          { key: "Top Courses", label: "Courses" },
+          { key: "Recent", label: "Recent" },
           { key: "Saved", label: "Saved" }
         ]}
       />
       </View>
       <View style={{backgroundColor: theme.colors.lightBgDark, paddingHorizontal: 16, marginTop: -28, paddingTop: 24, zIndex:-1}}>
-      {activeTab === "Courses" &&
+      {activeTab === "Top Courses" &&
         <View style={{ gap: 8 }}>
           {reviewData.map((review, index) => (
             <MiniReviewCard
@@ -56,7 +57,7 @@ const ProfileCourseTabs: React.FC<ProfileCourseTabsProps> = ({
               />
           ))}
         </View>}
-      {activeTab === "Recent Reviews" &&
+      {activeTab === "Recent" &&
         <View style={{ padding: 20 }}>
           <Text style={{ fontSize: 18, fontWeight: "bold" }}>
             Course Reviews

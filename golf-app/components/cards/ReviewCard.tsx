@@ -1,9 +1,10 @@
 import React from "react";
-import { View, Text, TouchableOpacity } from "react-native";
+import { View, Text, TouchableOpacity, Image } from "react-native";
 import ReviewScore from "../molecules/ReviewScore";
 import { useRouter } from "expo-router";
+import { theme } from "../../constants/Colors";
 
-export interface MiniReviewCardProps {
+export interface ReviewCardProps {
   course: {
     course_id: number;
     course_name: string;
@@ -19,7 +20,7 @@ export interface MiniReviewCardProps {
   strokes?: number;
 }
 
-const MiniReviewCard: React.FC<MiniReviewCardProps> = ({
+const ReviewCard: React.FC<ReviewCardProps> = ({
   course,
   reviewScore,
   userReviewScore,
@@ -54,26 +55,64 @@ const MiniReviewCard: React.FC<MiniReviewCardProps> = ({
           <Text style={{ fontWeight: "600", fontSize: 16, color: "#222" }}>
             {course.course_name}
           </Text>
+          <Text
+            style={{
+              fontWeight: "400",
+              fontSize: 12,
+              color: "#666"
+            }}
+          >
+            Course location
+          </Text>
           <View
             style={{
               flexDirection: "row",
               alignItems: "center",
-              gap: 24,
+              gap: 16,
               width: "100%",
               paddingVertical: 8
             }}
           >
-            <Text>
-              {course.length_yards
-                ? `${course.length_yards} yards`
-                : "Yardage N/A"}
-            </Text>
-            <Text>
-              Par {course.par || "?"}
-            </Text>
-            <Text>
-              {course.holes ? `${course.holes} Holes` : "Holes N/A"}
-            </Text>
+            <View
+              style={{ flexDirection: "row", alignItems: "center", gap: 6 }}
+            >
+              <Image
+                source={require("../../assets/icons/length.svg")}
+                style={{ width: 18, height: 18 }}
+                resizeMode="contain"
+              />
+              <Text style={{ fontSize: 10 }}>
+                {course.length_yards
+                  ? `${course.length_yards} yards`
+                  : "Yardage N/A"}
+              </Text>
+            </View>
+            <View
+              style={{ flexDirection: "row", alignItems: "center", gap: 6 }}
+            >
+              <Image
+                source={require("../../assets/icons/golf-flag.svg")}
+                style={{ width: 18, height: 18 }}
+                resizeMode="contain"
+              />
+              <Text style={{ fontSize: 10 }}>
+                Par {course.par || "?"}
+              </Text>
+            </View>
+            <View
+              style={{ flexDirection: "row", alignItems: "center", gap: 6 }}
+            >
+              <Image
+                source={require("../../assets/icons/leaderboard.svg")}
+                style={{ width: 18, height: 18 }}
+                resizeMode="contain"
+              />
+              <Text style={{ fontSize: 10 }}>
+                {course.slope && course.rating
+                  ? `${course.slope}/ ${course.rating}`
+                  : "slope/rating"}
+              </Text>
+            </View>
           </View>
           <View
             style={{
@@ -86,7 +125,6 @@ const MiniReviewCard: React.FC<MiniReviewCardProps> = ({
             }}
           >
             <ReviewScore reviewScore={reviewScore || 0} />
-            <ReviewScore userReviewScore={userReviewScore || 0} />
           </View>
           {reviewDate &&
             <Text
@@ -107,4 +145,4 @@ const MiniReviewCard: React.FC<MiniReviewCardProps> = ({
   );
 };
 
-export default MiniReviewCard;
+export default ReviewCard;

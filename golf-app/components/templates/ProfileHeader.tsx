@@ -49,7 +49,7 @@ const ProfileHeader: React.FC<ProfileHeaderProps> = ({
               </Text>
             </View>}
         {/* Name */}
-        <Text style={{ fontSize: 22, fontWeight: "700", color: "#222" }}>
+        <Text style={{ fontSize: 18, fontWeight: "700", color: "#222" }}>
           {userName}
         </Text>
 
@@ -96,12 +96,12 @@ const ProfileHeader: React.FC<ProfileHeaderProps> = ({
           >
             <Text
               style={{
-                fontSize: 12,
+                fontSize: 14,
                 color: theme.colors.lightPrimary,
                 borderWidth: 1,
                 paddingHorizontal: 12,
-                paddingVertical: 6,
-                borderRadius: 8,
+                paddingVertical: 8,
+                borderRadius: 12,
                 borderColor: theme.colors.lightPrimary
               }}
             >

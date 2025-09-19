@@ -1,68 +1,74 @@
 import React from "react";
-import { View, Text } from "react-native";
+import { View, Text, Image } from "react-native";
 
 interface ReviewScoreProps {
-  reviewScore?: number | string;
-  userReviewScore?: number | string;
+  reviewScore?: number;
   fallbackText?: string;
 }
 
 const ReviewScore: React.FC<ReviewScoreProps> = ({
   reviewScore,
-  userReviewScore,
-  fallbackText = "insufficient data"
+  fallbackText = "3.8"
 }) => {
-  // If both scores are provided, prioritize userReviewScore
-  if (userReviewScore) {
+  // If both scores are provided, prioritize reviewScore
+  if (reviewScore) {
     return (
       <View
         style={{
-          flexDirection: "row",
+          flexDirection: "column",
           alignItems: "center",
-          width: 50,
           gap: 4
         }}
       >
         <Text
           style={{
-            fontSize: 16,
+            fontSize: 22,
             color: "#666",
             fontWeight: "600"
           }}
         >
-          {userReviewScore || fallbackText}
+          {reviewScore || fallbackText}
         </Text>
+        <View style={{ flexDirection: "row", alignItems: "center" }}>
+          <Image
+            source={require("../../assets/icons/star.svg")}
+            style={{ width: 18, height: 18 }}
+            resizeMode="contain"
+          />
+          <Image
+            source={require("../../assets/icons/star.svg")}
+            style={{ width: 18, height: 18 }}
+            resizeMode="contain"
+          />
+          <Image
+            source={require("../../assets/icons/star.svg")}
+            style={{ width: 18, height: 18 }}
+            resizeMode="contain"
+          />
+          <Image
+            source={require("../../assets/icons/star.svg")}
+            style={{ width: 18, height: 18 }}
+            resizeMode="contain"
+          />
+          <Image
+            source={require("../../assets/icons/star.svg")}
+            style={{ width: 18, height: 18 }}
+            resizeMode="contain"
+          />
+        </View>
+
         <Text
           style={{
-            fontSize: 16,
-            color: "blue",
-            fontWeight: "600"
+            fontSize: 10,
+            color: "#666",
+            fontWeight: "400"
           }}
         >
-          ★
+          (100 reviews)
         </Text>
       </View>
     );
   }
-
-  // If only reviewScore is provided
-  if (reviewScore) {
-    return (
-      <Text
-        style={{
-          fontSize: 16,
-          color: "#666",
-          fontWeight: "600",
-          width: 50
-        }}
-      >
-        {reviewScore || fallbackText} ⭐️
-      </Text>
-    );
-  }
-
-  // If neither score is provided, return null (nothing rendered)
-  return null;
 };
 
 export default ReviewScore;

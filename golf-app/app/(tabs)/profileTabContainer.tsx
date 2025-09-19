@@ -22,7 +22,7 @@ const ProfileTabContainer: React.FC = () => {
         return (
           <ProfilePage
             userName="Sarah Johnson"
-            userTitle="Scratch Golfer"
+            userTitle="Local Legend"
             numberOfUserReviews={12}
             onSettingsPress={navigateToSettings}
           />
@@ -33,7 +33,7 @@ const ProfileTabContainer: React.FC = () => {
         return (
           <ProfilePage
             userName="Sarah Johnson"
-            userTitle="Scratch Golfer"
+            userTitle="Local Legend"
             numberOfUserReviews={12}
             onSettingsPress={navigateToSettings}
           />

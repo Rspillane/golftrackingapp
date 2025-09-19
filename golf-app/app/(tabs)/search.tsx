@@ -1,14 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { View, Text, TextInput, FlatList } from "react-native";
-import MiniReviewCard from "../../components/organisms/MiniReviewCard";
-import Disclosure from "../../components/organisms/Disclosure";
+import { View, Text, TextInput, FlatList, TouchableOpacity, Image } from "react-native";
+import CourseCard from "../../components/cards/CourseCard"
 import Icon from "react-native-vector-icons/Ionicons";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
-import DistanceSlider from "../../components/molecules/DistanceSlider";
-import CustomDropDown from "../../components/molecules/CustomDropDown";
-
-// Import Supabase client
 import { supabase } from "../../lib/supabaseClient"
+
+import { theme } from "../../constants/Colors";
 
 const SearchPage: React.FC = () => {
   const [selectedSort, setSelectedSort] = useState("rating");
@@ -58,23 +55,22 @@ const handleSearchChange = (text: string) => {
     <View
       style={{
         flex: 1,
-        backgroundColor: "#fff",
         paddingHorizontal: 16,
         paddingTop: insets.top + 16,
-        paddingBottom: insets.bottom + 16
+        paddingBottom: insets.bottom + 16,
+        backgroundColor: theme.colors.lightBgDark
       }}
     >
+      <View style={{flexDirection: "row", gap: 12}}>
       {/* Search bar */}
       <View
         style={{
           flexDirection: "row",
           alignItems: "center",
-          borderWidth: 1,
-          borderColor: "#ccc",
-          borderRadius: 8,
+          borderRadius: 12,
           paddingHorizontal: 10,
-          backgroundColor: "#f9f9f9",
-          marginBottom: 12
+          backgroundColor: theme.colors.lightBgLight,
+          flexGrow: 1
         }}
       >
         <Icon name="search-outline" size={20} color="#888" style={{ marginRight: 6 }} />
@@ -85,31 +81,20 @@ const handleSearchChange = (text: string) => {
           onChangeText={handleSearchChange}
         />
       </View>
-
-      {/* Filters */}
-      <Disclosure title="Filters">
-        <CustomDropDown
-          label="Sort by"
-          selectedValue={selectedSort}
-          onValueChange={setSelectedSort}
-          options={[
-            { label: "Overall Rating", value: "rating" },
-            { label: "Teeboxes", value: "teeboxes" },
-            { label: "Greens", value: "greens" },
-            { label: "Fairways", value: "fairways" },
-            { label: "Facilities", value: "facilities" },
-            { label: "Clubhouse", value: "clubhouse" },
-            { label: "Value", value: "value" }
-          ]}
-        />
-        <DistanceSlider
-          min={1}
-          max={100}
-          step={1}
-          value={maxDistance}
-          onValueChange={setMaxDistance}
-        />
-      </Disclosure>
+        <TouchableOpacity 
+          style={{
+              justifyContent: "center", 
+              alignItems: "center", 
+              paddingHorizontal: 8, 
+              backgroundColor: theme.colors.lightBgLight,
+              borderRadius: 12
+            }}>
+          <Image
+            source={require("../../assets/icons/filter.svg")}
+            resizeMode="contain"
+          />
+        </TouchableOpacity>
+      </View>
 
       <Text style={{ fontSize: 16, fontWeight: "500", marginVertical: 8 }}>
         Results ({filteredCourses.length})
@@ -118,13 +103,12 @@ const handleSearchChange = (text: string) => {
       <FlatList
         data={filteredCourses}
         renderItem={({ item }) => (
-          <MiniReviewCard
+          <CourseCard
             course={{
               course_id: item.course_id,
               course_name: item.name,
               par: item.par,
               length_yards: item.length,
-              // remove holes if not in your table
             }}
           />
         )}
