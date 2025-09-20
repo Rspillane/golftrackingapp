@@ -7,6 +7,8 @@ import { theme } from "../../constants/Colors";
 export interface CourseCardProps {
   course: {
     course_id: number;
+    county?: string;
+    region?: string;
     course_name: string;
     holes?: number | null;
     par?: number | null;
@@ -20,12 +22,7 @@ export interface CourseCardProps {
   strokes?: number;
 }
 
-const CourseCard: React.FC<CourseCardProps> = ({
-  course,
-  reviewScore,
-  reviewDate,
-  strokes
-}) => {
+const CourseCard: React.FC<CourseCardProps> = ({ course, reviewScore }) => {
   const router = useRouter();
 
   const handlePress = () => {
@@ -43,12 +40,19 @@ const CourseCard: React.FC<CourseCardProps> = ({
           backgroundColor: "#fff",
           flexDirection: "row",
           alignItems: "center",
-          gap: 8,
           width: "100%"
         }}
       >
         {/* Course Info */}
-        <View style={{ flexDirection: "column", alignItems: "flex-start" }}>
+        <View
+          style={{
+            flexDirection: "column",
+            alignItems: "flex-start",
+            display: "flex",
+            width: "50%",
+            flexGrow: 1
+          }}
+        >
           <View style={{ flexDirection: "column", paddingBottom: 4 }}>
             <Text
               style={{
@@ -56,20 +60,13 @@ const CourseCard: React.FC<CourseCardProps> = ({
                 fontSize: 14,
                 color: "#222",
                 textOverflow: "ellipsis",
-                overflow: "hidden",
-                width: 250
+                overflow: "hidden"
               }}
             >
               {course.course_name}
             </Text>
-            <Text
-              style={{
-                fontWeight: "400",
-                fontSize: 12,
-                color: "#666"
-              }}
-            >
-              Course location
+            <Text style={{ fontWeight: "400", fontSize: 12, color: "#666" }}>
+              {course.county}, {course.region}
             </Text>
           </View>
           <View
@@ -81,7 +78,7 @@ const CourseCard: React.FC<CourseCardProps> = ({
             }}
           >
             <View
-              style={{ flexDirection: "row", alignItems: "center", gap: 2 }}
+              style={{ flexDirection: "row", alignItems: "center", gap: 4 }}
             >
               <Image
                 source={require("../../assets/icons/length.svg")}
@@ -95,7 +92,7 @@ const CourseCard: React.FC<CourseCardProps> = ({
               </Text>
             </View>
             <View
-              style={{ flexDirection: "row", alignItems: "center", gap: 2 }}
+              style={{ flexDirection: "row", alignItems: "center", gap: 4 }}
             >
               <Image
                 source={require("../../assets/icons/golf-flag.svg")}
@@ -107,7 +104,7 @@ const CourseCard: React.FC<CourseCardProps> = ({
               </Text>
             </View>
             <View
-              style={{ flexDirection: "row", alignItems: "center", gap: 2 }}
+              style={{ flexDirection: "row", alignItems: "center", gap: 4 }}
             >
               <Image
                 source={require("../../assets/icons/leaderboard.svg")}
@@ -117,15 +114,11 @@ const CourseCard: React.FC<CourseCardProps> = ({
               <Text style={{ fontSize: 10 }}>
                 {course.slope && course.rating
                   ? `${course.slope}/ ${course.rating}`
-                  : "slope/rating"}
+                  : "71/120"}
               </Text>
             </View>
           </View>
-          <View
-            style={{
-              alignItems: "center"
-            }}
-          >
+          <View style={{ alignItems: "center" }}>
             <ReviewScore reviewScore={reviewScore || 0} />
           </View>
         </View>

@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text, Image, TouchableOpacity } from "react-native";
-import { theme } from "../../constants/Colors";
+import { theme } from "../../../constants/Colors";
 
 interface ProfileHeaderProps {
   userAvatar?: string;
@@ -20,7 +20,7 @@ const ProfileHeader: React.FC<ProfileHeaderProps> = ({
   const initials = userName.split(" ").map(n => n[0]).join("").toUpperCase();
 
   return (
-    <View style={{ padding: 20 }}>
+    <View style={{ padding: 20, backgroundColor: theme.colors.lightBgLight }}>
       <View style={{ alignItems: "center" }}>
         {/* Avatar */}
         {userAvatar
@@ -38,10 +38,10 @@ const ProfileHeader: React.FC<ProfileHeaderProps> = ({
                 width: 120,
                 height: 120,
                 borderRadius: 999,
-                backgroundColor: "#ccc",
                 justifyContent: "center",
                 alignItems: "center",
-                marginBottom: 12
+                marginBottom: 12,
+                backgroundColor: theme.colors.lightBgDark
               }}
             >
               <Text style={{ fontWeight: "bold", color: "#fff", fontSize: 24 }}>

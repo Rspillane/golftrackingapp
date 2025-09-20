@@ -28,17 +28,22 @@ export const Colors = {
 // theme.ts
 export const theme = {
   colors: {
-    lightBg: "hsl(0, 0%, 95%)",
-    lightBgDark: "hsl(0, 0%, 90%)",
-    lightBgLight: "hsl(0, 0%, 100%)",
-    lightPrimary: "hsl(163, 100%, 17%)",
+    lightBg: "#D6DCDA",
+    lightBgDark: "#C8D0CE",
+    lightBgLight: "#F1F3F3",
+    lightPrimary: "#00573eff",
     lightSecondary: "hsl(0, 0%, 100%)",
     semanticRed: "hsl(0, 98%, 32%)"
   },
-  text: {
-    bold: "700", // fontWeight
-    muted: 0.6 // opacity
-  }
-};
+  // colors: {
+  //   lightBg: "hsl(0, 0%, 95%)",
+  //   lightBgDark: "hsl(0, 0%, 90%)",
+  //   lightBgLight: "hsl(0, 0%, 100%)",
+  //   lightPrimary: "hsl(163, 100%, 17%)",
+  //   lightSecondary: "hsl(0, 0%, 100%)",
+  //   semanticRed: "hsl(0, 98%, 32%)"
+  // },
+  text: { bold: "700", muted: 0.6 }
+}; // fontWeight // opacity
 
 export const Tones = { muted: { color: "#666" } };

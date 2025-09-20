@@ -1,10 +1,10 @@
 import React from "react";
 import { View, Text } from "react-native";
-import Tabs from "./Tabs";
-import MiniReviewCard from "../cards/ReviewCard";
+import Tabs from "../../templates/Tabs";
+import MiniReviewCard from "../../cards/ReviewCard";
 
-import reviewData from "../../assets/data/reviewData";
-import { theme } from "../../constants/Colors";
+import reviewData from "../../../assets/data/reviewData";
+import { theme } from "../../../constants/Colors";
 
 
 interface ProfileCourseTabsProps {
@@ -20,17 +20,23 @@ const ProfileCourseTabs: React.FC<ProfileCourseTabsProps> = ({
 
   return (
     <>
-    <View style={{marginBottom: 12, borderRadius: 12, backgroundColor: theme.colors.lightBgLight, paddingInline: 16}}>
+    <View style={{
+      marginBottom: 12, 
+      borderBottomLeftRadius: 12,
+      borderBottomRightRadius: 12, 
+      backgroundColor: theme.colors.lightBgLight, 
+      paddingInline: 16}
+    }>
       <Tabs
         activeTab={activeTab}
         onChange={setActiveTab}
         tabs={[
-          { key: "Top Courses", label: "Courses" },
+          { key: "Top Courses", label: "Top Courses" },
           { key: "Recent", label: "Recent" },
           { key: "Saved", label: "Saved" }
         ]}
       />
-      </View>
+    </View>
       <View style={{backgroundColor: theme.colors.lightBgDark, paddingHorizontal: 16, marginTop: -28, paddingTop: 24, zIndex:-1}}>
       {activeTab === "Top Courses" &&
         <View style={{ gap: 8 }}>

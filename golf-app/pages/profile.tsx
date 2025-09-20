@@ -1,30 +1,20 @@
 import React from "react";
-import {
-  View,
-  Alert,
-  ScrollView,
-  Text,
-  TouchableOpacity,
-  Image
-} from "react-native";
+import { View, Alert, ScrollView, Text, TouchableOpacity } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
-import ProfileHeader from "./ProfilePage/ProfileHeader";
-import ProfileCourseTabs from "./ProfilePage/ProfileCourseTabs";
-import { theme } from "@/constants/Colors";
+import ProfileHeader from "../components/pages/ProfilePage/ProfileHeader";
+import ProfileCourseTabs from "../components/ProfileCourseTabs";
 
 interface ProfileProps {
   userName?: string;
   userTitle?: string;
   userAvatar?: string; // optional image URL
   numberOfUserReviews?: number;
-  handicap?: number;
   onSettingsPress?: () => void;
 }
 
 const Profile: React.FC<ProfileProps> = ({
   userName = "Sarah Johnson",
-  userTitle = "Local Legend",
-  handicap = 21,
+  userTitle = "Scratch Golfer",
   numberOfUserReviews = 12,
   onSettingsPress
 }) => {
@@ -41,14 +31,21 @@ const Profile: React.FC<ProfileProps> = ({
 
   return (
     <ScrollView style={{ flex: 1, backgroundColor: "#fff" }}>
-      <View style={{ paddingVertical: insets.top, backgroundColor: "#fff" }}>
+      <View
+        style={{
+          paddingVertical: insets.top,
+          backgroundColor: "#fff",
+          paddingHorizontal: 20
+        }}
+      >
         {/* Header with Settings Button */}
         <View
           style={{
             flexDirection: "row",
             justifyContent: "flex-end",
             alignItems: "center",
-            zIndex: 1
+            marginBottom: 10,
+            paddingTop: 10
           }}
         >
           <TouchableOpacity
@@ -56,23 +53,14 @@ const Profile: React.FC<ProfileProps> = ({
             style={{
               width: 44,
               height: 44,
-              top: 16,
-              right: 16,
-              position: "absolute",
               borderRadius: 22,
-              backgroundColor: theme.colors.lightBg,
+              backgroundColor: "#f5f5f5",
               justifyContent: "center",
-              alignItems: "center",
-              cursor: "pointer",
-              zIndex: 1
+              alignItems: "center"
             }}
             activeOpacity={0.7}
           >
-            <Image
-              source={require("../../assets/icons/settings.svg")}
-              style={{ width: 22, height: 22 }}
-              resizeMode="contain"
-            />
+            <Text style={{ fontSize: 20 }}>⚙️</Text>
           </TouchableOpacity>
         </View>
 
@@ -80,7 +68,6 @@ const Profile: React.FC<ProfileProps> = ({
           userName={userName}
           userTitle={userTitle}
           numberOfUserReviews={numberOfUserReviews}
-          handicap={handicap}
         />
         <ScrollView>
           <ProfileCourseTabs />
