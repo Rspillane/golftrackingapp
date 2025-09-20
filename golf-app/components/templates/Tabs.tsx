@@ -60,10 +60,11 @@ function Tabs<T extends string>({ tabs, activeTab, onChange }: TabsProps<T>) {
       style={{
         flexDirection: "row",
         backgroundColor: theme.colors.lightBgDark,
+        alignItems: "center",
         borderRadius: 16,
         marginBottom: 8,
         padding: 4,
-        height: 40
+        height: 48
       }}
     >
       {/* Animated background slider */}
@@ -72,7 +73,7 @@ function Tabs<T extends string>({ tabs, activeTab, onChange }: TabsProps<T>) {
           {
             position: "absolute",
             left: 0,
-            height: 32,
+            height: 40,
             borderRadius: 12,
             backgroundColor: theme.colors.lightPrimary
           },

@@ -15,6 +15,7 @@ import { theme } from "../../constants/Colors";
 import Tabs from "../../components/templates/Tabs";
 
 import { LinearGradient } from "expo-linear-gradient";
+import SearchHeader from "@/components/pages/SearchPage/SearchHeader";
 
 
 const PAGE_SIZE = 10;
@@ -68,58 +69,29 @@ const SearchPage: React.FC = () => {
     setVisibleCount((prev) => prev + PAGE_SIZE);
   };
 
+  function hexToRgba(hex: string, alpha: number) {
+  const r = parseInt(hex.slice(1, 3), 16);
+  const g = parseInt(hex.slice(3, 5), 16);
+  const b = parseInt(hex.slice(5, 7), 16);
+  return `rgba(${r},${g},${b},${alpha})`;
+}
+
+
   return (
     <View
       style={{
         flex: 1,
         paddingHorizontal: 16,
         paddingTop: insets.top + 16,
+         paddingBottom: insets.bottom,
         backgroundColor: theme.colors.lightBgDark,
       }}
     >
-      <View style={{ flexDirection: "row", gap: 12, paddingBottom: 12 }}>
-        {/* Search bar */}
-        <View
-          style={{
-            flexDirection: "row",
-            alignItems: "center",
-            borderRadius: 12,
-            paddingHorizontal: 10,
-            backgroundColor: theme.colors.lightBgLight,
-            flexGrow: 1,
-          }}
-        >
-          <Icon
-            name="search-outline"
-            size={20}
-            color="#888"
-            style={{ marginRight: 6 }}
-          />
-          <TextInput
-            style={{ flex: 1, paddingVertical: 10, fontSize: 16 }}
-            placeholder="Search courses..."
-            value={searchQuery}
-            onChangeText={handleSearchChange}
-          />
-        </View>
-
-        <TouchableOpacity
-          style={{
-            justifyContent: "center",
-            alignItems: "center",
-            paddingHorizontal: 8,
-            backgroundColor: theme.colors.lightBgLight,
-            borderRadius: 12,
-          }}
-        >
-          <Image
-            source={require("../../assets/icons/filter.svg")}
-            style={{ width: 20, height: 20 }}
-            resizeMode="contain"
-          />
-        </TouchableOpacity>
-      </View>
-
+      <SearchHeader
+        value={searchQuery}
+        onChangeText={handleSearchChange}
+        placeholder="Search courses, locations..."
+      />
       {/* Sections  */}
       <Tabs
         activeTab={activeTab}
@@ -155,11 +127,13 @@ const SearchPage: React.FC = () => {
           style={{
             position: "relative",
             alignItems: "center",
+            marginTop: -50,
+            paddingBottom: insets.bottom,
           }}
         >
           {/* Bottom fade */}
           <LinearGradient
-            colors={[ theme.colors.lightBgDark, "transparent"]}
+            colors={[hexToRgba(theme.colors.lightBgDark, 1), hexToRgba(theme.colors.lightBgDark, 0)]}
             start={{ x: 0.5, y: 1 }}
             end={{ x: 0.5, y: 0 }}
             style={{
@@ -176,6 +150,7 @@ const SearchPage: React.FC = () => {
               backgroundColor: theme.colors.lightPrimary,
               borderWidth: 1,
               paddingHorizontal: 12,
+              marginBottom: 8,
               paddingVertical: 8,
               borderRadius: 12,
               borderColor: theme.colors.lightPrimary,
@@ -194,7 +169,7 @@ const SearchPage: React.FC = () => {
 
   {/* Top fade */}
   <LinearGradient
-    colors={[theme.colors.lightBgDark, "transparent"]}
+    colors={[hexToRgba(theme.colors.lightBgDark, 1), hexToRgba(theme.colors.lightBgDark, 0)]}
     start={{ x: 0.5, y: 0 }}
     end={{ x: 0.5, y: 1 }}
     style={{

@@ -43,7 +43,7 @@ export const theme = {
   //   lightSecondary: "hsl(0, 0%, 100%)",
   //   semanticRed: "hsl(0, 98%, 32%)"
   // },
-  text: { bold: "700", muted: 0.6 }
+  text: { bold: 700, muted: 0.6 }
 }; // fontWeight // opacity
 
 export const Tones = { muted: { color: "#666" } };
