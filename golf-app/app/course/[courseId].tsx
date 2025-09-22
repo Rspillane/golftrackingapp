@@ -1,12 +1,15 @@
 import React, { useState, useEffect } from "react";
-import { View, Text, TouchableOpacity, ScrollView, ActivityIndicator } from "react-native";
-import CoursePageHeader from "../../components/templates/CoursePageHeader";
-import CourseDetailSection from "../../components/organisms/CourseReviewSection";
+import { View, Text, TouchableOpacity, ScrollView, ActivityIndicator, StyleSheet } from "react-native";
+import CoursePageHeader from "../../components/pages/CoursePage/CoursePageHeader";
+import CourseDetailSection from "../../components/pages/CoursePage/CoursePageInfoSection";
 import ReviewPage from "./[courseId]/ReviewPage";
 import BackButton from "@/components/atoms/BackButton";
 import { useLocalSearchParams } from "expo-router";
 import { supabase } from "../../lib/supabaseClient";
 import { useAuth } from "../../contexts/AuthContext";
+import { theme } from "../../constants/Colors";
+import Animated, { SlideInRight, SlideOutLeft, SlideInLeft, SlideOutRight } from "react-native-reanimated";
+
 
 const CoursePageRoute = () => {
   const [isReview, setIsReview] = useState(false);
@@ -96,41 +99,62 @@ const CoursePageRoute = () => {
   }
 
   return (
-    <ScrollView style={{ flex: 1, backgroundColor: "#fff" }}>
+    <ScrollView style={{ flex: 1}}>
       <BackButton />
       <CoursePageHeader
         title={course.name}
+        par={course.par}
+        length={course.length_yards}
+        slope={course.slope}
+        rating={course.rating}
         score={reviewItems.reduce((sum, r) => sum + r.score, 0) / reviewItems.length}
         numOfReviews={reviewItems.length}
-        onReviewPress={() => setIsReview(true)}
+        onReviewPress={() => setIsReview(prev => !prev)}
+        isReview={isReview}
         onBucketListPress={() => {}}
       />
+      <View style={styles.sectionContainer}>
+        {!isReview && (
+          <Animated.View
+            key="details"
+            entering={SlideInLeft}
+            exiting={SlideOutLeft}
+            style={styles.sectionContent}
+          >
+            <CourseDetailSection
+              course={course}
+              reviewItems={reviewItems}
+              // userReviews={userReviews}
+            />
+          </Animated.View>
+        )}
 
-      <CourseDetailSection
-        course={course}
-        reviewItems={reviewItems}
-        userReviews={userReviews}
-      />
+        {isReview && (
+          <Animated.View
+            key="review"
+            entering={SlideInRight}
+            exiting={SlideOutRight}
+            style={styles.sectionContent}
+          >
+            <ReviewPage courseName={course.name} />
+          </Animated.View>
+        )}
+      </View>
 
-      {!isReview && (
-        <TouchableOpacity
-          onPress={() => setIsReview(true)}
-          style={{
-            alignItems: "center",
-            marginHorizontal: 16,
-            padding: 15,
-            minWidth: 100,
-            borderRadius: 16,
-            backgroundColor: "#3e9114ff",
-          }}
-        >
-          <Text style={{ fontSize: 18, fontWeight: "bold", color: "#fff" }}>Start a Review</Text>
-        </TouchableOpacity>
-      )}
-
-      {isReview && <ReviewPage courseName={course.name} />}
     </ScrollView>
   );
 };
+const styles = StyleSheet.create({
+  container: { flex: 1 },
+  sectionContainer: {
+    flex: 1, // take remaining space in the ScrollView
+    position: "relative", // let children stack in place
+    minHeight: 400, // optional: ensures there's enough space
+  },
+  sectionContent: {
+    ...StyleSheet.absoluteFillObject, // overlap *within the section only*
+  },
+});
+
 
 export default CoursePageRoute;

@@ -1,18 +1,19 @@
 import React, { useState } from "react";
 import {
   View,
-  Linking,
-  Alert,
+  // Linking,
+  // Alert,
   ScrollView,
   Text,
-  TouchableOpacity
+  // TouchableOpacity
 } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
-import CourseInfoItem from "../organisms/CourseInfoItem";
-import CourseUserReview from "../templates/CourseUserReview";
-import Tabs from "../templates/Tabs";
-import Comment from "../organisms/Comment";
+import CourseInfoItem from "./CourseInfoItem";
+// import CourseUserReview from "./CourseUserReview";
+import Tabs from "../../templates/Tabs";
+// import Comment from "../../organisms/Comment";
 import { useRouter } from "expo-router";
+import { theme } from "../../../constants/Colors";
 
 interface TeeDetail {
   tee: string;
@@ -62,7 +63,7 @@ interface CoursePageProps {
   paceOfPlay?: number;
 }
 
-const CoursePage: React.FC<CoursePageProps> = ({
+const CoursePageInfoSection: React.FC<CoursePageProps> = ({
   course,
   reviewItems = [],
   numOfReviews = 0,
@@ -90,9 +91,9 @@ const CoursePage: React.FC<CoursePageProps> = ({
   // };
 
   return (
-    <ScrollView style={{ flex: 1, backgroundColor: "#fff" }}>
-      <View style={{ paddingTop: insets.top, backgroundColor: "#fff", paddingLeft: 16 }} />
-      <View style={{ padding: 16, backgroundColor: "#fff" }}>
+    <ScrollView style={{ flex: 1, backgroundColor: theme.colors.lightBgDark }}>
+      <View style={{  paddingHorizontal: 16 }} />
+      <View style={{ paddingHorizontal: 16 }}>
 
         {/* <TouchableOpacity
           onPress={() => Linking.openURL(course.url || course.website || "")}
@@ -109,21 +110,21 @@ const CoursePage: React.FC<CoursePageProps> = ({
           </Text>
         </TouchableOpacity> */}
 
-        <View style={{ marginVertical: 12 }} />
-
-        <Tabs
-          activeTab={activeTab}
-          onChange={setActiveTab}
-          tabs={[
-            { key: "info", label: "Course Info" },
-            { key: "ratings", label: "Player Ratings" }
-          ]}
-        />
-
+        <View style={{backgroundColor: theme.colors.lightBgLight, marginHorizontal: -16, paddingHorizontal: 16, borderBottomRightRadius: 12, borderBottomLeftRadius: 12, paddingBottom: 4}}>
+          <Tabs
+            activeTab={activeTab}
+            onChange={setActiveTab}
+            tabs={[
+              { key: "info", label: "Course Information" },
+              { key: "ratings", label: "Community Reviews" }
+            ]}
+          />
+        </View>
+        <View style={{ marginVertical: 8 }} />
         {activeTab === "ratings" && (
           <View
             style={{
-              backgroundColor: "#f5f5f5",
+              backgroundColor: theme.colors.lightBgLight,
               borderRadius: 8,
               borderTopLeftRadius: 0,
               borderTopRightRadius: 0
@@ -148,63 +149,57 @@ const CoursePage: React.FC<CoursePageProps> = ({
       <Text style={{ fontSize: 16, fontWeight: "500" }}>
         ⭐️ {item.score.toFixed(1)}
       </Text>
-
-      {/* User Score */}
-        <Text style={{ fontSize: 16, fontWeight: "500", color: "blue" }}>
-          ★ {userReviews[item.label] ?? "      "}
-        </Text>
-      
     </View>
   </View>
 ))}
 
-          </View>
-        )}
+  </View>
+    )}
 
-        {activeTab === "info" && (
-          <View
-            style={{
-              backgroundColor: "#f5f5f5",
-              borderRadius: 8,
-              borderTopLeftRadius: 0,
-              borderTopRightRadius: 0
-            }}
-          >
-            {[
-              { label: "Address", value: `${course.address}`},
-              { label: "Course Par", value: course.par ? `${course.par}` : "Unknown" },
-              { label: "Holes", value: course.holes ? `${course.holes} Holes` : "Unknown" },
-              { label: "Yardage", value: course.length_yards ? `${course.length_yards} yards` : "Unknown" },
-              course.website
-                ? { label: "Website", value: "Visit →", isLink: true, onPress: null }
-                : null,
-              course.practice?.driving_range
-                ? { label: "Driving Range", value: "Available" }
-                : null,
-              course.practice?.putting_green
-                ? { label: "Putting Green", value: "Available" }
-                : null,
-              course.rentals?.rental_carts
-                ? { label: "Rental Carts", value: "Available" }
-                : null,
-              course.rentals?.rental_clubs
-                ? { label: "Rental Clubs", value: "Available" }
-                : null,
-            ]
-              .filter(Boolean)
-              .map((item, index, arr) => (
-                <CourseInfoItem
-                  key={item!.label}
-                  label={item!.label}
-                  value={item!.value}
-                  isLink={item!.isLink}
-                  // onPress={item!.onPress}
-                  isLast={index === arr.length - 1}
-                />
-              ))}
-          </View>
-        )}
+    {activeTab === "info" && (
+      <View
+        style={{
+          backgroundColor: "#f5f5f5",
+          borderRadius: 8,
+          borderTopLeftRadius: 0,
+          borderTopRightRadius: 0
+        }}
+      >
+        {[
+          { label: "Address", value: `${course.address}`},
+          { label: "Course Par", value: course.par ? `${course.par}` : "Unknown" },
+          { label: "Holes", value: course.holes ? `${course.holes} Holes` : "Unknown" },
+          { label: "Yardage", value: course.length_yards ? `${course.length_yards} yards` : "Unknown" },
+          course.website
+            ? { label: "Website", value: "Visit →", isLink: true, onPress: null }
+            : null,
+          course.practice?.driving_range
+            ? { label: "Driving Range", value: "Available" }
+            : null,
+          course.practice?.putting_green
+            ? { label: "Putting Green", value: "Available" }
+            : null,
+          course.rentals?.rental_carts
+            ? { label: "Rental Carts", value: "Available" }
+            : null,
+          course.rentals?.rental_clubs
+            ? { label: "Rental Clubs", value: "Available" }
+            : null,
+        ]
+          .filter(Boolean)
+          .map((item, index, arr) => (
+            <CourseInfoItem
+              key={item!.label}
+              label={item!.label}
+              value={item!.value}
+              isLink={item!.isLink}
+              // onPress={item!.onPress}
+              isLast={index === arr.length - 1}
+            />
+          ))}
       </View>
+    )}
+  </View>
 
 
       {/* Existing Comments */}
@@ -253,4 +248,4 @@ const CoursePage: React.FC<CoursePageProps> = ({
   );
 };
 
-export default CoursePage;
+export default CoursePageInfoSection;

@@ -8,7 +8,7 @@ import {
   StyleSheet
 } from "react-native";
 import { useRouter, useLocalSearchParams } from "expo-router";
-import CourseUserReview from "../../../components/templates/CourseUserReview"; // adjust path
+import CourseUserReview from "../../../components/pages/CoursePage/CourseUserReview"; // adjust path
 import DropDownPicker from "react-native-dropdown-picker";
 
 import { useSafeAreaInsets } from "react-native-safe-area-context";
@@ -97,13 +97,7 @@ export default function ReviewPage({ courseName }) {
   };
 
   return (
-    <View>
-      {/* Header */}
-
-      <Text style={styles.pageTitle}>
-        Review Course {courseName}
-      </Text>
-
+    <View style={{ flex: 1, paddingTop: 12 }}>
       {/* Ratings Section */}
       <View style={styles.section}>
         {REVIEW_TOPICS.map((topic, index) =>

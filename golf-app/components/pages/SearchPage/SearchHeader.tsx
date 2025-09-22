@@ -27,8 +27,8 @@ const SearchHeader: React.FC<SearchHeaderProps> = ({
   const [sortModalVisible, setSortModalVisible] = useState(false);
   const [distanceModalVisible, setDistanceModalVisible] = useState(false);
 
-  const [selectedSort, setSelectedSort] = useState("Value");
-  const [selectedDistance, setSelectedDistance] = useState("30 miles");
+  const [selectedSort, setSelectedSort] = useState("A-Z");
+  const [selectedDistance, setSelectedDistance] = useState("10 miles");
 
   // Animated values for height and opacity
   const filterHeight = useRef(new Animated.Value(0)).current;

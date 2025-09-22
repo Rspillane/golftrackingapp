@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { View, Text, TouchableOpacity } from "react-native";
-import ReviewScore from "../molecules/ReviewScore";
-import UserScoreModal from "../molecules/UserScoreModal";
+import ReviewScore from "../../molecules/ReviewScore";
+import UserScoreModal from "../../molecules/UserScoreModal";
 
 interface CourseUserReviewProps {
   label: string;
